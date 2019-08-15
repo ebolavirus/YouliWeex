@@ -1,0 +1,61 @@
+/* 
+  Localizable.strings
+  BlueTDevice
+
+  Created by MingmingSun on 2017/5/4.
+  Copyright © 2017年 Sunmingming. All rights reserved.
+mmsloc("qxzf")*/
+GameTitle = "Jisgaw Anywhere";
+chooseLevel = "Choose a picture";
+chooseImageFirst = "Please choose a picture first.";
+iknow = "OK";
+helpintro = "How to Play";
+menuCancel = "Cancel";
+menuCamera = "Take A Photo";
+menuAlbum = "Choose From Album";
+menuHistory = "Choose From History";
+gameconfig = "Settings";
+reselect = "ReSelect";
+naviback = "Back";
+navistart = "Start";
+configrotate = "Rotate";
+configedge = "Edge";
+configcount = "Pieces";
+configtip = "Tip";
+configon = "ON";
+configoff = "OFF";
+configbar = "Menu";
+menumusic = "Music";
+menubg = "Background";
+menurestart = "Restart";
+menuquit = "Back To Main";
+menuback = "Back To Game";
+titleHistory = "History";
+scoreLabel = "Final Score:";
+pieceLabel = "Pieces";
+timeLabel = "Time:";
+movesLabel = "Moves:";
+rotationsLabel = "Rotations:";
+OK = "OK";
+completed = "Completed!";
+gotoNextLevel = "Continue Playing";
+startGame = "Start Game";
+gameHelp = "Game Help";
+gameBuyTitle = "购买2-5后所有关卡";
+gameBuyContent = "仅需12元，即可继续通关之后所有关卡，更有6*6的大拼图等你挑战！";
+gameBuyOK = "选择购买";
+gameBuyRestore = "恢复购买";
+gameBuyCancel = "暂时不买";
+menuRestart = "Restart the game?";
+menuBack = "Quit game?";
+//iap
+iapLinking  =   "正在连接支付系统，请稍后再试。";
+iapGetFailed    =   "获取支付详情失败，请检查网络后重启软件。";
+iapLinkFailed   =   "连接支付系统失败，请检查网络后重启软件。";
+iapNoneFailed   =   "未查询到该商品信息，请确保软件为正版。";
+paySuccess = "支付成功，已全部解锁！";
+payfailed   =   "支付失败";
+qxzf    =   "取消支付";
+zfsb_zfcscw	=	"支付失败，支付参数错误。";
+
+

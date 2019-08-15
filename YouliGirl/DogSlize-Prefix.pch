@@ -1,0 +1,51 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import "tooles.h"
+#import <LKDBHelper.h>
+#import <FlatUIKit.h>
+#import <SVProgressHUD.h>
+#import <ReactiveCocoa.h>
+#import <Masonry.h>
+#import "UIColor+Hex.h"
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#endif
+
+#define SAVEITEM 20
+
+#define DEVTEST 0
+
+#define IMAGE_QUALITY 0.5
+
+#define kDeviceWidth [UIScreen mainScreen].bounds.size.width
+#define KDeviceHeight [UIScreen mainScreen].bounds.size.height
+#define mmsloc(x) NSLocalizedString(@x, nil)
+
+#define MyDrawerDefaultWidth 280
+
+#define levelNum 20
+
+//过一关奖励金币数
+#define kCoinReward 10
+//全局变量
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+#define APPALL ((AppDelegate*)[[UIApplication sharedApplication] delegate])
+//全局颜色
+#define MMColorYellow [UIColor colorWithHexString:@"EDE387"]
+#define MMColorWhite [UIColor colorWithHexString:@"EDEDED"]
+#define MMColorBrown [UIColor colorWithHexString:@"3B200C"]
+#define MMColorOrange [UIColor colorWithHexString:@"DE8100"]
+#define MMColorGreen [UIColor colorWithHexString:@"CCFC62"]
