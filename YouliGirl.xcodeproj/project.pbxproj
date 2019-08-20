@@ -7,6 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0E9B03230AE14100F935A4 /* face02010.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AEC230AE14100F935A4 /* face02010.png */; };
+		3D0E9B04230AE14100F935A4 /* face02004.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AED230AE14100F935A4 /* face02004.png */; };
+		3D0E9B05230AE14100F935A4 /* face02005.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AEE230AE14100F935A4 /* face02005.png */; };
+		3D0E9B06230AE14100F935A4 /* face02011.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AEF230AE14100F935A4 /* face02011.png */; };
+		3D0E9B07230AE14100F935A4 /* face02007.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AF0230AE14100F935A4 /* face02007.png */; };
+		3D0E9B08230AE14100F935A4 /* face02013.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AF1230AE14100F935A4 /* face02013.png */; };
+		3D0E9B09230AE14100F935A4 /* face02012.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AF2230AE14100F935A4 /* face02012.png */; };
+		3D0E9B0A230AE14100F935A4 /* face02006.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AF3230AE14100F935A4 /* face02006.png */; };
+		3D0E9B0B230AE14100F935A4 /* face02002.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AF4230AE14100F935A4 /* face02002.png */; };
+		3D0E9B0C230AE14100F935A4 /* face02016.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AF5230AE14100F935A4 /* face02016.png */; };
+		3D0E9B0D230AE14100F935A4 /* face02017.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AF6230AE14100F935A4 /* face02017.png */; };
+		3D0E9B0E230AE14100F935A4 /* face02003.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AF7230AE14100F935A4 /* face02003.png */; };
+		3D0E9B0F230AE14100F935A4 /* face020010.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AF8230AE14100F935A4 /* face020010.png */; };
+		3D0E9B10230AE14100F935A4 /* face02015.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AF9230AE14100F935A4 /* face02015.png */; };
+		3D0E9B11230AE14100F935A4 /* face02014.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AFA230AE14100F935A4 /* face02014.png */; };
+		3D0E9B12230AE14100F935A4 /* face02008.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AFB230AE14100F935A4 /* face02008.png */; };
+		3D0E9B13230AE14100F935A4 /* face02009.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AFC230AE14100F935A4 /* face02009.png */; };
+		3D0E9B14230AE14100F935A4 /* face01002.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AFD230AE14100F935A4 /* face01002.png */; };
+		3D0E9B15230AE14100F935A4 /* face01001.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AFE230AE14100F935A4 /* face01001.png */; };
+		3D0E9B16230AE14100F935A4 /* face01005.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AFF230AE14100F935A4 /* face01005.png */; };
+		3D0E9B17230AE14100F935A4 /* face01004.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B00230AE14100F935A4 /* face01004.png */; };
+		3D0E9B18230AE14100F935A4 /* face01006.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B01230AE14100F935A4 /* face01006.png */; };
+		3D0E9B19230AE14100F935A4 /* face01007.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B02230AE14100F935A4 /* face01007.png */; };
+		3D0E9B2E230AE4EC00F935A4 /* 剧本_08.5贫血.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1B230AE4EC00F935A4 /* 剧本_08.5贫血.txt */; };
+		3D0E9B2F230AE4EC00F935A4 /* 剧本_20最后一天.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1C230AE4EC00F935A4 /* 剧本_20最后一天.txt */; };
+		3D0E9B30230AE4EC00F935A4 /* 剧本_09志愿.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1D230AE4EC00F935A4 /* 剧本_09志愿.txt */; };
+		3D0E9B31230AE4EC00F935A4 /* 花嫁之梦.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1E230AE4EC00F935A4 /* 花嫁之梦.txt */; };
+		3D0E9B32230AE4EC00F935A4 /* 剧本_03过去.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1F230AE4EC00F935A4 /* 剧本_03过去.txt */; };
+		3D0E9B33230AE4EC00F935A4 /* 剧本_06电影.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B20230AE4EC00F935A4 /* 剧本_06电影.txt */; };
+		3D0E9B34230AE4EC00F935A4 /* 剧本_00.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B21230AE4EC00F935A4 /* 剧本_00.txt */; };
+		3D0E9B35230AE4EC00F935A4 /* 剧本_07事故.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B22230AE4EC00F935A4 /* 剧本_07事故.txt */; };
+		3D0E9B36230AE4EC00F935A4 /* 星空的祈祷.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B23230AE4EC00F935A4 /* 星空的祈祷.txt */; };
+		3D0E9B37230AE4EC00F935A4 /* 结局.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B24230AE4EC00F935A4 /* 结局.txt */; };
+		3D0E9B38230AE4EC00F935A4 /* 剧本_01出浴.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B25230AE4EC00F935A4 /* 剧本_01出浴.txt */; };
+		3D0E9B39230AE4EC00F935A4 /* 剧本_04设计.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B26230AE4EC00F935A4 /* 剧本_04设计.txt */; };
+		3D0E9B3A230AE4EC00F935A4 /* 剧本_05用功.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B27230AE4EC00F935A4 /* 剧本_05用功.txt */; };
+		3D0E9B3B230AE4EC00F935A4 /* 接吻大作战.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B28230AE4EC00F935A4 /* 接吻大作战.txt */; };
+		3D0E9B3C230AE4EC00F935A4 /* 状态.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B29230AE4EC00F935A4 /* 状态.txt */; };
+		3D0E9B3D230AE4EC00F935A4 /* 剧本_02征寄.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B2A230AE4EC00F935A4 /* 剧本_02征寄.txt */; };
+		3D0E9B3E230AE4EC00F935A4 /* 剧本_08月经.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B2B230AE4EC00F935A4 /* 剧本_08月经.txt */; };
+		3D0E9B3F230AE4EC00F935A4 /* 日历.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B2C230AE4EC00F935A4 /* 日历.txt */; };
+		3D0E9B40230AE4EC00F935A4 /* 剧本_10电话.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B2D230AE4EC00F935A4 /* 剧本_10电话.txt */; };
 		3D4E617F23059C3D00F5D1C3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E60FC23059C3900F5D1C3 /* Localizable.strings */; };
 		3D4E618023059C3D00F5D1C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E60FE23059C3900F5D1C3 /* InfoPlist.strings */; };
 		3D4E618123059C3D00F5D1C3 /* level.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E610123059C3A00F5D1C3 /* level.mp3 */; };
@@ -145,6 +187,8 @@
 		3D4E6252230A9B1200F5D1C3 /* act_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E6222230A9B1200F5D1C3 /* act_04.png */; };
 		3D4E6253230A9B1200F5D1C3 /* test_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E6223230A9B1200F5D1C3 /* test_home.png */; };
 		3D4E6254230A9B1200F5D1C3 /* beach_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E6224230A9B1200F5D1C3 /* beach_a.png */; };
+		3D4E6257230AE0AF00F5D1C3 /* yuri_date_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E6255230AE0AF00F5D1C3 /* yuri_date_b.png */; };
+		3D4E6258230AE0AF00F5D1C3 /* yuri_epron_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E6256230AE0AF00F5D1C3 /* yuri_epron_b.png */; };
 		3D836697230438D200457999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D836695230438D200457999 /* Main.storyboard */; };
 		3D836699230438D400457999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D836698230438D400457999 /* Assets.xcassets */; };
 		3D83669F230438D400457999 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D83669E230438D400457999 /* main.m */; };
@@ -153,6 +197,48 @@
 
 /* Begin PBXFileReference section */
 		1F302DB17A53BF8AAD2F7637 /* Pods-YouliGirl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouliGirl.debug.xcconfig"; path = "Target Support Files/Pods-YouliGirl/Pods-YouliGirl.debug.xcconfig"; sourceTree = "<group>"; };
+		3D0E9AEC230AE14100F935A4 /* face02010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02010.png; sourceTree = "<group>"; };
+		3D0E9AED230AE14100F935A4 /* face02004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02004.png; sourceTree = "<group>"; };
+		3D0E9AEE230AE14100F935A4 /* face02005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02005.png; sourceTree = "<group>"; };
+		3D0E9AEF230AE14100F935A4 /* face02011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02011.png; sourceTree = "<group>"; };
+		3D0E9AF0230AE14100F935A4 /* face02007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02007.png; sourceTree = "<group>"; };
+		3D0E9AF1230AE14100F935A4 /* face02013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02013.png; sourceTree = "<group>"; };
+		3D0E9AF2230AE14100F935A4 /* face02012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02012.png; sourceTree = "<group>"; };
+		3D0E9AF3230AE14100F935A4 /* face02006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02006.png; sourceTree = "<group>"; };
+		3D0E9AF4230AE14100F935A4 /* face02002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02002.png; sourceTree = "<group>"; };
+		3D0E9AF5230AE14100F935A4 /* face02016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02016.png; sourceTree = "<group>"; };
+		3D0E9AF6230AE14100F935A4 /* face02017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02017.png; sourceTree = "<group>"; };
+		3D0E9AF7230AE14100F935A4 /* face02003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02003.png; sourceTree = "<group>"; };
+		3D0E9AF8230AE14100F935A4 /* face020010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face020010.png; sourceTree = "<group>"; };
+		3D0E9AF9230AE14100F935A4 /* face02015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02015.png; sourceTree = "<group>"; };
+		3D0E9AFA230AE14100F935A4 /* face02014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02014.png; sourceTree = "<group>"; };
+		3D0E9AFB230AE14100F935A4 /* face02008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02008.png; sourceTree = "<group>"; };
+		3D0E9AFC230AE14100F935A4 /* face02009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02009.png; sourceTree = "<group>"; };
+		3D0E9AFD230AE14100F935A4 /* face01002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face01002.png; sourceTree = "<group>"; };
+		3D0E9AFE230AE14100F935A4 /* face01001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face01001.png; sourceTree = "<group>"; };
+		3D0E9AFF230AE14100F935A4 /* face01005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face01005.png; sourceTree = "<group>"; };
+		3D0E9B00230AE14100F935A4 /* face01004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face01004.png; sourceTree = "<group>"; };
+		3D0E9B01230AE14100F935A4 /* face01006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face01006.png; sourceTree = "<group>"; };
+		3D0E9B02230AE14100F935A4 /* face01007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face01007.png; sourceTree = "<group>"; };
+		3D0E9B1B230AE4EC00F935A4 /* 剧本_08.5贫血.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_08.5贫血.txt"; sourceTree = "<group>"; };
+		3D0E9B1C230AE4EC00F935A4 /* 剧本_20最后一天.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_20最后一天.txt"; sourceTree = "<group>"; };
+		3D0E9B1D230AE4EC00F935A4 /* 剧本_09志愿.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_09志愿.txt"; sourceTree = "<group>"; };
+		3D0E9B1E230AE4EC00F935A4 /* 花嫁之梦.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "花嫁之梦.txt"; sourceTree = "<group>"; };
+		3D0E9B1F230AE4EC00F935A4 /* 剧本_03过去.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_03过去.txt"; sourceTree = "<group>"; };
+		3D0E9B20230AE4EC00F935A4 /* 剧本_06电影.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_06电影.txt"; sourceTree = "<group>"; };
+		3D0E9B21230AE4EC00F935A4 /* 剧本_00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_00.txt"; sourceTree = "<group>"; };
+		3D0E9B22230AE4EC00F935A4 /* 剧本_07事故.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_07事故.txt"; sourceTree = "<group>"; };
+		3D0E9B23230AE4EC00F935A4 /* 星空的祈祷.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "星空的祈祷.txt"; sourceTree = "<group>"; };
+		3D0E9B24230AE4EC00F935A4 /* 结局.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "结局.txt"; sourceTree = "<group>"; };
+		3D0E9B25230AE4EC00F935A4 /* 剧本_01出浴.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_01出浴.txt"; sourceTree = "<group>"; };
+		3D0E9B26230AE4EC00F935A4 /* 剧本_04设计.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_04设计.txt"; sourceTree = "<group>"; };
+		3D0E9B27230AE4EC00F935A4 /* 剧本_05用功.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_05用功.txt"; sourceTree = "<group>"; };
+		3D0E9B28230AE4EC00F935A4 /* 接吻大作战.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "接吻大作战.txt"; sourceTree = "<group>"; };
+		3D0E9B29230AE4EC00F935A4 /* 状态.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "状态.txt"; sourceTree = "<group>"; };
+		3D0E9B2A230AE4EC00F935A4 /* 剧本_02征寄.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_02征寄.txt"; sourceTree = "<group>"; };
+		3D0E9B2B230AE4EC00F935A4 /* 剧本_08月经.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_08月经.txt"; sourceTree = "<group>"; };
+		3D0E9B2C230AE4EC00F935A4 /* 日历.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "日历.txt"; sourceTree = "<group>"; };
+		3D0E9B2D230AE4EC00F935A4 /* 剧本_10电话.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_10电话.txt"; sourceTree = "<group>"; };
 		3D4E60FD23059C3900F5D1C3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
 		3D4E60FF23059C3900F5D1C3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = InfoPlist.strings; sourceTree = "<group>"; };
 		3D4E610123059C3A00F5D1C3 /* level.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = level.mp3; sourceTree = "<group>"; };
@@ -311,6 +397,8 @@
 		3D4E6222230A9B1200F5D1C3 /* act_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = act_04.png; sourceTree = "<group>"; };
 		3D4E6223230A9B1200F5D1C3 /* test_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_home.png; sourceTree = "<group>"; };
 		3D4E6224230A9B1200F5D1C3 /* beach_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beach_a.png; sourceTree = "<group>"; };
+		3D4E6255230AE0AF00F5D1C3 /* yuri_date_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuri_date_b.png; sourceTree = "<group>"; };
+		3D4E6256230AE0AF00F5D1C3 /* yuri_epron_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuri_epron_b.png; sourceTree = "<group>"; };
 		3D83668C230438D200457999 /* YouliGirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouliGirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D836696230438D200457999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D836698230438D400457999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -332,6 +420,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D0E9AEB230AE14100F935A4 /* speak */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E9AEC230AE14100F935A4 /* face02010.png */,
+				3D0E9AED230AE14100F935A4 /* face02004.png */,
+				3D0E9AEE230AE14100F935A4 /* face02005.png */,
+				3D0E9AEF230AE14100F935A4 /* face02011.png */,
+				3D0E9AF0230AE14100F935A4 /* face02007.png */,
+				3D0E9AF1230AE14100F935A4 /* face02013.png */,
+				3D0E9AF2230AE14100F935A4 /* face02012.png */,
+				3D0E9AF3230AE14100F935A4 /* face02006.png */,
+				3D0E9AF4230AE14100F935A4 /* face02002.png */,
+				3D0E9AF5230AE14100F935A4 /* face02016.png */,
+				3D0E9AF6230AE14100F935A4 /* face02017.png */,
+				3D0E9AF7230AE14100F935A4 /* face02003.png */,
+				3D0E9AF8230AE14100F935A4 /* face020010.png */,
+				3D0E9AF9230AE14100F935A4 /* face02015.png */,
+				3D0E9AFA230AE14100F935A4 /* face02014.png */,
+				3D0E9AFB230AE14100F935A4 /* face02008.png */,
+				3D0E9AFC230AE14100F935A4 /* face02009.png */,
+				3D0E9AFD230AE14100F935A4 /* face01002.png */,
+				3D0E9AFE230AE14100F935A4 /* face01001.png */,
+				3D0E9AFF230AE14100F935A4 /* face01005.png */,
+				3D0E9B00230AE14100F935A4 /* face01004.png */,
+				3D0E9B01230AE14100F935A4 /* face01006.png */,
+				3D0E9B02230AE14100F935A4 /* face01007.png */,
+			);
+			path = speak;
+			sourceTree = "<group>";
+		};
+		3D0E9B1A230AE4EB00F935A4 /* txts */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E9B1B230AE4EC00F935A4 /* 剧本_08.5贫血.txt */,
+				3D0E9B1C230AE4EC00F935A4 /* 剧本_20最后一天.txt */,
+				3D0E9B1D230AE4EC00F935A4 /* 剧本_09志愿.txt */,
+				3D0E9B1E230AE4EC00F935A4 /* 花嫁之梦.txt */,
+				3D0E9B1F230AE4EC00F935A4 /* 剧本_03过去.txt */,
+				3D0E9B20230AE4EC00F935A4 /* 剧本_06电影.txt */,
+				3D0E9B21230AE4EC00F935A4 /* 剧本_00.txt */,
+				3D0E9B22230AE4EC00F935A4 /* 剧本_07事故.txt */,
+				3D0E9B23230AE4EC00F935A4 /* 星空的祈祷.txt */,
+				3D0E9B24230AE4EC00F935A4 /* 结局.txt */,
+				3D0E9B25230AE4EC00F935A4 /* 剧本_01出浴.txt */,
+				3D0E9B26230AE4EC00F935A4 /* 剧本_04设计.txt */,
+				3D0E9B27230AE4EC00F935A4 /* 剧本_05用功.txt */,
+				3D0E9B28230AE4EC00F935A4 /* 接吻大作战.txt */,
+				3D0E9B29230AE4EC00F935A4 /* 状态.txt */,
+				3D0E9B2A230AE4EC00F935A4 /* 剧本_02征寄.txt */,
+				3D0E9B2B230AE4EC00F935A4 /* 剧本_08月经.txt */,
+				3D0E9B2C230AE4EC00F935A4 /* 日历.txt */,
+				3D0E9B2D230AE4EC00F935A4 /* 剧本_10电话.txt */,
+			);
+			path = txts;
+			sourceTree = "<group>";
+		};
 		3D4E60FB23059C3900F5D1C3 /* zh-Hans.lproj */ = {
 			isa = PBXGroup;
 			children = (
@@ -554,6 +698,7 @@
 		3D4E616823059C3D00F5D1C3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3D0E9AEB230AE14100F935A4 /* speak */,
 				3D4E6208230A9B1200F5D1C3 /* map */,
 				3D4E61F3230A9B1100F5D1C3 /* title */,
 				3D4E616B23059C3D00F5D1C3 /* bg_dialog_long.png */,
@@ -643,34 +788,36 @@
 		3D4E6208230A9B1200F5D1C3 /* map */ = {
 			isa = PBXGroup;
 			children = (
-				3D4E6209230A9B1200F5D1C3 /* map01099.png */,
-				3D4E620A230A9B1200F5D1C3 /* scene_cinema3.png */,
-				3D4E620B230A9B1200F5D1C3 /* scene_cinema1.png */,
-				3D4E620C230A9B1200F5D1C3 /* sleep.png */,
+				3D4E621C230A9B1200F5D1C3 /* act_01a.png */,
+				3D4E621B230A9B1200F5D1C3 /* act_03.png */,
+				3D4E6222230A9B1200F5D1C3 /* act_04.png */,
 				3D4E620D230A9B1200F5D1C3 /* bath.png */,
-				3D4E620E230A9B1200F5D1C3 /* scene_airport.png */,
+				3D4E6224230A9B1200F5D1C3 /* beach_a.png */,
+				3D4E6215230A9B1200F5D1C3 /* beach.png */,
+				3D4E6214230A9B1200F5D1C3 /* bg_015.png */,
 				3D4E620F230A9B1200F5D1C3 /* down.png */,
 				3D4E6210230A9B1200F5D1C3 /* hurt.png */,
-				3D4E6211230A9B1200F5D1C3 /* scene_hospital.png */,
+				3D4E621E230A9B1200F5D1C3 /* kissing.png */,
 				3D4E6212230A9B1200F5D1C3 /* map01002.png */,
 				3D4E6213230A9B1200F5D1C3 /* map01002b.png */,
-				3D4E6214230A9B1200F5D1C3 /* bg_015.png */,
-				3D4E6215230A9B1200F5D1C3 /* beach.png */,
-				3D4E6216230A9B1200F5D1C3 /* scene_sky_c.png */,
-				3D4E6217230A9B1200F5D1C3 /* show_title.png */,
-				3D4E6218230A9B1200F5D1C3 /* scene_work.png */,
-				3D4E6219230A9B1200F5D1C3 /* yuri_bikini_b.png */,
-				3D4E621A230A9B1200F5D1C3 /* scene_sky_b.png */,
-				3D4E621B230A9B1200F5D1C3 /* act_03.png */,
-				3D4E621C230A9B1200F5D1C3 /* act_01a.png */,
-				3D4E621D230A9B1200F5D1C3 /* Wedding.png */,
-				3D4E621E230A9B1200F5D1C3 /* kissing.png */,
+				3D4E6209230A9B1200F5D1C3 /* map01099.png */,
+				3D4E620E230A9B1200F5D1C3 /* scene_airport.png */,
 				3D4E621F230A9B1200F5D1C3 /* scene_cinema.png */,
+				3D4E620B230A9B1200F5D1C3 /* scene_cinema1.png */,
+				3D4E620A230A9B1200F5D1C3 /* scene_cinema3.png */,
+				3D4E6211230A9B1200F5D1C3 /* scene_hospital.png */,
 				3D4E6220230A9B1200F5D1C3 /* scene_room.png */,
-				3D4E6221230A9B1200F5D1C3 /* upface.png */,
-				3D4E6222230A9B1200F5D1C3 /* act_04.png */,
+				3D4E621A230A9B1200F5D1C3 /* scene_sky_b.png */,
+				3D4E6216230A9B1200F5D1C3 /* scene_sky_c.png */,
+				3D4E6218230A9B1200F5D1C3 /* scene_work.png */,
+				3D4E6217230A9B1200F5D1C3 /* show_title.png */,
+				3D4E620C230A9B1200F5D1C3 /* sleep.png */,
 				3D4E6223230A9B1200F5D1C3 /* test_home.png */,
-				3D4E6224230A9B1200F5D1C3 /* beach_a.png */,
+				3D4E6221230A9B1200F5D1C3 /* upface.png */,
+				3D4E621D230A9B1200F5D1C3 /* Wedding.png */,
+				3D4E6219230A9B1200F5D1C3 /* yuri_bikini_b.png */,
+				3D4E6255230AE0AF00F5D1C3 /* yuri_date_b.png */,
+				3D4E6256230AE0AF00F5D1C3 /* yuri_epron_b.png */,
 			);
 			path = map;
 			sourceTree = "<group>";
@@ -696,6 +843,7 @@
 		3D83668E230438D200457999 /* YouliGirl */ = {
 			isa = PBXGroup;
 			children = (
+				3D0E9B1A230AE4EB00F935A4 /* txts */,
 				3D4E616723059C3D00F5D1C3 /* AppDelegate.h */,
 				3D4E614323059C3C00F5D1C3 /* AppDelegate.m */,
 				3D4E614423059C3C00F5D1C3 /* Base.lproj */,
@@ -799,42 +947,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D4E61AB23059C3D00F5D1C3 /* BuyCoin2.caf in Resources */,
+				3D0E9B0D230AE14100F935A4 /* face02017.png in Resources */,
 				3D4E61EE2308447800F5D1C3 /* bgm003.mp3 in Resources */,
 				3D4E6242230A9B1200F5D1C3 /* map01002.png in Resources */,
+				3D0E9B17230AE14100F935A4 /* face01004.png in Resources */,
 				3D4E61B123059C3D00F5D1C3 /* about.txt in Resources */,
 				3D4E618223059C3D00F5D1C3 /* click.mp3 in Resources */,
 				3D4E6230230A9B1200F5D1C3 /* pushanykey.png in Resources */,
 				3D4E618723059C3D00F5D1C3 /* Localizable.strings in Resources */,
 				3D4E61E42308447800F5D1C3 /* 2201002.mp3 in Resources */,
+				3D0E9B07230AE14100F935A4 /* face02007.png in Resources */,
 				3D4E61E22308447800F5D1C3 /* 2201004.mp3 in Resources */,
+				3D0E9B08230AE14100F935A4 /* face02013.png in Resources */,
 				3D4E624F230A9B1200F5D1C3 /* scene_cinema.png in Resources */,
 				3D4E6234230A9B1200F5D1C3 /* story.png in Resources */,
 				3D4E61BC23059C3D00F5D1C3 /* level_star_lock.png in Resources */,
 				3D4E6243230A9B1200F5D1C3 /* map01002b.png in Resources */,
 				3D4E61CD23059C3D00F5D1C3 /* coin3.png in Resources */,
+				3D0E9B3B230AE4EC00F935A4 /* 接吻大作战.txt in Resources */,
 				3D4E623F230A9B1200F5D1C3 /* down.png in Resources */,
+				3D0E9B3C230AE4EC00F935A4 /* 状态.txt in Resources */,
 				3D4E61C923059C3D00F5D1C3 /* coin4.png in Resources */,
+				3D0E9B0E230AE14100F935A4 /* face02003.png in Resources */,
 				3D4E61F02308447800F5D1C3 /* bgm014.mp3 in Resources */,
+				3D0E9B0B230AE14100F935A4 /* face02002.png in Resources */,
+				3D0E9B06230AE14100F935A4 /* face02011.png in Resources */,
 				3D4E61C423059C3D00F5D1C3 /* comlogo.png in Resources */,
 				3D4E6249230A9B1200F5D1C3 /* yuri_bikini_b.png in Resources */,
 				3D4E61BA23059C3D00F5D1C3 /* upload2.png in Resources */,
 				3D4E624C230A9B1200F5D1C3 /* act_01a.png in Resources */,
+				3D4E6257230AE0AF00F5D1C3 /* yuri_date_b.png in Resources */,
 				3D4E6227230A9B1200F5D1C3 /* caution.png in Resources */,
+				3D0E9B15230AE14100F935A4 /* face01001.png in Resources */,
 				3D4E61BD23059C3D00F5D1C3 /* coins_box.png in Resources */,
+				3D0E9B40230AE4EC00F935A4 /* 剧本_10电话.txt in Resources */,
 				3D4E622C230A9B1200F5D1C3 /* icon40tw.png in Resources */,
+				3D0E9B3E230AE4EC00F935A4 /* 剧本_08月经.txt in Resources */,
 				3D4E61AD23059C3D00F5D1C3 /* GameWin.caf in Resources */,
 				3D4E618823059C3D00F5D1C3 /* InfoPlist.strings in Resources */,
 				3D4E624E230A9B1200F5D1C3 /* kissing.png in Resources */,
 				3D4E61B423059C3D00F5D1C3 /* ss007.png in Resources */,
 				3D4E61B323059C3D00F5D1C3 /* ss005.png in Resources */,
 				3D4E61CE23059C3D00F5D1C3 /* coin2.png in Resources */,
+				3D0E9B37230AE4EC00F935A4 /* 结局.txt in Resources */,
 				3D4E6248230A9B1200F5D1C3 /* scene_work.png in Resources */,
 				3D4E61E82308447800F5D1C3 /* bgm004.mp3 in Resources */,
 				3D4E6236230A9B1200F5D1C3 /* e7play.png in Resources */,
+				3D0E9B14230AE14100F935A4 /* face01002.png in Resources */,
 				3D4E61EA2308447800F5D1C3 /* bgm012.mp3 in Resources */,
 				3D4E6238230A9B1200F5D1C3 /* gold.png in Resources */,
+				3D0E9B19230AE14100F935A4 /* face01007.png in Resources */,
+				3D0E9B2F230AE4EC00F935A4 /* 剧本_20最后一天.txt in Resources */,
+				3D0E9B13230AE14100F935A4 /* face02009.png in Resources */,
 				3D4E61CC23059C3D00F5D1C3 /* loading.png in Resources */,
 				3D4E61ED2308447800F5D1C3 /* bgm013.mp3 in Resources */,
+				3D0E9B18230AE14100F935A4 /* face01006.png in Resources */,
 				3D4E6244230A9B1200F5D1C3 /* bg_015.png in Resources */,
 				3D4E61EC2308447800F5D1C3 /* bgm007.mp3 in Resources */,
 				3D4E617F23059C3D00F5D1C3 /* Localizable.strings in Resources */,
@@ -852,11 +1019,17 @@
 				3D4E6231230A9B1200F5D1C3 /* state.png in Resources */,
 				3D4E623D230A9B1200F5D1C3 /* bath.png in Resources */,
 				3D4E61EF2308447800F5D1C3 /* bgm002.mp3 in Resources */,
+				3D0E9B30230AE4EC00F935A4 /* 剧本_09志愿.txt in Resources */,
 				3D4E619C23059C3D00F5D1C3 /* Launch Screen.storyboard in Resources */,
 				3D4E6251230A9B1200F5D1C3 /* upface.png in Resources */,
+				3D0E9B3F230AE4EC00F935A4 /* 日历.txt in Resources */,
+				3D0E9B33230AE4EC00F935A4 /* 剧本_06电影.txt in Resources */,
+				3D0E9B35230AE4EC00F935A4 /* 剧本_07事故.txt in Resources */,
+				3D0E9B0A230AE14100F935A4 /* face02006.png in Resources */,
 				3D4E61CA23059C3D00F5D1C3 /* coin0.png in Resources */,
 				3D4E61AA23059C3D00F5D1C3 /* BuyCoin4.caf in Resources */,
 				3D4E61E72308447800F5D1C3 /* bgm010.mp3 in Resources */,
+				3D0E9B0F230AE14100F935A4 /* face020010.png in Resources */,
 				3D4E61C023059C3D00F5D1C3 /* uploadblack2.png in Resources */,
 				3D4E61E52308447800F5D1C3 /* 2201001.mp3 in Resources */,
 				3D4E622D230A9B1200F5D1C3 /* speakwait.png in Resources */,
@@ -865,24 +1038,35 @@
 				3D4E6245230A9B1200F5D1C3 /* beach.png in Resources */,
 				3D4E618C23059C3D00F5D1C3 /* Puzzle-Info.plist in Resources */,
 				3D4E6252230A9B1200F5D1C3 /* act_04.png in Resources */,
+				3D0E9B11230AE14100F935A4 /* face02014.png in Resources */,
 				3D836699230438D400457999 /* Assets.xcassets in Resources */,
 				3D4E61C323059C3D00F5D1C3 /* upload.png in Resources */,
 				3D4E6225230A9B1200F5D1C3 /* cursor.png in Resources */,
 				3D4E61AE23059C3D00F5D1C3 /* enter.caf in Resources */,
 				3D4E61C123059C3D00F5D1C3 /* pagearrow_next.png in Resources */,
+				3D0E9B38230AE4EC00F935A4 /* 剧本_01出浴.txt in Resources */,
+				3D0E9B0C230AE14100F935A4 /* face02016.png in Resources */,
 				3D836697230438D200457999 /* Main.storyboard in Resources */,
+				3D0E9B39230AE4EC00F935A4 /* 剧本_04设计.txt in Resources */,
 				3D4E622A230A9B1200F5D1C3 /* anykeytoexit.png in Resources */,
+				3D0E9B32230AE4EC00F935A4 /* 剧本_03过去.txt in Resources */,
 				3D4E61A123059C3D00F5D1C3 /* Wood.jpg in Resources */,
 				3D4E61C223059C3D00F5D1C3 /* btn_add_coins.png in Resources */,
 				3D4E61F22308447800F5D1C3 /* bgm009.mp3 in Resources */,
+				3D0E9B03230AE14100F935A4 /* face02010.png in Resources */,
 				3D4E6235230A9B1200F5D1C3 /* text.png in Resources */,
 				3D4E622E230A9B1200F5D1C3 /* systemcursor.png in Resources */,
 				3D4E6246230A9B1200F5D1C3 /* scene_sky_c.png in Resources */,
+				3D0E9B04230AE14100F935A4 /* face02004.png in Resources */,
 				3D4E6239230A9B1200F5D1C3 /* map01099.png in Resources */,
 				3D4E61C523059C3D00F5D1C3 /* level_star.png in Resources */,
+				3D0E9B12230AE14100F935A4 /* face02008.png in Resources */,
 				3D4E61B723059C3D00F5D1C3 /* ss003.png in Resources */,
 				3D4E622F230A9B1200F5D1C3 /* frame320.png in Resources */,
+				3D0E9B2E230AE4EC00F935A4 /* 剧本_08.5贫血.txt in Resources */,
+				3D0E9B10230AE14100F935A4 /* face02015.png in Resources */,
 				3D4E61A823059C3D00F5D1C3 /* Localizable.strings in Resources */,
+				3D0E9B05230AE14100F935A4 /* face02005.png in Resources */,
 				3D4E61E62308447800F5D1C3 /* 2205001.mp3 in Resources */,
 				3D4E6233230A9B1200F5D1C3 /* select.png in Resources */,
 				3D4E61A223059C3D00F5D1C3 /* Wood@2x.jpg in Resources */,
@@ -895,7 +1079,11 @@
 				3D4E6229230A9B1200F5D1C3 /* over.png in Resources */,
 				3D4E618423059C3D00F5D1C3 /* canon.mp3 in Resources */,
 				3D4E61EB2308447800F5D1C3 /* bgm006.mp3 in Resources */,
+				3D4E6258230AE0AF00F5D1C3 /* yuri_epron_b.png in Resources */,
 				3D4E622B230A9B1200F5D1C3 /* saveupdata.png in Resources */,
+				3D0E9B3A230AE4EC00F935A4 /* 剧本_05用功.txt in Resources */,
+				3D0E9B09230AE14100F935A4 /* face02012.png in Resources */,
+				3D0E9B3D230AE4EC00F935A4 /* 剧本_02征寄.txt in Resources */,
 				3D4E61BE23059C3D00F5D1C3 /* icon_coin.png in Resources */,
 				3D4E623B230A9B1200F5D1C3 /* scene_cinema1.png in Resources */,
 				3D4E61B923059C3D00F5D1C3 /* level_star_dark.png in Resources */,
@@ -903,17 +1091,21 @@
 				3D4E6254230A9B1200F5D1C3 /* beach_a.png in Resources */,
 				3D4E61B623059C3D00F5D1C3 /* ss002.png in Resources */,
 				3D4E6228230A9B1200F5D1C3 /* title.png in Resources */,
+				3D0E9B16230AE14100F935A4 /* face01005.png in Resources */,
 				3D4E6253230A9B1200F5D1C3 /* test_home.png in Resources */,
 				3D4E6250230A9B1200F5D1C3 /* scene_room.png in Resources */,
+				3D0E9B36230AE4EC00F935A4 /* 星空的祈祷.txt in Resources */,
 				3D4E61CB23059C3D00F5D1C3 /* coin1.png in Resources */,
 				3D4E61E32308447800F5D1C3 /* 2201005.mp3 in Resources */,
 				3D4E61F12308447800F5D1C3 /* bgm015.mp3 in Resources */,
 				3D4E618123059C3D00F5D1C3 /* level.mp3 in Resources */,
+				3D0E9B31230AE4EC00F935A4 /* 花嫁之梦.txt in Resources */,
 				3D4E61C623059C3D00F5D1C3 /* pagearrow_prev.png in Resources */,
 				3D4E6237230A9B1200F5D1C3 /* speakframe_new.png in Resources */,
 				3D4E61AF23059C3D00F5D1C3 /* abouten.txt in Resources */,
 				3D4E61B523059C3D00F5D1C3 /* ss006.png in Resources */,
 				3D4E6226230A9B1200F5D1C3 /* icon.png in Resources */,
+				3D0E9B34230AE4EC00F935A4 /* 剧本_00.txt in Resources */,
 				3D4E61BF23059C3D00F5D1C3 /* uploadblack.png in Resources */,
 				3D4E61AC23059C3D00F5D1C3 /* theme_coin.mp3 in Resources */,
 				3D4E623C230A9B1200F5D1C3 /* sleep.png in Resources */,
