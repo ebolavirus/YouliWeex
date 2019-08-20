@@ -12,11 +12,13 @@
 #import "SMMNavigationController.h"
 #import "BigLevelsVController.h"
 #import "TMStartViewController.h"
+#import "YLStartViewController.h"
 
 @interface AppDelegate()<DNSInAppPurchaseManagerDelegate>
 
 @property(nonatomic,assign) BOOL enableIAP;
 @property(nonatomic,strong) UIViewController *levelController;
+@property(nonatomic,strong) SMMNavigationController *startController;
 
 @end
 
@@ -76,8 +78,11 @@
 	
 	self.levelController = [[TMStartViewController alloc] init];
 	SMMNavigationController *navLevel = [[SMMNavigationController alloc] initWithRootViewController:self.levelController];
-	
 	self.window.rootViewController = navLevel;
+	
+	self.startController = [[SMMNavigationController alloc] initWithRootViewController:[[YLStartViewController alloc] init]];
+	[self.window.rootViewController presentViewController:self.startController animated:NO completion:nil];
+	
 	return YES;
 }
 

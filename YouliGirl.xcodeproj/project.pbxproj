@@ -189,6 +189,7 @@
 		3D4E6254230A9B1200F5D1C3 /* beach_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E6224230A9B1200F5D1C3 /* beach_a.png */; };
 		3D4E6257230AE0AF00F5D1C3 /* yuri_date_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E6255230AE0AF00F5D1C3 /* yuri_date_b.png */; };
 		3D4E6258230AE0AF00F5D1C3 /* yuri_epron_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E6256230AE0AF00F5D1C3 /* yuri_epron_b.png */; };
+		3D694811230C1681009D6DAC /* YLStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D69480F230C1680009D6DAC /* YLStartViewController.m */; };
 		3D836697230438D200457999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D836695230438D200457999 /* Main.storyboard */; };
 		3D836699230438D400457999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D836698230438D400457999 /* Assets.xcassets */; };
 		3D83669F230438D400457999 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D83669E230438D400457999 /* main.m */; };
@@ -399,6 +400,8 @@
 		3D4E6224230A9B1200F5D1C3 /* beach_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beach_a.png; sourceTree = "<group>"; };
 		3D4E6255230AE0AF00F5D1C3 /* yuri_date_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuri_date_b.png; sourceTree = "<group>"; };
 		3D4E6256230AE0AF00F5D1C3 /* yuri_epron_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuri_epron_b.png; sourceTree = "<group>"; };
+		3D69480F230C1680009D6DAC /* YLStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLStartViewController.m; sourceTree = "<group>"; };
+		3D694810230C1681009D6DAC /* YLStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLStartViewController.h; sourceTree = "<group>"; };
 		3D83668C230438D200457999 /* YouliGirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouliGirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D836696230438D200457999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D836698230438D400457999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -537,12 +540,12 @@
 		3D4E611423059C3B00F5D1C3 /* DBItems */ = {
 			isa = PBXGroup;
 			children = (
-				3D4E611523059C3B00F5D1C3 /* DBImageItem.m */,
-				3D4E611623059C3B00F5D1C3 /* DBSaveItem.m */,
 				3D4E611723059C3B00F5D1C3 /* DBCacheItem.h */,
-				3D4E611823059C3B00F5D1C3 /* DBImageItem.h */,
 				3D4E611923059C3B00F5D1C3 /* DBCacheItem.m */,
+				3D4E611823059C3B00F5D1C3 /* DBImageItem.h */,
+				3D4E611523059C3B00F5D1C3 /* DBImageItem.m */,
 				3D4E611A23059C3B00F5D1C3 /* DBSaveItem.h */,
+				3D4E611623059C3B00F5D1C3 /* DBSaveItem.m */,
 			);
 			path = DBItems;
 			sourceTree = "<group>";
@@ -559,6 +562,8 @@
 		3D4E612723059C3B00F5D1C3 /* BigLevels */ = {
 			isa = PBXGroup;
 			children = (
+				3D694810230C1681009D6DAC /* YLStartViewController.h */,
+				3D69480F230C1680009D6DAC /* YLStartViewController.m */,
 				3D4E612D23059C3B00F5D1C3 /* BigLevelsVController.h */,
 				3D4E612A23059C3B00F5D1C3 /* BigLevelsVController.m */,
 				3D4E612E23059C3B00F5D1C3 /* MainCollectionCell.xib */,
@@ -1168,6 +1173,7 @@
 				3D4E618D23059C3D00F5D1C3 /* DBImageItem.m in Sources */,
 				3D4E619F23059C3D00F5D1C3 /* CreatePuzzleOperation.m in Sources */,
 				3D4E61A323059C3D00F5D1C3 /* AppDelegate.m in Sources */,
+				3D694811230C1681009D6DAC /* YLStartViewController.m in Sources */,
 				3D4E618A23059C3D00F5D1C3 /* GroupView.m in Sources */,
 				3D83669F230438D400457999 /* main.m in Sources */,
 				3D4E619823059C3D00F5D1C3 /* TMStartViewController.m in Sources */,

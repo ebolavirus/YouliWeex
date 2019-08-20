@@ -16,7 +16,7 @@
 {
 	self = [super init];
 	if (self) {
-		self.myMusic = NO;
+		self.myMusic = YES;
 		self.isRotate = YES;
 		self.isEdge = YES;
 		self.isTip = YES;
