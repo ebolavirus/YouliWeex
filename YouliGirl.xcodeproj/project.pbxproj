@@ -139,7 +139,6 @@
 		3D4E61F02308447800F5D1C3 /* bgm014.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E61DF2308447800F5D1C3 /* bgm014.mp3 */; };
 		3D4E61F12308447800F5D1C3 /* bgm015.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E61E02308447800F5D1C3 /* bgm015.mp3 */; };
 		3D4E61F22308447800F5D1C3 /* bgm009.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E61E12308447800F5D1C3 /* bgm009.mp3 */; };
-		3D4E6225230A9B1200F5D1C3 /* cursor.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E61F4230A9B1100F5D1C3 /* cursor.png */; };
 		3D4E6226230A9B1200F5D1C3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E61F5230A9B1100F5D1C3 /* icon.png */; };
 		3D4E6227230A9B1200F5D1C3 /* caution.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E61F6230A9B1100F5D1C3 /* caution.png */; };
 		3D4E6228230A9B1200F5D1C3 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E61F7230A9B1100F5D1C3 /* title.png */; };
@@ -350,7 +349,6 @@
 		3D4E61DF2308447800F5D1C3 /* bgm014.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm014.mp3; sourceTree = "<group>"; };
 		3D4E61E02308447800F5D1C3 /* bgm015.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm015.mp3; sourceTree = "<group>"; };
 		3D4E61E12308447800F5D1C3 /* bgm009.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm009.mp3; sourceTree = "<group>"; };
-		3D4E61F4230A9B1100F5D1C3 /* cursor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cursor.png; sourceTree = "<group>"; };
 		3D4E61F5230A9B1100F5D1C3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		3D4E61F6230A9B1100F5D1C3 /* caution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caution.png; sourceTree = "<group>"; };
 		3D4E61F7230A9B1100F5D1C3 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
@@ -766,7 +764,6 @@
 		3D4E61F3230A9B1100F5D1C3 /* title */ = {
 			isa = PBXGroup;
 			children = (
-				3D4E61F4230A9B1100F5D1C3 /* cursor.png */,
 				3D4E61F5230A9B1100F5D1C3 /* icon.png */,
 				3D4E61F6230A9B1100F5D1C3 /* caution.png */,
 				3D4E61F7230A9B1100F5D1C3 /* title.png */,
@@ -1046,7 +1043,6 @@
 				3D0E9B11230AE14100F935A4 /* face02014.png in Resources */,
 				3D836699230438D400457999 /* Assets.xcassets in Resources */,
 				3D4E61C323059C3D00F5D1C3 /* upload.png in Resources */,
-				3D4E6225230A9B1200F5D1C3 /* cursor.png in Resources */,
 				3D4E61AE23059C3D00F5D1C3 /* enter.caf in Resources */,
 				3D4E61C123059C3D00F5D1C3 /* pagearrow_next.png in Resources */,
 				3D0E9B38230AE4EC00F935A4 /* 剧本_01出浴.txt in Resources */,

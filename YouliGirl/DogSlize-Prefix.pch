@@ -49,3 +49,4 @@
 #define MMColorBrown [UIColor colorWithHexString:@"3B200C"]
 #define MMColorOrange [UIColor colorWithHexString:@"DE8100"]
 #define MMColorGreen [UIColor colorWithHexString:@"CCFC62"]
+#define MMColorPink [UIColor colorWithHexString:@"FFC0CB"]
