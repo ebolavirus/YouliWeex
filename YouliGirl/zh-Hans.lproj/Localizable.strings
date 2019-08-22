@@ -15,6 +15,7 @@ menuCamera = "拍照";
 menuAlbum = "从相册选择";
 menuHistory = "从历史选择";
 gameconfig = "游戏设置";
+gameAbout = "关于游戏";
 reselect = "重新选择";
 naviback = "返回";
 navistart = "开始";

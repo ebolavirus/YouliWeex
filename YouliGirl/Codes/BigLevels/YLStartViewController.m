@@ -13,10 +13,17 @@
 
 @property(nonatomic,strong) UIImageView *girlView;
 @property(nonatomic,strong) UIImageView *logoView;
+@property(nonatomic,strong) UILabel *logoLabel;
+
+@property(nonatomic,strong) FUIButton *startButton;
+@property(nonatomic,strong) FUIButton *loadButton;
+@property(nonatomic,strong) FUIButton *configButton;
 
 @end
 
 @implementation YLStartViewController
+
+@synthesize startButton, loadButton, configButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -39,23 +46,32 @@
 		topView.frame = CGRectMake(0, (KDeviceHeight - 64)/20, 320,145);
 		[self.view addSubview:topView];
 		
-		FUIButton *startButton = [[FUIButton alloc] initWithFrame:CGRectMake(100, (KDeviceHeight - 64)/2 - 20 - 4, 120, 40)];
+		self.startButton = [FUIButton new];
 		startButton.buttonColor = [UIColor orangeColor];
-		startButton.shadowColor = [UIColor orangeColor];
+		startButton.shadowColor = [UIColor redColor];
 		startButton.shadowHeight = 3.0f;
 		startButton.cornerRadius = 6.0f;
 		[startButton setTitle:@"开始游戏" forState:UIControlStateNormal];
 		[startButton addTarget:self action:@selector(startPressed:) forControlEvents:UIControlEventTouchUpInside];
 		[self.view addSubview:startButton];
 		
-		FUIButton *selectButton = [[FUIButton alloc] initWithFrame:CGRectMake(100, (KDeviceHeight - 64)/2 + 60 + 12, 120, 40)];
-		selectButton.buttonColor = [UIColor turquoiseColor];
-		selectButton.shadowColor = [UIColor greenSeaColor];
-		selectButton.shadowHeight = 3.0f;
-		selectButton.cornerRadius = 6.0f;
-		[selectButton setTitle:@"关于软件" forState:UIControlStateNormal];
-		[selectButton addTarget:self action:@selector(selectPressed:) forControlEvents:UIControlEventTouchUpInside];
-		[self.view addSubview:selectButton];
+		self.loadButton = [FUIButton new];
+		loadButton.buttonColor = [UIColor orangeColor];
+		loadButton.shadowColor = [UIColor redColor];
+		loadButton.shadowHeight = 3.0f;
+		loadButton.cornerRadius = 6.0f;
+		[loadButton setTitle:@"加载进度" forState:UIControlStateNormal];
+		[loadButton addTarget:self action:@selector(loadPressed:) forControlEvents:UIControlEventTouchUpInside];
+		[self.view addSubview:loadButton];
+		
+		self.configButton = [FUIButton new];
+		configButton.buttonColor = [UIColor turquoiseColor];
+		configButton.shadowColor = [UIColor greenSeaColor];
+		configButton.shadowHeight = 3.0f;
+		configButton.cornerRadius = 6.0f;
+		[configButton setTitle:@"软件设置" forState:UIControlStateNormal];
+		[configButton addTarget:self action:@selector(selectPressed:) forControlEvents:UIControlEventTouchUpInside];
+		[self.view addSubview:configButton];
 #if 0
 		FUIButton *historyButton = [[FUIButton alloc] initWithFrame:CGRectMake(100, (KDeviceHeight - 64)/2 + 20 + 4, 120, 40)];
 		historyButton.buttonColor = [UIColor grassColor];
@@ -66,12 +82,14 @@
 		[historyButton addTarget:self action:@selector(historyPressed:) forControlEvents:UIControlEventTouchUpInside];
 		[self.view addSubview:historyButton];
 #endif
-		UILabel *logoLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, KDeviceHeight - 64 - 50, kDeviceWidth, 50)];
-		logoLabel.numberOfLines = 0;
-		logoLabel.text = @"http://www.qianyanclub.com";
-		logoLabel.textAlignment = NSTextAlignmentCenter;
-		logoLabel.textColor = [UIColor blackColor];
-		[self.view addSubview:logoLabel];
+		NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
+		NSString *version = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
+		self.logoLabel = [UILabel new];
+		self.logoLabel.numberOfLines = 0;
+		self.logoLabel.text = [NSString stringWithFormat:@"Version：%@\nhttp://www.qianyanclub.com", version];
+		self.logoLabel.textAlignment = NSTextAlignmentLeft;
+		self.logoLabel.textColor = [UIColor blackColor];
+		[self.view addSubview:self.logoLabel];
 		
 	}
 	return self;
@@ -102,6 +120,25 @@
 		make.top.and.left.and.right.mas_equalTo(ws.view);
 		make.height.mas_equalTo(ws.view.frame.size.height/5);
 	}];
+	[self.startButton mas_makeConstraints:^(MASConstraintMaker *make) {
+		make.left.mas_equalTo(ws.view).with.mas_offset(ws.view.frame.size.width/20);
+		make.right.mas_equalTo(ws.girlView.mas_left).with.mas_offset(-ws.view.frame.size.width/20);
+		make.height.mas_equalTo(ws.view.frame.size.height/12);
+		make.centerY.mas_equalTo(ws.girlView).with.mas_offset(-ws.view.frame.size.height/10);
+	}];
+	[self.loadButton mas_makeConstraints:^(MASConstraintMaker *make) {
+		make.left.and.right.and.height.mas_equalTo(ws.startButton);
+		make.centerY.mas_equalTo(ws.girlView);
+	}];
+	[self.configButton mas_makeConstraints:^(MASConstraintMaker *make) {
+		make.left.and.right.and.height.mas_equalTo(ws.startButton);
+		make.centerY.mas_equalTo(ws.girlView).with.mas_offset(ws.view.frame.size.height/10);
+	}];
+	[self.logoLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+		make.right.and.bottom.mas_equalTo(ws.view);
+		make.left.mas_equalTo(ws.startButton);
+		make.height.mas_equalTo(ws.view.frame.size.height/10);
+	}];
 	[APPALL.mySoundManager playMusic:@"2205001.mp3" looping:NO];
 }
 
@@ -119,7 +156,30 @@
 
 -(void)selectPressed:(id)sender
 {
-	//    [tooles showGlobalAlertWithTitle:@"" andMsg:@"版本：1.0.0\n作者：埃博拉病毒\nQQ:570259952\n网址:http://www.xiaoluoli.com" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil];
+	UIAlertController *vc = [UIAlertController alertControllerWithTitle:@"软件设置" message:@"" preferredStyle:UIAlertControllerStyleActionSheet];
+	UIAlertAction *musicButton = [UIAlertAction actionWithTitle:[NSString stringWithFormat:@"背景音乐:%@",APPALL.myCacheItem.myMusic? @"开":@"关"] style:UIAlertActionStyleDefault handler:^(UIAlertAction *action){
+		APPALL.myCacheItem.myMusic = !APPALL.myCacheItem.myMusic;
+		[APPALL.mySaveItem saveToDB];
+		[APPALL.mySoundManager setSoundVolume:APPALL.myCacheItem.myMusic?1.0f:0.0f];
+		[APPALL.mySoundManager setMusicVolume:APPALL.myCacheItem.myMusic?1.0f:0.0f];
+	}];
+	
+	UIAlertAction *resAction = [UIAlertAction actionWithTitle:@"制作信息" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action){
+		UIAlertController *vc2 = [UIAlertController alertControllerWithTitle:@"制作人员" message:@"制作总监\n王梁华\n制作副总监\n谢兆龙\n专家、技术监制\n罗睿明" preferredStyle:UIAlertControllerStyleAlert];
+		UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"确认" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action){
+			//DO NOTHING
+		}];
+		[vc2 addAction:cancelAction];
+		[self presentViewController:vc2 animated:NO completion:nil];
+	}];
+	
+	UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"返回" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action){
+		//DO NOTHING
+	}];
+	[vc addAction:musicButton];
+	[vc addAction:resAction];
+	[vc addAction:cancelAction];
+	[self presentViewController:vc animated:YES completion:nil];
 }
 
 -(void)historyPressed:(id)sender

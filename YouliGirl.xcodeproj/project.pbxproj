@@ -57,8 +57,6 @@
 		3D4E618423059C3D00F5D1C3 /* canon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E610423059C3A00F5D1C3 /* canon.mp3 */; };
 		3D4E618523059C3D00F5D1C3 /* sound_puzzle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E610523059C3A00F5D1C3 /* sound_puzzle.mp3 */; };
 		3D4E618623059C3D00F5D1C3 /* shake.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E610623059C3A00F5D1C3 /* shake.wav */; };
-		3D4E618723059C3D00F5D1C3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E610823059C3A00F5D1C3 /* Localizable.strings */; };
-		3D4E618823059C3D00F5D1C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E610A23059C3A00F5D1C3 /* InfoPlist.strings */; };
 		3D4E618A23059C3D00F5D1C3 /* GroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E610E23059C3B00F5D1C3 /* GroupView.m */; };
 		3D4E618B23059C3D00F5D1C3 /* PieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E611123059C3B00F5D1C3 /* PieceView.m */; };
 		3D4E618C23059C3D00F5D1C3 /* Puzzle-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E611223059C3B00F5D1C3 /* Puzzle-Info.plist */; };
@@ -192,6 +190,8 @@
 		3D836697230438D200457999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D836695230438D200457999 /* Main.storyboard */; };
 		3D836699230438D400457999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D836698230438D400457999 /* Assets.xcassets */; };
 		3D83669F230438D400457999 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D83669E230438D400457999 /* main.m */; };
+		3D955D93230ED090007FDDF1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D955D8F230ED090007FDDF1 /* Localizable.strings */; };
+		3D955D94230ED090007FDDF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D955D91230ED090007FDDF1 /* InfoPlist.strings */; };
 		A656F04806618853013903BA /* libPods-YouliGirl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A4F778B7AA62F0F2A70ED5 /* libPods-YouliGirl.a */; };
 /* End PBXBuildFile section */
 
@@ -247,8 +247,6 @@
 		3D4E610423059C3A00F5D1C3 /* canon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = canon.mp3; sourceTree = "<group>"; };
 		3D4E610523059C3A00F5D1C3 /* sound_puzzle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound_puzzle.mp3; sourceTree = "<group>"; };
 		3D4E610623059C3A00F5D1C3 /* shake.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake.wav; sourceTree = "<group>"; };
-		3D4E610923059C3A00F5D1C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
-		3D4E610B23059C3A00F5D1C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		3D4E610E23059C3B00F5D1C3 /* GroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupView.m; sourceTree = "<group>"; };
 		3D4E610F23059C3B00F5D1C3 /* PieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceView.h; sourceTree = "<group>"; };
 		3D4E611023059C3B00F5D1C3 /* GroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupView.h; sourceTree = "<group>"; };
@@ -405,6 +403,8 @@
 		3D836698230438D400457999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D83669D230438D400457999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D83669E230438D400457999 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D955D90230ED090007FDDF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		3D955D92230ED090007FDDF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		6944314182F2B9628589C1A7 /* Pods-YouliGirl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouliGirl.release.xcconfig"; path = "Target Support Files/Pods-YouliGirl/Pods-YouliGirl.release.xcconfig"; sourceTree = "<group>"; };
 		F0A4F778B7AA62F0F2A70ED5 /* libPods-YouliGirl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YouliGirl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -501,15 +501,6 @@
 			path = music;
 			sourceTree = "<group>";
 		};
-		3D4E610723059C3A00F5D1C3 /* en.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				3D4E610823059C3A00F5D1C3 /* Localizable.strings */,
-				3D4E610A23059C3A00F5D1C3 /* InfoPlist.strings */,
-			);
-			path = en.lproj;
-			sourceTree = "<group>";
-		};
 		3D4E610D23059C3B00F5D1C3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -574,10 +565,10 @@
 		3D4E612F23059C3B00F5D1C3 /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				3D4E613023059C3B00F5D1C3 /* PuzzleController.m */,
 				3D4E613123059C3B00F5D1C3 /* PuzzleCompletedController.h */,
 				3D4E613223059C3B00F5D1C3 /* PuzzleCompletedController.m */,
 				3D4E613323059C3B00F5D1C3 /* PuzzleController.h */,
+				3D4E613023059C3B00F5D1C3 /* PuzzleController.m */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -845,13 +836,13 @@
 		3D83668E230438D200457999 /* YouliGirl */ = {
 			isa = PBXGroup;
 			children = (
+				3D955D8E230ED090007FDDF1 /* en.lproj */,
 				3D0E9B1A230AE4EB00F935A4 /* txts */,
 				3D4E616723059C3D00F5D1C3 /* AppDelegate.h */,
 				3D4E614323059C3C00F5D1C3 /* AppDelegate.m */,
 				3D4E614423059C3C00F5D1C3 /* Base.lproj */,
 				3D4E611323059C3B00F5D1C3 /* Codes */,
 				3D4E613F23059C3B00F5D1C3 /* DogSlize-Prefix.pch */,
-				3D4E610723059C3A00F5D1C3 /* en.lproj */,
 				3D4E614523059C3C00F5D1C3 /* Engines */,
 				3D4E616823059C3D00F5D1C3 /* Images */,
 				3D4E610023059C3A00F5D1C3 /* music */,
@@ -868,6 +859,15 @@
 				3D83669E230438D400457999 /* main.m */,
 			);
 			path = YouliGirl;
+			sourceTree = "<group>";
+		};
+		3D955D8E230ED090007FDDF1 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				3D955D8F230ED090007FDDF1 /* Localizable.strings */,
+				3D955D91230ED090007FDDF1 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 		A4518A946FF648305F10EF19 /* Frameworks */ = {
@@ -956,7 +956,6 @@
 				3D4E61B123059C3D00F5D1C3 /* about.txt in Resources */,
 				3D4E618223059C3D00F5D1C3 /* click.mp3 in Resources */,
 				3D4E6230230A9B1200F5D1C3 /* pushanykey.png in Resources */,
-				3D4E618723059C3D00F5D1C3 /* Localizable.strings in Resources */,
 				3D4E61E42308447800F5D1C3 /* 2201002.mp3 in Resources */,
 				3D0E9B07230AE14100F935A4 /* face02007.png in Resources */,
 				3D4E61E22308447800F5D1C3 /* 2201004.mp3 in Resources */,
@@ -978,6 +977,7 @@
 				3D4E6249230A9B1200F5D1C3 /* yuri_bikini_b.png in Resources */,
 				3D4E61BA23059C3D00F5D1C3 /* upload2.png in Resources */,
 				3D4E624C230A9B1200F5D1C3 /* act_01a.png in Resources */,
+				3D955D94230ED090007FDDF1 /* InfoPlist.strings in Resources */,
 				3D4E6257230AE0AF00F5D1C3 /* yuri_date_b.png in Resources */,
 				3D4E6227230A9B1200F5D1C3 /* caution.png in Resources */,
 				3D0E9B15230AE14100F935A4 /* face01001.png in Resources */,
@@ -986,7 +986,6 @@
 				3D4E622C230A9B1200F5D1C3 /* icon40tw.png in Resources */,
 				3D0E9B3E230AE4EC00F935A4 /* 剧本_08月经.txt in Resources */,
 				3D4E61AD23059C3D00F5D1C3 /* GameWin.caf in Resources */,
-				3D4E618823059C3D00F5D1C3 /* InfoPlist.strings in Resources */,
 				3D4E624E230A9B1200F5D1C3 /* kissing.png in Resources */,
 				3D4E61B423059C3D00F5D1C3 /* ss007.png in Resources */,
 				3D4E61B323059C3D00F5D1C3 /* ss005.png in Resources */,
@@ -1035,6 +1034,7 @@
 				3D4E61C023059C3D00F5D1C3 /* uploadblack2.png in Resources */,
 				3D4E61E52308447800F5D1C3 /* 2201001.mp3 in Resources */,
 				3D4E622D230A9B1200F5D1C3 /* speakwait.png in Resources */,
+				3D955D93230ED090007FDDF1 /* Localizable.strings in Resources */,
 				3D4E61A923059C3D00F5D1C3 /* InfoPlist.strings in Resources */,
 				3D4E6247230A9B1200F5D1C3 /* show_title.png in Resources */,
 				3D4E6245230A9B1200F5D1C3 /* beach.png in Resources */,
@@ -1207,22 +1207,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		3D4E610823059C3A00F5D1C3 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D4E610923059C3A00F5D1C3 /* en */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		3D4E610A23059C3A00F5D1C3 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D4E610B23059C3A00F5D1C3 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		3D4E615223059C3C00F5D1C3 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1245,6 +1229,22 @@
 				3D836696230438D200457999 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D955D8F230ED090007FDDF1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D955D90230ED090007FDDF1 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		3D955D91230ED090007FDDF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D955D92230ED090007FDDF1 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
