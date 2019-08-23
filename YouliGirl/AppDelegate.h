@@ -43,6 +43,8 @@ static NSString * const kIAPBuy = @"unlocklevel_0";
 @property(nonatomic,strong) SoundManager *mySoundManager;
 @property(nonatomic,strong) UIImage *puzzleImage;
 
+@property(nonatomic,assign) NSInteger gameStartFlag;
+
 //需存储数据库
 @property(nonatomic,strong) DBSaveItem *mySaveItem;
 // 图片库

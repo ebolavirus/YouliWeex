@@ -57,23 +57,15 @@
 		3D4E618423059C3D00F5D1C3 /* canon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E610423059C3A00F5D1C3 /* canon.mp3 */; };
 		3D4E618523059C3D00F5D1C3 /* sound_puzzle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E610523059C3A00F5D1C3 /* sound_puzzle.mp3 */; };
 		3D4E618623059C3D00F5D1C3 /* shake.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E610623059C3A00F5D1C3 /* shake.wav */; };
-		3D4E618A23059C3D00F5D1C3 /* GroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E610E23059C3B00F5D1C3 /* GroupView.m */; };
-		3D4E618B23059C3D00F5D1C3 /* PieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E611123059C3B00F5D1C3 /* PieceView.m */; };
 		3D4E618C23059C3D00F5D1C3 /* Puzzle-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E611223059C3B00F5D1C3 /* Puzzle-Info.plist */; };
 		3D4E618D23059C3D00F5D1C3 /* DBImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E611523059C3B00F5D1C3 /* DBImageItem.m */; };
 		3D4E618E23059C3D00F5D1C3 /* DBSaveItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E611623059C3B00F5D1C3 /* DBSaveItem.m */; };
 		3D4E618F23059C3D00F5D1C3 /* DBCacheItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E611923059C3B00F5D1C3 /* DBCacheItem.m */; };
 		3D4E619523059C3D00F5D1C3 /* BigStoreVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E612523059C3B00F5D1C3 /* BigStoreVController.m */; };
 		3D4E619623059C3D00F5D1C3 /* BigLevelsVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E612A23059C3B00F5D1C3 /* BigLevelsVController.m */; };
-		3D4E619823059C3D00F5D1C3 /* TMStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E612C23059C3B00F5D1C3 /* TMStartViewController.m */; };
 		3D4E619923059C3D00F5D1C3 /* MainCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E612E23059C3B00F5D1C3 /* MainCollectionCell.xib */; };
-		3D4E619A23059C3D00F5D1C3 /* PuzzleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E613023059C3B00F5D1C3 /* PuzzleController.m */; };
-		3D4E619B23059C3D00F5D1C3 /* PuzzleCompletedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E613223059C3B00F5D1C3 /* PuzzleCompletedController.m */; };
 		3D4E619C23059C3D00F5D1C3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E613423059C3B00F5D1C3 /* Launch Screen.storyboard */; };
 		3D4E619D23059C3D00F5D1C3 /* BigAboutVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E613723059C3B00F5D1C3 /* BigAboutVController.m */; };
-		3D4E619E23059C3D00F5D1C3 /* Lattice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E613A23059C3B00F5D1C3 /* Lattice.m */; };
-		3D4E619F23059C3D00F5D1C3 /* CreatePuzzleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E613B23059C3B00F5D1C3 /* CreatePuzzleOperation.m */; };
-		3D4E61A023059C3D00F5D1C3 /* UIImage+CWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E613C23059C3B00F5D1C3 /* UIImage+CWAdditions.m */; };
 		3D4E61A123059C3D00F5D1C3 /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E614123059C3B00F5D1C3 /* Wood.jpg */; };
 		3D4E61A223059C3D00F5D1C3 /* Wood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E614223059C3C00F5D1C3 /* Wood@2x.jpg */; };
 		3D4E61A323059C3D00F5D1C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E614323059C3C00F5D1C3 /* AppDelegate.m */; };
@@ -192,6 +184,9 @@
 		3D83669F230438D400457999 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D83669E230438D400457999 /* main.m */; };
 		3D955D93230ED090007FDDF1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D955D8F230ED090007FDDF1 /* Localizable.strings */; };
 		3D955D94230ED090007FDDF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D955D91230ED090007FDDF1 /* InfoPlist.strings */; };
+		3D955D97230ED3AA007FDDF1 /* MainGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D955D96230ED3AA007FDDF1 /* MainGameViewController.m */; };
+		3D955D9B230EE0CA007FDDF1 /* stories.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D955D9A230EE0CA007FDDF1 /* stories.m */; };
+		3D955D9E230FE321007FDDF1 /* gameengine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D955D9C230FE321007FDDF1 /* gameengine.m */; };
 		A656F04806618853013903BA /* libPods-YouliGirl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A4F778B7AA62F0F2A70ED5 /* libPods-YouliGirl.a */; };
 /* End PBXBuildFile section */
 
@@ -247,10 +242,6 @@
 		3D4E610423059C3A00F5D1C3 /* canon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = canon.mp3; sourceTree = "<group>"; };
 		3D4E610523059C3A00F5D1C3 /* sound_puzzle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound_puzzle.mp3; sourceTree = "<group>"; };
 		3D4E610623059C3A00F5D1C3 /* shake.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake.wav; sourceTree = "<group>"; };
-		3D4E610E23059C3B00F5D1C3 /* GroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupView.m; sourceTree = "<group>"; };
-		3D4E610F23059C3B00F5D1C3 /* PieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceView.h; sourceTree = "<group>"; };
-		3D4E611023059C3B00F5D1C3 /* GroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupView.h; sourceTree = "<group>"; };
-		3D4E611123059C3B00F5D1C3 /* PieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieceView.m; sourceTree = "<group>"; };
 		3D4E611223059C3B00F5D1C3 /* Puzzle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Puzzle-Info.plist"; sourceTree = "<group>"; };
 		3D4E611523059C3B00F5D1C3 /* DBImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBImageItem.m; sourceTree = "<group>"; };
 		3D4E611623059C3B00F5D1C3 /* DBSaveItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSaveItem.m; sourceTree = "<group>"; };
@@ -260,24 +251,12 @@
 		3D4E611A23059C3B00F5D1C3 /* DBSaveItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSaveItem.h; sourceTree = "<group>"; };
 		3D4E612523059C3B00F5D1C3 /* BigStoreVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigStoreVController.m; sourceTree = "<group>"; };
 		3D4E612623059C3B00F5D1C3 /* BigStoreVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigStoreVController.h; sourceTree = "<group>"; };
-		3D4E612823059C3B00F5D1C3 /* TMStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMStartViewController.h; sourceTree = "<group>"; };
 		3D4E612A23059C3B00F5D1C3 /* BigLevelsVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigLevelsVController.m; sourceTree = "<group>"; };
-		3D4E612C23059C3B00F5D1C3 /* TMStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMStartViewController.m; sourceTree = "<group>"; };
 		3D4E612D23059C3B00F5D1C3 /* BigLevelsVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigLevelsVController.h; sourceTree = "<group>"; };
 		3D4E612E23059C3B00F5D1C3 /* MainCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCollectionCell.xib; sourceTree = "<group>"; };
-		3D4E613023059C3B00F5D1C3 /* PuzzleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleController.m; sourceTree = "<group>"; };
-		3D4E613123059C3B00F5D1C3 /* PuzzleCompletedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleCompletedController.h; sourceTree = "<group>"; };
-		3D4E613223059C3B00F5D1C3 /* PuzzleCompletedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleCompletedController.m; sourceTree = "<group>"; };
-		3D4E613323059C3B00F5D1C3 /* PuzzleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleController.h; sourceTree = "<group>"; };
 		3D4E613423059C3B00F5D1C3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		3D4E613623059C3B00F5D1C3 /* BigAboutVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigAboutVController.h; sourceTree = "<group>"; };
 		3D4E613723059C3B00F5D1C3 /* BigAboutVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigAboutVController.m; sourceTree = "<group>"; };
-		3D4E613923059C3B00F5D1C3 /* UIImage+CWAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CWAdditions.h"; sourceTree = "<group>"; };
-		3D4E613A23059C3B00F5D1C3 /* Lattice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lattice.m; sourceTree = "<group>"; };
-		3D4E613B23059C3B00F5D1C3 /* CreatePuzzleOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatePuzzleOperation.m; sourceTree = "<group>"; };
-		3D4E613C23059C3B00F5D1C3 /* UIImage+CWAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CWAdditions.m"; sourceTree = "<group>"; };
-		3D4E613D23059C3B00F5D1C3 /* CreatePuzzleOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatePuzzleOperation.h; sourceTree = "<group>"; };
-		3D4E613E23059C3B00F5D1C3 /* Lattice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lattice.h; sourceTree = "<group>"; };
 		3D4E613F23059C3B00F5D1C3 /* DogSlize-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DogSlize-Prefix.pch"; sourceTree = "<group>"; };
 		3D4E614123059C3B00F5D1C3 /* Wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wood.jpg; sourceTree = "<group>"; };
 		3D4E614223059C3C00F5D1C3 /* Wood@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wood@2x.jpg"; sourceTree = "<group>"; };
@@ -405,6 +384,12 @@
 		3D83669E230438D400457999 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D955D90230ED090007FDDF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		3D955D92230ED090007FDDF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		3D955D95230ED3AA007FDDF1 /* MainGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainGameViewController.h; sourceTree = "<group>"; };
+		3D955D96230ED3AA007FDDF1 /* MainGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainGameViewController.m; sourceTree = "<group>"; };
+		3D955D99230EE0CA007FDDF1 /* stories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stories.h; sourceTree = "<group>"; };
+		3D955D9A230EE0CA007FDDF1 /* stories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stories.m; sourceTree = "<group>"; };
+		3D955D9C230FE321007FDDF1 /* gameengine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameengine.m; sourceTree = "<group>"; };
+		3D955D9D230FE321007FDDF1 /* gameengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameengine.h; sourceTree = "<group>"; };
 		6944314182F2B9628589C1A7 /* Pods-YouliGirl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouliGirl.release.xcconfig"; path = "Target Support Files/Pods-YouliGirl/Pods-YouliGirl.release.xcconfig"; sourceTree = "<group>"; };
 		F0A4F778B7AA62F0F2A70ED5 /* libPods-YouliGirl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YouliGirl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -501,27 +486,15 @@
 			path = music;
 			sourceTree = "<group>";
 		};
-		3D4E610D23059C3B00F5D1C3 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3D4E610E23059C3B00F5D1C3 /* GroupView.m */,
-				3D4E610F23059C3B00F5D1C3 /* PieceView.h */,
-				3D4E611023059C3B00F5D1C3 /* GroupView.h */,
-				3D4E611123059C3B00F5D1C3 /* PieceView.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		3D4E611323059C3B00F5D1C3 /* Codes */ = {
 			isa = PBXGroup;
 			children = (
-				3D4E611423059C3B00F5D1C3 /* DBItems */,
-				3D4E612423059C3B00F5D1C3 /* BigStore */,
-				3D4E612723059C3B00F5D1C3 /* BigLevels */,
-				3D4E612F23059C3B00F5D1C3 /* Game */,
-				3D4E613423059C3B00F5D1C3 /* Launch Screen.storyboard */,
 				3D4E613523059C3B00F5D1C3 /* BigAbout */,
-				3D4E613823059C3B00F5D1C3 /* GameLogic */,
+				3D4E612723059C3B00F5D1C3 /* BigLevels */,
+				3D4E612423059C3B00F5D1C3 /* BigStore */,
+				3D4E611423059C3B00F5D1C3 /* DBItems */,
+				3D4E613423059C3B00F5D1C3 /* Launch Screen.storyboard */,
+				3D955D98230ED7D8007FDDF1 /* Stories */,
 			);
 			path = Codes;
 			sourceTree = "<group>";
@@ -551,26 +524,15 @@
 		3D4E612723059C3B00F5D1C3 /* BigLevels */ = {
 			isa = PBXGroup;
 			children = (
-				3D694810230C1681009D6DAC /* YLStartViewController.h */,
-				3D69480F230C1680009D6DAC /* YLStartViewController.m */,
 				3D4E612D23059C3B00F5D1C3 /* BigLevelsVController.h */,
 				3D4E612A23059C3B00F5D1C3 /* BigLevelsVController.m */,
 				3D4E612E23059C3B00F5D1C3 /* MainCollectionCell.xib */,
-				3D4E612823059C3B00F5D1C3 /* TMStartViewController.h */,
-				3D4E612C23059C3B00F5D1C3 /* TMStartViewController.m */,
+				3D955D95230ED3AA007FDDF1 /* MainGameViewController.h */,
+				3D955D96230ED3AA007FDDF1 /* MainGameViewController.m */,
+				3D694810230C1681009D6DAC /* YLStartViewController.h */,
+				3D69480F230C1680009D6DAC /* YLStartViewController.m */,
 			);
 			path = BigLevels;
-			sourceTree = "<group>";
-		};
-		3D4E612F23059C3B00F5D1C3 /* Game */ = {
-			isa = PBXGroup;
-			children = (
-				3D4E613123059C3B00F5D1C3 /* PuzzleCompletedController.h */,
-				3D4E613223059C3B00F5D1C3 /* PuzzleCompletedController.m */,
-				3D4E613323059C3B00F5D1C3 /* PuzzleController.h */,
-				3D4E613023059C3B00F5D1C3 /* PuzzleController.m */,
-			);
-			path = Game;
 			sourceTree = "<group>";
 		};
 		3D4E613523059C3B00F5D1C3 /* BigAbout */ = {
@@ -580,19 +542,6 @@
 				3D4E613723059C3B00F5D1C3 /* BigAboutVController.m */,
 			);
 			path = BigAbout;
-			sourceTree = "<group>";
-		};
-		3D4E613823059C3B00F5D1C3 /* GameLogic */ = {
-			isa = PBXGroup;
-			children = (
-				3D4E613923059C3B00F5D1C3 /* UIImage+CWAdditions.h */,
-				3D4E613A23059C3B00F5D1C3 /* Lattice.m */,
-				3D4E613B23059C3B00F5D1C3 /* CreatePuzzleOperation.m */,
-				3D4E613C23059C3B00F5D1C3 /* UIImage+CWAdditions.m */,
-				3D4E613D23059C3B00F5D1C3 /* CreatePuzzleOperation.h */,
-				3D4E613E23059C3B00F5D1C3 /* Lattice.h */,
-			);
-			path = GameLogic;
 			sourceTree = "<group>";
 		};
 		3D4E614023059C3B00F5D1C3 /* PNGs */ = {
@@ -615,11 +564,13 @@
 		3D4E614523059C3C00F5D1C3 /* Engines */ = {
 			isa = PBXGroup;
 			children = (
+				3D955D9D230FE321007FDDF1 /* gameengine.h */,
+				3D955D9C230FE321007FDDF1 /* gameengine.m */,
+				3D4E614D23059C3C00F5D1C3 /* GameSettingMenu */,
 				3D4E614623059C3C00F5D1C3 /* SMMNavigationController */,
 				3D4E614923059C3C00F5D1C3 /* tooles.h */,
-				3D4E614A23059C3C00F5D1C3 /* uicolor_hex */,
-				3D4E614D23059C3C00F5D1C3 /* GameSettingMenu */,
 				3D4E615023059C3C00F5D1C3 /* tooles.m */,
+				3D4E614A23059C3C00F5D1C3 /* uicolor_hex */,
 			);
 			path = Engines;
 			sourceTree = "<group>";
@@ -850,7 +801,6 @@
 				3D4E611223059C3B00F5D1C3 /* Puzzle-Info.plist */,
 				3D4E615623059C3C00F5D1C3 /* Sounds */,
 				3D4E615C23059C3D00F5D1C3 /* Texts */,
-				3D4E610D23059C3B00F5D1C3 /* Views */,
 				3D4E60FB23059C3900F5D1C3 /* zh-Hans.lproj */,
 				3D4E615123059C3C00F5D1C3 /* zh-Hant.lproj */,
 				3D836695230438D200457999 /* Main.storyboard */,
@@ -868,6 +818,15 @@
 				3D955D91230ED090007FDDF1 /* InfoPlist.strings */,
 			);
 			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		3D955D98230ED7D8007FDDF1 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				3D955D99230EE0CA007FDDF1 /* stories.h */,
+				3D955D9A230EE0CA007FDDF1 /* stories.m */,
+			);
+			path = Stories;
 			sourceTree = "<group>";
 		};
 		A4518A946FF648305F10EF19 /* Frameworks */ = {
@@ -1164,24 +1123,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D4E619E23059C3D00F5D1C3 /* Lattice.m in Sources */,
 				3D4E619623059C3D00F5D1C3 /* BigLevelsVController.m in Sources */,
 				3D4E618D23059C3D00F5D1C3 /* DBImageItem.m in Sources */,
-				3D4E619F23059C3D00F5D1C3 /* CreatePuzzleOperation.m in Sources */,
 				3D4E61A323059C3D00F5D1C3 /* AppDelegate.m in Sources */,
 				3D694811230C1681009D6DAC /* YLStartViewController.m in Sources */,
-				3D4E618A23059C3D00F5D1C3 /* GroupView.m in Sources */,
+				3D955D9E230FE321007FDDF1 /* gameengine.m in Sources */,
 				3D83669F230438D400457999 /* main.m in Sources */,
-				3D4E619823059C3D00F5D1C3 /* TMStartViewController.m in Sources */,
 				3D4E619D23059C3D00F5D1C3 /* BigAboutVController.m in Sources */,
-				3D4E618B23059C3D00F5D1C3 /* PieceView.m in Sources */,
 				3D4E61A423059C3D00F5D1C3 /* SMMNavigationController.m in Sources */,
-				3D4E619A23059C3D00F5D1C3 /* PuzzleController.m in Sources */,
 				3D4E618E23059C3D00F5D1C3 /* DBSaveItem.m in Sources */,
-				3D4E619B23059C3D00F5D1C3 /* PuzzleCompletedController.m in Sources */,
 				3D4E61A723059C3D00F5D1C3 /* tooles.m in Sources */,
-				3D4E61A023059C3D00F5D1C3 /* UIImage+CWAdditions.m in Sources */,
+				3D955D97230ED3AA007FDDF1 /* MainGameViewController.m in Sources */,
 				3D4E61A623059C3D00F5D1C3 /* GameSettingViewController.m in Sources */,
+				3D955D9B230EE0CA007FDDF1 /* stories.m in Sources */,
 				3D4E619523059C3D00F5D1C3 /* BigStoreVController.m in Sources */,
 				3D4E61A523059C3D00F5D1C3 /* UIColor+Hex.m in Sources */,
 				3D4E618F23059C3D00F5D1C3 /* DBCacheItem.m in Sources */,

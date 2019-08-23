@@ -7,12 +7,11 @@
 //
 
 #import "AppDelegate.h"
-#import "PuzzleController.h"
 
 #import "SMMNavigationController.h"
 #import "BigLevelsVController.h"
-#import "TMStartViewController.h"
 #import "YLStartViewController.h"
+#import "MainGameViewController.h"
 
 @interface AppDelegate()<DNSInAppPurchaseManagerDelegate>
 
@@ -30,6 +29,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+	self.gameStartFlag = -1;
 	self.enableIAP = YES;
 	self.puzzleImage = nil;
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
@@ -76,7 +76,7 @@
 	[self.mySoundManager setSoundVolume:self.myCacheItem.myMusic?1.0f:0.0f];
 	[self.mySoundManager setMusicVolume:self.myCacheItem.myMusic?1.0f:0.0f];
 	
-	self.levelController = [[TMStartViewController alloc] init];
+	self.levelController = [[MainGameViewController alloc] init];
 	SMMNavigationController *navLevel = [[SMMNavigationController alloc] initWithRootViewController:self.levelController];
 	self.window.rootViewController = navLevel;
 	

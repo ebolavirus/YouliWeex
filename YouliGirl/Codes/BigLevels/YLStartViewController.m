@@ -40,12 +40,6 @@
 		self.logoView.contentMode = UIViewContentModeScaleAspectFit;
 		[self.view addSubview:self.logoView];
 		
-		// Custom initialization
-		UIImageView *topView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"app_name"]];
-		topView.contentMode = UIViewContentModeScaleAspectFit;
-		topView.frame = CGRectMake(0, (KDeviceHeight - 64)/20, 320,145);
-		[self.view addSubview:topView];
-		
 		self.startButton = [FUIButton new];
 		startButton.buttonColor = [UIColor orangeColor];
 		startButton.shadowColor = [UIColor redColor];
@@ -151,6 +145,7 @@
 
 -(void)startPressed:(id)sender
 {
+	APPALL.gameStartFlag = 0;
 	[self.navigationController dismissViewControllerAnimated:YES completion:nil];
 }
 
