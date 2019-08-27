@@ -9,18 +9,17 @@
 #import <Foundation/Foundation.h>
 
 @interface gameengine : NSObject
-
-+(float)computeFloat:(float)f modulo:(float)m;
-+(UIImage*)getImageByColor:(UIColor*)aColor;
-+ (NSString *)defaultViewControllerWithNibName:(NSString *)nibNameOrNil;
-+(float)DeviceVersion;
-+(UIImage*)grayImage:(UIImage *)sourceImage;
-
-//旋转照片
-+(UIImage *)reSizeImage:(UIImage *)image toSize:(CGSize)reSize;
-+(UIImage *)rotateImage:(UIImage *)aImage;
-+(UIImage *)cropSquareImage:(UIImage *)image;
-
-+(BOOL)isTheStr:(NSString*)aStr hasContainTheSubStr:(NSString*)bStr;
+- (id)init;
+- (void)setTimeLabel:(UILabel*)timeLabel
+				andGoldLabel:(UILabel*)goldLabel
+				andLifeLabel:(UILabel*)lifeLabel
+			andBgImageView:(UIImageView*)bgImageView
+		andBodyImageView:(UIImageView*)bodyImageView
+		andFaceImageView:(UIImageView*)faceImageView
+				andTalkLabel:(UITextView*)talkLabel
+				 andMainView:(UIViewController*)mainView;
+- (void)loadScript:(NSInteger)aScriptFlag;
+- (void)fire;
+- (void)gotoNext;
 
 @end

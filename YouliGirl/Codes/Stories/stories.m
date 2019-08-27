@@ -13,20 +13,18 @@
 +(NSArray*)loadStoryByDayFlag:(NSInteger)aDayFlag {
 	// 规则
 	// 普通剧本
-	// 第一个元素：祐莉衣服-背景-初始bgm-0（好感度变化），每个值为0代表不变
+	// 第一个元素：story-祐莉衣服-背景-初始bgm-0（好感度变化），每个值为0代表不变
 	// 第二个元素开始: 0/1/2(是否展示祐莉，2为标题)-12（祐莉表情）-speaker-text（文本）-bgm（新bgm）
 	// 最后一个元素：end-index（下一个元素index）
 	// dialog
-	// 第一个元素: dialog
-	// 第二个元素：问句
+	// 第一个元素：dialog-问句
 	// 第三个元素：选项一-index（下一个元素）,index为end
 	// 第四个元素：选项二-index（下一个元素）
 	switch (aDayFlag) {
 		case 1: {
 			NSArray *array0dialog =
 			[NSArray arrayWithObjects:
-			 @"dialog",
-			 @"現在開始將進行片頭劇情。您可以選擇跳過，但是將會錯過重要的劇情與遊戲提示。請問您確定要跳過嗎？",
+			@"dialog-現在開始將進行片頭劇情。您可以選擇跳過，但是將會錯過重要的劇情與遊戲提示。請問您確定要跳過嗎？",
 			 @"不，進行片頭劇情-1",
 			 @"是，直接開始遊戲-end",
 			 nil];

@@ -31,7 +31,7 @@
 {
 	self.gameStartFlag = -1;
 	self.enableIAP = YES;
-	self.puzzleImage = nil;
+	self.gameEngine = [gameengine new];
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	// Override point for customization after application launch.
 	self.window.backgroundColor = MMColorWhite;

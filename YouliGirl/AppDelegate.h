@@ -14,6 +14,7 @@
 #import "DBSaveItem.h"
 #import "DBImageItem.h"
 #import "DBCacheItem.h"
+#import "gameengine.h"
 #import <DNSInAppPurchaseManager.h>
 
 typedef enum {
@@ -38,13 +39,14 @@ static NSString * const kIAPBuy = @"unlocklevel_0";
 @property (nonatomic, strong) NSString *myNowAppId;
 @property (nonatomic, assign) int storePayStatus;
 
+@property (nonatomic, strong) gameengine *gameEngine;
+
 @property(strong,nonatomic) UIWindow *window;
 @property(nonatomic,strong) KGModal *myKGModal;
 @property(nonatomic,strong) SoundManager *mySoundManager;
-@property(nonatomic,strong) UIImage *puzzleImage;
-
+// 所有图片缓存
+//@property(nonatomic,strong) NSArray *imageCacheArray;
 @property(nonatomic,assign) NSInteger gameStartFlag;
-
 //需存储数据库
 @property(nonatomic,strong) DBSaveItem *mySaveItem;
 // 图片库

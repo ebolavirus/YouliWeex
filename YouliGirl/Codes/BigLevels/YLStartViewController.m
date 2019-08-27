@@ -149,6 +149,11 @@
 	[self.navigationController dismissViewControllerAnimated:YES completion:nil];
 }
 
+-(void)loadPressed:(id)sender{
+	APPALL.gameStartFlag = 0;
+	[self.navigationController dismissViewControllerAnimated:YES completion:nil];
+}
+
 -(void)selectPressed:(id)sender
 {
 	UIAlertController *vc = [UIAlertController alertControllerWithTitle:@"软件设置" message:@"" preferredStyle:UIAlertControllerStyleActionSheet];

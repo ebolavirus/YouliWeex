@@ -84,6 +84,15 @@
 		[self.talkButton setTitle:@"点击继续" forState:UIControlStateNormal];
 		[self.talkButton addTarget:self action:@selector(selectPressed:) forControlEvents:UIControlEventTouchUpInside];
 		[self.view addSubview:self.talkButton];
+		//link the components
+		[APPALL.gameEngine setTimeLabel:self.timeLabel
+											 andGoldLabel:self.goldLabel
+											 andLifeLabel:self.lifeLabel
+										 andBgImageView:self.bgImageView
+									 andBodyImageView:self.bodyImageView
+									 andFaceImageView:self.faceImageView
+											 andTalkLabel:self.talkLabel
+												andMainView:self];
 	}
 	return self;
 }
@@ -159,8 +168,13 @@
 	}
 	// 0 重新开始
 	if (APPALL.gameStartFlag == 0) {
-		
+		[APPALL.gameEngine loadScript:1];
+		[APPALL.gameEngine fire];
 	}
+}
+
+-(void)selectPressed:(id)sender {
+	[APPALL.gameEngine gotoNext];
 }
 
 @end

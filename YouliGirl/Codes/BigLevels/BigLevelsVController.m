@@ -98,7 +98,6 @@
 {
 	///////////////
 	DBImageItem *cacheItem = [APPALL.myImageArray objectAtIndex:indexPath.row];
-	APPALL.puzzleImage = [UIImage imageWithData:cacheItem.imageData];
 	[self.navigationController popViewControllerAnimated:YES];
 }
 
