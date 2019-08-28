@@ -26,6 +26,8 @@
 //聊天按钮
 @property(nonatomic,strong) FUIButton *talkButton;
 
+@property(nonatomic,strong) NSTimer *myTimer;
+
 @end
 
 @implementation MainGameViewController
@@ -174,7 +176,15 @@
 }
 
 -(void)selectPressed:(id)sender {
+	self.talkButton.enabled = false;
+	self.myTimer = [NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(scrollTimer) userInfo:nil repeats:NO];
 	[APPALL.gameEngine gotoNext];
+}
+
+-(void)scrollTimer {
+	[self.myTimer invalidate];
+	self.myTimer = nil;
+	self.talkButton.enabled = true;
 }
 
 @end
