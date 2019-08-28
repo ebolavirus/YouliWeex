@@ -177,13 +177,19 @@
 
 -(void)selectPressed:(id)sender {
 	self.talkButton.enabled = false;
-	self.myTimer = [NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(scrollTimer) userInfo:nil repeats:NO];
+	[UIView animateWithDuration:0.3 animations:^{
+		self.talkButton.alpha = 0.9;
+		self.talkButton.enabled = false;
+	} completion:^(BOOL finished) {
+		self.talkButton.alpha = 1;
+		self.talkButton.enabled = true;
+	}];
 	[APPALL.gameEngine gotoNext];
 }
 
 -(void)scrollTimer {
-	[self.myTimer invalidate];
-	self.myTimer = nil;
+//	[self.myTimer invalidate];
+//	self.myTimer = nil;
 	self.talkButton.enabled = true;
 }
 
