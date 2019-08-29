@@ -9,7 +9,16 @@
 #import <Foundation/Foundation.h>
 #import <FlatUIKit.h>
 
+@protocol GameDelegate<NSObject>
+@optional
+- (void)gotoNextScene:(NSString*)aSucc;
+@end
+
 @interface gameengine : NSObject
+
+@property(nonatomic,strong) NSArray *kGameArray;
+@property(nonatomic,assign) id<GameDelegate> myGameDelegate;
+
 - (id)init;
 - (void)setTimeLabel:(UILabel*)timeLabel
 				andGoldLabel:(UILabel*)goldLabel
@@ -23,5 +32,6 @@
 - (void)loadScript:(NSInteger)aScriptFlag;
 - (void)fire;
 - (void)gotoNext;
+- (int)getNextNumberAfter:(int)aDay;
 
 @end

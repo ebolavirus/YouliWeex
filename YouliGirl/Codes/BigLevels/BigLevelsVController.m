@@ -65,7 +65,8 @@
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-	return APPALL.myImageArray.count;
+	return 1;
+//	return APPALL.myImageArray.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
@@ -73,11 +74,11 @@
 	UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
 	UILabel *lab1 = (UILabel *)[cell viewWithTag:1];
 	UIImageView *img2 = (UIImageView *)[cell viewWithTag:2];
-	DBImageItem *cacheItem = [APPALL.myImageArray objectAtIndex:indexPath.row];
+//	DBImageItem *cacheItem = [APPALL.myImageArray objectAtIndex:indexPath.row];
 	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
 	[dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss zzz"];
-	lab1.text = [dateFormatter stringFromDate:cacheItem.imageDate];
-	img2.image = [UIImage imageWithData:cacheItem.imageData];
+//	lab1.text = [dateFormatter stringFromDate:cacheItem.imageDate];
+//	img2.image = [UIImage imageWithData:cacheItem.imageData];
 	return cell;
 }
 
@@ -97,7 +98,7 @@
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
 	///////////////
-	DBImageItem *cacheItem = [APPALL.myImageArray objectAtIndex:indexPath.row];
+//	DBImageItem *cacheItem = [APPALL.myImageArray objectAtIndex:indexPath.row];
 	[self.navigationController popViewControllerAnimated:YES];
 }
 
@@ -126,7 +127,7 @@
 
 - (void)VCIAPSucceed:(NSString*)aSucc{
 	[SVProgressHUD dismiss];
-	APPALL.mySaveItem.myBought = YES;
+	APPALL.mySaveItem.bought = YES;
 	[APPALL.mySaveItem saveToDB];
 	UIAlertController *vc = [UIAlertController alertControllerWithTitle:@"" message:mmsloc("paySuccess") preferredStyle:UIAlertControllerStyleAlert];
 	UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:mmsloc("OK") style:UIAlertActionStyleCancel handler:nil];

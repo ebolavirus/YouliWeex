@@ -4,15 +4,12 @@
 //
 //  Created by Andrea Barbon on 19/04/12.
 //  Copyright (c) 2012 Università degli studi di Padova. All rights reserved.
-//  TODO
-//  2.80张图片确定
 //
 
 #import <UIKit/UIKit.h>
 #import <KGModal.h>
 #import <SoundManager.h>
 #import "DBSaveItem.h"
-#import "DBImageItem.h"
 #import "DBCacheItem.h"
 #import "gameengine.h"
 #import <DNSInAppPurchaseManager.h>
@@ -49,8 +46,6 @@ static NSString * const kIAPBuy = @"unlocklevel_0";
 @property(nonatomic,assign) NSInteger gameStartFlag;
 //需存储数据库
 @property(nonatomic,strong) DBSaveItem *mySaveItem;
-// 图片库
-@property(nonatomic,strong) NSMutableArray *myImageArray;
 //不需存储数据库
 @property(nonatomic,strong) DBCacheItem *myCacheItem;
 

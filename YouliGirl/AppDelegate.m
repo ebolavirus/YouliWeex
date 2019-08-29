@@ -43,24 +43,16 @@
 	self.iapManager.delegate = self;
 	[self setupStore];
 	
-//	LKDBHelper *cacheHelper = [DBSaveItem getUsingLKDBHelper];
-	// [cacheHelper dropAllTable];
+	LKDBHelper *cacheHelper = [DBSaveItem getUsingLKDBHelper];
+	[cacheHelper dropAllTable];
 	self.mySaveItem = [DBSaveItem searchSingleWithWhere:@"myID = 1" orderBy:@""];
 	if(!self.mySaveItem) {
 		NSLog(@"save not exist!");
 		self.mySaveItem = [[DBSaveItem alloc] init];
 		[self.mySaveItem saveToDB];
 	} else {
-//		NSLog(@"save exist!!! nowlevel:%ld-%ld",self.mySaveItem.myLevel,self.mySaveItem.myState);
+				NSLog(@"save exist!!! nowlevel:%d-%d",self.mySaveItem.day,self.mySaveItem.gold);
 	}
-	self.myImageArray = [DBImageItem searchWithWhere:NULL orderBy:@"imageDate desc" offset:0 count:SAVEITEM];
-	if(!self.myImageArray) {
-		NSLog(@"image not exist!");
-		self.myImageArray = [NSMutableArray array];
-	} else {
-		NSLog(@"image exist!!! %@",self.myImageArray);
-	}
-	
 	
 	self.myCacheItem = [[DBCacheItem alloc] init];
 	

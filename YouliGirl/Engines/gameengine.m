@@ -35,6 +35,7 @@
 {
 	self = [super init];
 	if (self) {
+		self.kGameArray = @[@0,@10];
 		self.avg0Index = 0;
 		self.avg1Index = 0;
 	}
@@ -78,8 +79,10 @@
 
 - (void)runGameFrame {
 	if ([(NSString*)[self.storyArray objectAtIndex:0] hasPrefix:@"dialog"]) {
+		[self dealWithBlackOrWhite:[self.storyArray objectAtIndex:0]];
 		[self makeDialog];
 	} else if ([(NSString*)[self.storyArray objectAtIndex:0] hasPrefix:@"story"]) {
+		[self dealWithBlackOrWhite:[self.storyArray objectAtIndex:0]];
 		[self makeStory];
 	}
 }
@@ -87,6 +90,21 @@
 - (void)gotoNext {
 	self.avg1Index++;
 	[self runGameFrame];
+}
+
+- (void)dealWithBlackOrWhite: (NSString*)aFlag {
+	NSArray *realFlagArray = [[self.storyArray objectAtIndex:0] componentsSeparatedByString:@"-"];
+	if ([[realFlagArray objectAtIndex:0] hasSuffix:@"b"]) {
+		self.mainViewController.view.backgroundColor = [UIColor blackColor];
+		self.timeLabel.textColor = [UIColor whiteColor];
+		self.goldLabel.textColor = [UIColor whiteColor];
+		self.lifeLabel.textColor = [UIColor whiteColor];
+	} else {
+		self.mainViewController.view.backgroundColor = [UIColor whiteColor];
+		self.timeLabel.textColor = [UIColor blackColor];
+		self.goldLabel.textColor = [UIColor blackColor];
+		self.lifeLabel.textColor = [UIColor blackColor];
+	}
 }
 
 - (void)makeDialog {
@@ -99,7 +117,7 @@
 	self.talkLabel.hidden = true;
 	self.talkButton.hidden = true;
 	
-	NSString *title = [[self.storyArray objectAtIndex:0] substringFromIndex:7];
+	NSString *title = [[self.storyArray objectAtIndex:0] substringFromIndex:8];
 //	[string componentsSeparatedByString:@"-"]
 	NSArray *choice1 = [[self.storyArray objectAtIndex:1] componentsSeparatedByString:@"-"];
 	NSArray *choice2 = [[self.storyArray objectAtIndex:2] componentsSeparatedByString:@"-"];
@@ -117,7 +135,7 @@
 
 -(void)dealWithDialogChoice:(NSString*)aChoice {
 	if ([aChoice hasSuffix:@"end"]) {
-		//TODO dialog end, try something different?
+		[self nextChapter];
 		return;
 	}
 	NSInteger flag = [aChoice integerValue];
@@ -140,9 +158,8 @@
 		if ([[choice1 objectAtIndex:4] hasPrefix:@"0"]) {
 			//do nothing
 		} else {
-			//NSInteger haoganupdate = [[choice1 objectAtIndex:4] integerValue];
-			//TODO add haogan.....
-			[self.lifeLabel setText:[choice1 objectAtIndex:4]];
+			APPALL.mySaveItem.love += [[choice1 objectAtIndex:4] intValue];
+			[self.lifeLabel setText:[NSString stringWithFormat:@"好感:%d", APPALL.mySaveItem.love]];
 		}
 		self.avg1Index++;
 		[self makeStory];
@@ -159,9 +176,13 @@
 	self.talkLabel.hidden = false;
 	self.talkButton.hidden = false;
 	NSArray *choice = [[self.storyArray objectAtIndex:self.avg1Index] componentsSeparatedByString:@"-"];
+	if ([choice count] != 5) {
+		[SVProgressHUD showErrorWithStatus:@"errror make"];
+		return;
+	}
 	switch ([[choice objectAtIndex:0] integerValue]) {
 		case 0: {
-			self.bgImageView.hidden = true;
+			self.bgImageView.hidden = false;
 			self.bodyImageView.hidden = true;
 			self.faceImageView.hidden = true;
 			[self dealWithTalkandBgm:choice];
@@ -205,6 +226,21 @@
 	str = [str stringByAppendingString:@"\n"];
 	str = [str stringByAppendingString:[aarray objectAtIndex:3]];
 	[self.talkLabel setText:str];
+}
+
+-(void)nextChapter {
+	//TODO dialog end, try something different?
+	[self.myGameDelegate gotoNextScene:@""];
+}
+
+-(int)getNextNumberAfter:(int)aDay {
+	for (int i = 0; i < self.kGameArray.count; i++) {
+		int aInteger = [[self.kGameArray objectAtIndex:i] intValue];
+		if (aInteger > aDay) {
+			return aInteger;
+		}
+	}
+	return 999;
 }
 
 @end

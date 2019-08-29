@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0C21C6231805D10056654E /* home_first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C21C5231805D10056654E /* home_first.png */; };
 		3D0E9B03230AE14100F935A4 /* face02010.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AEC230AE14100F935A4 /* face02010.png */; };
 		3D0E9B04230AE14100F935A4 /* face02004.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AED230AE14100F935A4 /* face02004.png */; };
 		3D0E9B05230AE14100F935A4 /* face02005.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9AEE230AE14100F935A4 /* face02005.png */; };
@@ -66,8 +67,6 @@
 		3D4E619923059C3D00F5D1C3 /* MainCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E612E23059C3B00F5D1C3 /* MainCollectionCell.xib */; };
 		3D4E619C23059C3D00F5D1C3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E613423059C3B00F5D1C3 /* Launch Screen.storyboard */; };
 		3D4E619D23059C3D00F5D1C3 /* BigAboutVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E613723059C3B00F5D1C3 /* BigAboutVController.m */; };
-		3D4E61A123059C3D00F5D1C3 /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E614123059C3B00F5D1C3 /* Wood.jpg */; };
-		3D4E61A223059C3D00F5D1C3 /* Wood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E614223059C3C00F5D1C3 /* Wood@2x.jpg */; };
 		3D4E61A323059C3D00F5D1C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E614323059C3C00F5D1C3 /* AppDelegate.m */; };
 		3D4E61A423059C3D00F5D1C3 /* SMMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E614823059C3C00F5D1C3 /* SMMNavigationController.m */; };
 		3D4E61A523059C3D00F5D1C3 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E614B23059C3C00F5D1C3 /* UIColor+Hex.m */; };
@@ -175,6 +174,7 @@
 
 /* Begin PBXFileReference section */
 		1F302DB17A53BF8AAD2F7637 /* Pods-YouliGirl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouliGirl.debug.xcconfig"; path = "Target Support Files/Pods-YouliGirl/Pods-YouliGirl.debug.xcconfig"; sourceTree = "<group>"; };
+		3D0C21C5231805D10056654E /* home_first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_first.png; sourceTree = "<group>"; };
 		3D0E9AEC230AE14100F935A4 /* face02010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02010.png; sourceTree = "<group>"; };
 		3D0E9AED230AE14100F935A4 /* face02004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02004.png; sourceTree = "<group>"; };
 		3D0E9AEE230AE14100F935A4 /* face02005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face02005.png; sourceTree = "<group>"; };
@@ -241,8 +241,6 @@
 		3D4E613623059C3B00F5D1C3 /* BigAboutVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigAboutVController.h; sourceTree = "<group>"; };
 		3D4E613723059C3B00F5D1C3 /* BigAboutVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigAboutVController.m; sourceTree = "<group>"; };
 		3D4E613F23059C3B00F5D1C3 /* DogSlize-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DogSlize-Prefix.pch"; sourceTree = "<group>"; };
-		3D4E614123059C3B00F5D1C3 /* Wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wood.jpg; sourceTree = "<group>"; };
-		3D4E614223059C3C00F5D1C3 /* Wood@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wood@2x.jpg"; sourceTree = "<group>"; };
 		3D4E614323059C3C00F5D1C3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3D4E614723059C3C00F5D1C3 /* SMMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMNavigationController.h; sourceTree = "<group>"; };
 		3D4E614823059C3C00F5D1C3 /* SMMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMNavigationController.m; sourceTree = "<group>"; };
@@ -405,25 +403,25 @@
 		3D0E9B1A230AE4EB00F935A4 /* txts */ = {
 			isa = PBXGroup;
 			children = (
-				3D0E9B1B230AE4EC00F935A4 /* 剧本_08.5贫血.txt */,
-				3D0E9B1C230AE4EC00F935A4 /* 剧本_20最后一天.txt */,
-				3D0E9B1D230AE4EC00F935A4 /* 剧本_09志愿.txt */,
 				3D0E9B1E230AE4EC00F935A4 /* 花嫁之梦.txt */,
-				3D0E9B1F230AE4EC00F935A4 /* 剧本_03过去.txt */,
-				3D0E9B20230AE4EC00F935A4 /* 剧本_06电影.txt */,
-				3D0E9B21230AE4EC00F935A4 /* 剧本_00.txt */,
-				3D0E9B22230AE4EC00F935A4 /* 剧本_07事故.txt */,
-				3D0E9B23230AE4EC00F935A4 /* 星空的祈祷.txt */,
+				3D0E9B28230AE4EC00F935A4 /* 接吻大作战.txt */,
 				3D0E9B24230AE4EC00F935A4 /* 结局.txt */,
+				3D0E9B21230AE4EC00F935A4 /* 剧本_00.txt */,
 				3D0E9B25230AE4EC00F935A4 /* 剧本_01出浴.txt */,
+				3D0E9B2A230AE4EC00F935A4 /* 剧本_02征寄.txt */,
+				3D0E9B1F230AE4EC00F935A4 /* 剧本_03过去.txt */,
 				3D0E9B26230AE4EC00F935A4 /* 剧本_04设计.txt */,
 				3D0E9B27230AE4EC00F935A4 /* 剧本_05用功.txt */,
-				3D0E9B28230AE4EC00F935A4 /* 接吻大作战.txt */,
-				3D0E9B29230AE4EC00F935A4 /* 状态.txt */,
-				3D0E9B2A230AE4EC00F935A4 /* 剧本_02征寄.txt */,
+				3D0E9B20230AE4EC00F935A4 /* 剧本_06电影.txt */,
+				3D0E9B22230AE4EC00F935A4 /* 剧本_07事故.txt */,
+				3D0E9B1B230AE4EC00F935A4 /* 剧本_08.5贫血.txt */,
 				3D0E9B2B230AE4EC00F935A4 /* 剧本_08月经.txt */,
-				3D0E9B2C230AE4EC00F935A4 /* 日历.txt */,
+				3D0E9B1D230AE4EC00F935A4 /* 剧本_09志愿.txt */,
 				3D0E9B2D230AE4EC00F935A4 /* 剧本_10电话.txt */,
+				3D0E9B1C230AE4EC00F935A4 /* 剧本_20最后一天.txt */,
+				3D0E9B2C230AE4EC00F935A4 /* 日历.txt */,
+				3D0E9B23230AE4EC00F935A4 /* 星空的祈祷.txt */,
+				3D0E9B29230AE4EC00F935A4 /* 状态.txt */,
 			);
 			path = txts;
 			sourceTree = "<group>";
@@ -508,15 +506,6 @@
 				3D4E613723059C3B00F5D1C3 /* BigAboutVController.m */,
 			);
 			path = BigAbout;
-			sourceTree = "<group>";
-		};
-		3D4E614023059C3B00F5D1C3 /* PNGs */ = {
-			isa = PBXGroup;
-			children = (
-				3D4E614123059C3B00F5D1C3 /* Wood.jpg */,
-				3D4E614223059C3C00F5D1C3 /* Wood@2x.jpg */,
-			);
-			path = PNGs;
 			sourceTree = "<group>";
 		};
 		3D4E614423059C3C00F5D1C3 /* Base.lproj */ = {
@@ -682,6 +671,7 @@
 				3D4E6215230A9B1200F5D1C3 /* beach.png */,
 				3D4E6214230A9B1200F5D1C3 /* bg_015.png */,
 				3D4E620F230A9B1200F5D1C3 /* down.png */,
+				3D0C21C5231805D10056654E /* home_first.png */,
 				3D4E6210230A9B1200F5D1C3 /* hurt.png */,
 				3D4E621E230A9B1200F5D1C3 /* kissing.png */,
 				3D4E6212230A9B1200F5D1C3 /* map01002.png */,
@@ -739,7 +729,6 @@
 				3D4E614523059C3C00F5D1C3 /* Engines */,
 				3D4E616823059C3D00F5D1C3 /* Images */,
 				3D4E610023059C3A00F5D1C3 /* music */,
-				3D4E614023059C3B00F5D1C3 /* PNGs */,
 				3D4E611223059C3B00F5D1C3 /* Puzzle-Info.plist */,
 				3D4E615623059C3C00F5D1C3 /* Sounds */,
 				3D4E60FB23059C3900F5D1C3 /* zh-Hans.lproj */,
@@ -899,6 +888,7 @@
 				3D4E61ED2308447800F5D1C3 /* bgm013.mp3 in Resources */,
 				3D0E9B18230AE14100F935A4 /* face01006.png in Resources */,
 				3D4E6244230A9B1200F5D1C3 /* bg_015.png in Resources */,
+				3D0C21C6231805D10056654E /* home_first.png in Resources */,
 				3D4E61EC2308447800F5D1C3 /* bgm007.mp3 in Resources */,
 				3D4E617F23059C3D00F5D1C3 /* Localizable.strings in Resources */,
 				3D4E61E92308447800F5D1C3 /* logo.mp3 in Resources */,
@@ -944,7 +934,6 @@
 				3D0E9B39230AE4EC00F935A4 /* 剧本_04设计.txt in Resources */,
 				3D4E622A230A9B1200F5D1C3 /* anykeytoexit.png in Resources */,
 				3D0E9B32230AE4EC00F935A4 /* 剧本_03过去.txt in Resources */,
-				3D4E61A123059C3D00F5D1C3 /* Wood.jpg in Resources */,
 				3D4E61F22308447800F5D1C3 /* bgm009.mp3 in Resources */,
 				3D0E9B03230AE14100F935A4 /* face02010.png in Resources */,
 				3D4E6235230A9B1200F5D1C3 /* text.png in Resources */,
@@ -960,7 +949,6 @@
 				3D0E9B05230AE14100F935A4 /* face02005.png in Resources */,
 				3D4E61E62308447800F5D1C3 /* 2205001.mp3 in Resources */,
 				3D4E6233230A9B1200F5D1C3 /* select.png in Resources */,
-				3D4E61A223059C3D00F5D1C3 /* Wood@2x.jpg in Resources */,
 				3D4E61C723059C3D00F5D1C3 /* coin5.png in Resources */,
 				3D4E618523059C3D00F5D1C3 /* sound_puzzle.mp3 in Resources */,
 				3D4E623A230A9B1200F5D1C3 /* scene_cinema3.png in Resources */,

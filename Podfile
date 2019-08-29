@@ -3,7 +3,6 @@
 
 target 'YouliGirl' do
     pod 'AFNetworking'
-    pod 'AVOSCloud'
 		pod 'Colours'
 		pod 'DNSInAppPurchaseManager'
     pod 'FlatUIKit'

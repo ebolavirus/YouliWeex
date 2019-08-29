@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MainGameViewController : UIViewController
 
+-(void)gotoNextScene;
+
 @end
 
 NS_ASSUME_NONNULL_END

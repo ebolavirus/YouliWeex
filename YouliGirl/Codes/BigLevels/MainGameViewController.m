@@ -8,7 +8,7 @@
 
 #import "MainGameViewController.h"
 
-@interface MainGameViewController ()
+@interface MainGameViewController ()<GameDelegate>
 //日期
 @property(nonatomic,strong) UILabel *timeLabel;
 //金钱
@@ -68,7 +68,7 @@
 		[self.view addSubview:self.faceImageView];
 		
 		self.talkLabel = [UITextView new];
-		self.talkLabel.text = @"";
+		self.talkLabel.text = @"加载中...";
 		self.talkLabel.textContainerInset = UIEdgeInsetsMake(10, 10, 10, 10);
 		self.talkLabel.font = [UIFont flatFontOfSize:kDeviceWidth/20];
 		self.talkLabel.backgroundColor = [UIColor paleRoseColor];
@@ -80,6 +80,7 @@
 		self.talkButton.buttonColor = [UIColor pinkLipstickColor];
 		self.talkButton.shadowColor = [UIColor eggplantColor];
 		self.talkButton.shadowHeight = 3.0f;
+		self.talkButton.hidden = true;
 		[self.talkButton setTitle:@"点此继续" forState:UIControlStateNormal];
 		[self.talkButton addTarget:self action:@selector(selectPressed:) forControlEvents:UIControlEventTouchUpInside];
 		[self.view addSubview:self.talkButton];
@@ -93,6 +94,7 @@
 											 andTalkLabel:self.talkLabel
 											andTalkButton:self.talkButton
 												andMainView:self];
+		APPALL.gameEngine.myGameDelegate = self;
 	}
 	return self;
 }
@@ -167,9 +169,28 @@
 	}
 	// 0 重新开始
 	if (APPALL.gameStartFlag == 0) {
-		[APPALL.gameEngine loadScript:1];
+		//init all data
+		[APPALL.mySaveItem resetData];
+		[self.goldLabel setText:[NSString stringWithFormat:@"金钱:%d", APPALL.mySaveItem.gold]];
+		if (APPALL.mySaveItem.day < 10) {
+			[self.timeLabel setText:@"今天:9月?日"];
+		} else {
+			[self.timeLabel setText:[NSString stringWithFormat:@"今天:10月%d日", APPALL.mySaveItem.day/10]];
+		}
+		[self.lifeLabel setText:[NSString stringWithFormat:@"好感:%d", APPALL.mySaveItem.love]];
+		[APPALL.gameEngine loadScript:APPALL.mySaveItem.day];
 		[APPALL.gameEngine fire];
 	}
+}
+
+-(void)gotoNextScene:(NSString*)aStr {
+	APPALL.mySaveItem.day = [APPALL.gameEngine getNextNumberAfter:APPALL.mySaveItem.day];
+	if (APPALL.mySaveItem.day >= 999) {
+		// game over
+		return;
+	}
+	[APPALL.gameEngine loadScript:APPALL.mySaveItem.day];
+	[APPALL.gameEngine fire];
 }
 
 -(void)selectPressed:(id)sender {

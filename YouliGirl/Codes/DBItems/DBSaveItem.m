@@ -15,9 +15,21 @@
 	self = [super init];
 	if (self) {
 		self.myID = 1;
-		self.myBought = NO;
+		self.bought = NO;
+		self.story = YES;
+		self.day = 0;
+		self.gold = 0;
+		self.life = 100;
+		self.love = 100;
 	}
 	return self;
+}
+
+-(void)resetData {
+	self.day = 0;
+	self.gold = 0;
+	self.life = 100;
+	self.love = 100;
 }
 
 
@@ -54,7 +66,7 @@
 //表版本
 +(int)getTableVersion
 {
-	return 2;
+	return 1;
 }
 
 
