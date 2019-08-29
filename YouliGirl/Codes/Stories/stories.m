@@ -12,6 +12,15 @@
 
 +(NSArray*)loadStoryByDayFlag:(NSInteger)aDayFlag {
 	switch (aDayFlag) {
+			// 规则
+			// 普通剧本
+			// 第一个元素：storyb/w-祐莉衣服-背景-初始bgm-0（好感度变化）
+			// 第二个元素开始: 0/1/2(是否展示祐莉，2为标题)-12（祐莉表情）-speaker-text（文本）-bgm（新bgm）
+			// 最后一个元素：end-index（下一个元素index）
+			// dialog
+			// 第一个元素：dialogb/w-问句
+			// 第三个元素：选项一-index（下一个元素）,index为end
+			// 第四个元素：选项二-index（下一个元素）
 		case 0: {
 			NSArray *array0dialog =
 			[NSArray arrayWithObjects:
@@ -95,15 +104,6 @@
 			 nil];
 			return [NSArray arrayWithObjects:array0dialog, array1prologue, nil];
 		}
-			// 规则
-			// 普通剧本
-			// 第一个元素：storyb/w-祐莉衣服-背景-初始bgm-0（好感度变化）
-			// 第二个元素开始: 0/1/2(是否展示祐莉，2为标题)-12（祐莉表情）-speaker-text（文本）-bgm（新bgm）
-			// 最后一个元素：end-index（下一个元素index）
-			// dialog
-			// 第一个元素：dialogb/w-问句
-			// 第三个元素：选项一-index（下一个元素）,index为end
-			// 第四个元素：选项二-index（下一个元素）
 		case 10: {
 			NSArray *array0story =
 			[NSArray arrayWithObjects:
@@ -190,6 +190,125 @@
 			 @"end-end",
 			 nil];
 			return [NSArray arrayWithObjects:array0story, array1dialog, array2story, array3story, nil];
+		}
+		case 19: {
+			NSArray *array0story =
+			[NSArray arrayWithObjects:
+			 @"storyb-face01002-test_home-0-0",
+			 @"2-0-0-出浴事件-0",
+			 @"0-lt-0-就這樣，我們花了一些時間，總算把祐莉的行李都整理好。-bgm004",
+			 @"1-face02009-祐莉-呼～總算完成了。-lt",
+			 @"1-face02002-祐莉-達令，謝謝你幫我！-lt",
+			 @"1-lt-我-哪裡，今天是妳搬來的日子，我可是很高興的呢。-lt",
+			 @"1-face02009-祐莉-呼～流了滿身汗，那我先去洗澡哦！-lt",
+			 @"0-0-0-祐莉開心地拿著浴巾，準備要進浴室洗澡。這時，她突然轉過身來對著我說。-lt",
+			 @"1-face02005-祐莉-……達令，你不會偷看吧？-lt",
+			 @"1-lt-我-我……我才不會做這種事！-lt",
+			 @"1-face02002-祐莉-嘻嘻，我知道你不是那種人，我相信你！-lt",
+			 @"0-0-0-祐莉說完，便進了浴室，而我則回到自己的房間。-lt",
+			 @"end-1",
+			 nil];
+			NSArray *array1story =
+			[NSArray arrayWithObjects:
+			 @"storyb-face01002-scene_room-bgm004-0",
+			 @"0-0-0-虽然說我們已經是男女朋友的關係了，但是這時候又讓我感覺，我們的關係似乎沒有那麼的親密。-lt",
+			 @"0-0-0-交往至今２個禮拜了，雖然祐莉用達令來稱呼我，不過……目前的進展也只不過是牽牽手而已。-lt",
+			 @"0-0-0-是的，就連接吻這種男女朋友間再自然不過的行為，也都沒有發生過。-lt",
+			 @"0-0-0-儘管…我們現在已經同住一個屋簷下，但是對於“男女朋友”這層關係，卻沒有什麼實際感。-lt",
+			 @"0-0-0-话說回來……面對祐莉這種大美女在自己家裡沖澡的場面，我腦中不由得出現許多妄想的畫面。-lt",
+			 @"0-0-祐莉-啊啊！！！-lt",
+			 @"0-0-0-祐莉突然在浴室裡大叫。-lt",
+			 @"0-0-我-怎麼啦！？發生什麼事了？-lt",
+			 @"0-0-祐莉-……我忘了把換洗的衣物拿進去了！-lt",
+			 @"0-0-我-那…那怎麼辦？……要我幫你拿嗎？-lt",
+			 @"0-0-祐莉-不、不用了！我、我自己拿好了！-lt",
+			 @"0-0-我-那、那麼……-lt",
+			 @"0-0-祐莉-達令，我自己回房間拿，你先回你房間，不要偷看哦！-lt",
+			 @"0-0-我-哦、哦……-lt",
+			 @"0-0-0-雖然嘴巴上這麼說，但是要我別偷看，這簡直違背生物本能！-lt",
+			 @"end-2",
+			 nil];
+			NSArray *array2dialog =
+			[NSArray arrayWithObjects:
+			 @"dialogb-這下我該怎麼辦……",
+			 @"乖乖地躲在房間-3",
+			 @"從房間門縫偷看-4",
+			 nil];
+			NSArray *array3story =
+			[NSArray arrayWithObjects:
+			 @"storyb-face01002-test_home-bgm004-10",
+			 @"0-0-0-虽然說心裡真的很想看看祐莉出浴後的樣子，但是…我畢竟是個紳士！答應女士的事情就要做到。-lt",
+			 @"0-0-0-我想祐莉也是因為我的為人正直，才肯跟我在一起吧！……我自己是這樣想的。-lt",
+			 @"0-0-0-不過，誰知道呢？-lt",
+			 @"0-0-0-就在自己還胡思亂想的當下，祐莉已經換好衣服，走出浴室了。-lt",
+			 @"0-0-祐莉-達令！我洗好了，你可以出來了！-lt",
+			 @"0-0-0-我走出房門，看到的是祐莉笑嘻嘻的表情。-lt",
+			 @"1-face02002-祐莉-達令果然很老實，真的沒有偷看呢！-lt",
+			 @"1-lt-我-我本來就不會做那種事！我答應過妳的！-lt",
+			 @"1-face02005-祐莉-嗯嗯。我就是欣賞達令你這一點！-lt",
+			 @"1-lt-0-祐莉的好感度提高了！-lt",
+			 @"end-end",
+			 nil];
+			NSArray *array4story =
+			[NSArray arrayWithObjects:
+			 @"storyb-face01005-test_home-0-0",
+			 @"0-0-0-我終究還是抵擋不了好奇心，決定把門縫偷偷打開一點。畢竟，祐莉的出浴姿態，光是想像就夠撩人了。-lt",
+			 @"0-0-0-我輕輕地把門推開一點點，只留一個小縫隙。從這縫隙裡偷偷地往浴室方向看。-lt",
+			 @"1-face02007-0-这時只見到全身濕淋淋的祐莉，身上只裹著浴巾，躡手躡腳地回到房間。-bgm007",
+			 @"1-lt-0-不一會兒，又拿著換洗的衣物，回到浴室前面。-lt",
+			 @"1-lt-0-這時候，祐莉突然機警地看著我的房門。-lt",
+			 @"1-lt-祐莉-……。-lt",
+			 @"1-lt-0-祐莉靜靜地停在浴室門口，看著我的房門。不過，祐莉沒有多說什麼，又默默地回到浴室裡面。-lt",
+			 @"0-0-0-糟糕……她是不是發現了？祐莉的沈默讓我感到有點擔心。-lt",
+			 @"0-lt-0-過一會兒，祐莉終於洗完澡，走出了浴室。-lt",
+			 @"end-5",
+			 nil];
+			NSArray *array5story =
+			[NSArray arrayWithObjects:
+			 @"storyb-face01002-test_home-bgm007-90",
+			 @"1-face02013-祐莉-……達令，你剛剛偷看了吧！-lt",
+			 @"1-lt-我-呃……這個……-lt",
+			 @"1-lt-0-祐莉果然還是發現了。這時，還是老實地承認比較好吧。-lt",
+			 @"1-lt-我-對、對不起！我沒有惡意！-lt",
+			 @"1-face02011-祐莉-……沒辦法，我自己忘了拿衣服，我自己也不對。-lt",
+			 @"1-lt-0-祐莉的好感度降低了！-lt",
+			 @"end-end",
+			 nil];
+			return [NSArray arrayWithObjects:array0story, array1story, array2dialog, array3story,array4story,array5story, nil];
+		}
+		case 209: {
+			NSArray *array0story =
+			[NSArray arrayWithObjects:
+			 @"storyb-face01002-test_home-bgm004-0",
+			 @"2-0-0-出浴事件2-0",
+			 @"0-0-0-這天晚上，我跟祐莉兩人在家裡一起打掃。-lt",
+			 @"1-face02009-祐莉-呼～好熱，流了滿身大汗呢！-lt",
+			 @"1-lt-我-剩下的工作我來就好，妳先去洗澡吧！-lt",
+			 @"0-0-0-祐莉說完，便開心地帶著換洗衣物進浴室洗澡了。-lt",
+			 @"0-0-0-我則把剩下的一點打掃工作完成後，出門到附近的餐館買了簡單的晚餐。-lt",
+			 @"0-0-0-回到家後，我在餐桌上把買回來的晚餐一一擺好，正打算去祐莉房間叫她時……-lt",
+			 @"end-1",
+			 nil];
+			NSArray *array1story =
+			[NSArray arrayWithObjects:
+			 @"storyb-face01005-test_home-bgm007-10",
+			 @"1-face02007-祐莉-啊！達令！-lt",
+			 @"1-lt-我-啊！祐、祐莉！？-lt",
+			 @"1-lt-0-只見祐莉身上只圍著一條浴巾，打算偷偷摸摸地從浴室回到她房間。-lt",
+			 @"1-lt-祐莉-達令……你這麼快就回來啦？-lt",
+			 @"1-lt-我-是、是啊。-lt",
+			 @"1-lt-0-心裡完全沒有準備會碰上這種場面，讓我一時之間有點尷尬，不知道該說什麼。-lt",
+			 @"1-0-祐莉-那麼……達令，等我一下，我穿好衣服就一起吃吧！-lt",
+			 @"1-lt-我-哦、哦哦！-lt",
+			 @"0-0-0-祐莉洗完澡後只圍條浴巾的樣子真是太性感了。也讓我心中開始無限遐想她浴巾底下的樣子。-lt",
+			 @"0-0-0-不過……剛剛的祐莉，似乎並不是那麼的驚訝。-lt",
+			 @"0-0-0-是否……她已經不會介意讓我見到她這樣子的姿態呢？或許真是這樣也說不定。-lt",
+			 @"0-0-0-感覺最近的祐莉，在我身邊似乎更放得開、更沒有距離了。-lt",
+			 @"0-0-0-不管如何，心裡感覺都相當不錯。-lt",
+			 @"0-0-0-祐莉的好感度提升了！-lt",
+			 @"end-end",
+			 nil];
+			return [NSArray arrayWithObjects:array0story, array1story, nil];
 		}
 		default:
 			return [NSArray array];

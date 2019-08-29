@@ -35,7 +35,7 @@
 {
 	self = [super init];
 	if (self) {
-		self.kGameArray = @[@0,@10];
+		self.kGameArray = @[@0,@10,@19,@209];
 		self.avg0Index = 0;
 		self.avg1Index = 0;
 	}
@@ -158,7 +158,9 @@
 		if ([[choice1 objectAtIndex:4] hasPrefix:@"0"]) {
 			//do nothing
 		} else {
-			APPALL.mySaveItem.love += [[choice1 objectAtIndex:4] intValue];
+			int loveadd = [[choice1 objectAtIndex:4] intValue];
+			loveadd = loveadd >= 50? (loveadd - 100):loveadd;
+			APPALL.mySaveItem.love += loveadd;
 			[self.lifeLabel setText:[NSString stringWithFormat:@"好感:%d", APPALL.mySaveItem.love]];
 		}
 		self.avg1Index++;
