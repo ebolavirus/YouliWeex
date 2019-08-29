@@ -14,7 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - AVOSCloud (11.6.5)
+  - AVOSCloud (11.6.6)
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
   - DNSInAppPurchaseManager (2.0.0)
   - FlatUIKit (1.6.2)
   - FMDB (2.7.5):
@@ -50,6 +53,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - AVOSCloud
+  - Colours
   - DNSInAppPurchaseManager
   - FlatUIKit
   - FTCoreText
@@ -65,6 +69,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - AVOSCloud
+    - Colours
     - DNSInAppPurchaseManager
     - FlatUIKit
     - FMDB
@@ -79,7 +84,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  AVOSCloud: 2929fb36ca7e919e094de5a598a43b31931b7896
+  AVOSCloud: 72406411971a34cf0f7cef9cf016c0032c51a639
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
   DNSInAppPurchaseManager: 24e57d6e653dfe51ecc6c349646c4cb23fc5e3ea
   FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
@@ -92,6 +98,6 @@ SPEC CHECKSUMS:
   SoundManager: 99ae328a3ec9b259db774c9851a65feeceba8183
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: ce6149ec589d5bbed96dc8fec604b1349e44c222
+PODFILE CHECKSUM: 9b4d0acce6668aa82e67e26904ed0d19a6574888
 
 COCOAPODS: 1.7.4

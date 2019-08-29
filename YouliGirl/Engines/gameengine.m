@@ -24,6 +24,7 @@
 @property(nonatomic,weak) UIImageView *bodyImageView;
 @property(nonatomic,weak) UIImageView *faceImageView;
 @property(nonatomic,weak) UITextView *talkLabel;
+@property(nonatomic,weak) FUIButton *talkButton;
 @property(nonatomic,weak) UIViewController *mainViewController;
 
 @end
@@ -47,6 +48,7 @@
 		andBodyImageView:(UIImageView*)bodyImageView
 		andFaceImageView:(UIImageView*)faceImageView
 				andTalkLabel:(UITextView*)talkLabel
+			 andTalkButton:(FUIButton*)talkButton
 				 andMainView:(UIViewController*)mainView{
 	self.timeLabel = timeLabel;
 	self.goldLabel = goldLabel;
@@ -55,6 +57,7 @@
 	self.bodyImageView = bodyImageView;
 	self.faceImageView = faceImageView;
 	self.talkLabel = talkLabel;
+	self.talkButton = talkButton;
 	self.mainViewController = mainView;
 }
 
@@ -87,6 +90,15 @@
 }
 
 - (void)makeDialog {
+	self.timeLabel.hidden = true;
+	self.goldLabel.hidden = true;
+	self.lifeLabel.hidden = true;
+	self.bgImageView.hidden = true;
+	self.bodyImageView.hidden = true;
+	self.faceImageView.hidden = true;
+	self.talkLabel.hidden = true;
+	self.talkButton.hidden = true;
+	
 	NSString *title = [[self.storyArray objectAtIndex:0] substringFromIndex:7];
 //	[string componentsSeparatedByString:@"-"]
 	NSArray *choice1 = [[self.storyArray objectAtIndex:1] componentsSeparatedByString:@"-"];
@@ -141,15 +153,22 @@
 		[self dealWithDialogChoice:[choice1 objectAtIndex:1]];
 		return;
 	}
+	self.timeLabel.hidden = false;
+	self.goldLabel.hidden = false;
+	self.lifeLabel.hidden = false;
+	self.talkLabel.hidden = false;
+	self.talkButton.hidden = false;
 	NSArray *choice = [[self.storyArray objectAtIndex:self.avg1Index] componentsSeparatedByString:@"-"];
 	switch ([[choice objectAtIndex:0] integerValue]) {
 		case 0: {
+			self.bgImageView.hidden = true;
 			self.bodyImageView.hidden = true;
 			self.faceImageView.hidden = true;
 			[self dealWithTalkandBgm:choice];
 			break;
 		}
 		case 1: {
+			self.bgImageView.hidden = false;
 			self.bodyImageView.hidden = false;
 			if ([[choice objectAtIndex:1] hasPrefix:@"lt"]) {
 				//do nothing;
@@ -164,8 +183,9 @@
 		}
 		//展示标题
 		case 2: {
-			self.bodyImageView.hidden = false;
-			self.faceImageView.hidden = false;
+			self.bgImageView.hidden = true;
+			self.bodyImageView.hidden = true;
+			self.faceImageView.hidden = true;
 			self.mainViewController.title = [choice objectAtIndex:3];
 			[self dealWithTalkandBgm:choice];
 			break;

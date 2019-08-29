@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <FlatUIKit.h>
 
 @interface gameengine : NSObject
 - (id)init;
@@ -17,6 +18,7 @@
 		andBodyImageView:(UIImageView*)bodyImageView
 		andFaceImageView:(UIImageView*)faceImageView
 				andTalkLabel:(UITextView*)talkLabel
+			 andTalkButton:(FUIButton*)talkButton
 				 andMainView:(UIViewController*)mainView;
 - (void)loadScript:(NSInteger)aScriptFlag;
 - (void)fire;

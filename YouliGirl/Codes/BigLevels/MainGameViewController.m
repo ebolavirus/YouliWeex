@@ -38,52 +38,49 @@
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
 	if (self) {
 		self.title = @"--";
-		self.view.backgroundColor = [UIColor blueColor];
+		self.view.backgroundColor = [UIColor blackColor];
 		
 		self.timeLabel = [UILabel new];
-		self.timeLabel.text = @"10月1日 星期一";
+		self.timeLabel.text = @"--";
 		self.timeLabel.textAlignment = NSTextAlignmentCenter;
 		[self.view addSubview:self.timeLabel];
 		
 		self.goldLabel = [UILabel new];
-		self.goldLabel.text = @"钱包：0圆";
+		self.goldLabel.text = @"--";
 		self.goldLabel.textAlignment = NSTextAlignmentCenter;
 		[self.view addSubview:self.goldLabel];
 		
 		self.lifeLabel = [UILabel new];
-		self.lifeLabel.text = @"精神：良好";
+		self.lifeLabel.text = @"--";
 		self.lifeLabel.textAlignment = NSTextAlignmentCenter;
 		[self.view addSubview:self.lifeLabel];
 		
 		self.bgImageView = [UIImageView new];
-		self.bgImageView.image = [UIImage imageNamed:@"scene_cinema"];
 		[self.bgImageView setContentMode:UIViewContentModeScaleAspectFit];
 		[self.view addSubview:self.bgImageView];
 		
 		self.bodyImageView = [UIImageView new];
-		self.bodyImageView.image = [UIImage imageNamed:@"face01001"];
 		[self.bodyImageView setContentMode:UIViewContentModeScaleAspectFit];
 		[self.view addSubview:self.bodyImageView];
 		
 		self.faceImageView = [UIImageView new];
-		self.faceImageView.image = [UIImage imageNamed:@"face02002.png"];
 		[self.faceImageView setContentMode:UIViewContentModeScaleAspectFit];
 		[self.view addSubview:self.faceImageView];
 		
 		self.talkLabel = [UITextView new];
-		self.talkLabel.text = @"祐莉：\n谢谢你今天陪我出来，今天的电影真好看啊啊啊真好看啊真好看，真好看啊真好看";
+		self.talkLabel.text = @"";
 		self.talkLabel.textContainerInset = UIEdgeInsetsMake(10, 10, 10, 10);
 		self.talkLabel.font = [UIFont flatFontOfSize:kDeviceWidth/20];
-		self.talkLabel.layer.borderColor = [[UIColor greenColor] CGColor];
+		self.talkLabel.backgroundColor = [UIColor paleRoseColor];
+		self.talkLabel.layer.borderColor = [[UIColor pinkLipstickColor] CGColor];
 		self.talkLabel.layer.borderWidth = 5.0f;
 		[self.view addSubview:self.talkLabel];
 		
 		self.talkButton = [FUIButton new];
-		self.talkButton.buttonColor = [UIColor turquoiseColor];
-		self.talkButton.shadowColor = [UIColor greenSeaColor];
+		self.talkButton.buttonColor = [UIColor pinkLipstickColor];
+		self.talkButton.shadowColor = [UIColor eggplantColor];
 		self.talkButton.shadowHeight = 3.0f;
-		self.talkButton.cornerRadius = 6.0f;
-		[self.talkButton setTitle:@"点击继续" forState:UIControlStateNormal];
+		[self.talkButton setTitle:@"点此继续" forState:UIControlStateNormal];
 		[self.talkButton addTarget:self action:@selector(selectPressed:) forControlEvents:UIControlEventTouchUpInside];
 		[self.view addSubview:self.talkButton];
 		//link the components
@@ -94,6 +91,7 @@
 									 andBodyImageView:self.bodyImageView
 									 andFaceImageView:self.faceImageView
 											 andTalkLabel:self.talkLabel
+											andTalkButton:self.talkButton
 												andMainView:self];
 	}
 	return self;
@@ -101,7 +99,6 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	self.view.backgroundColor = [UIColor greenColor];
 	// Do any additional setup after loading the view.
 }
 
@@ -177,7 +174,7 @@
 
 -(void)selectPressed:(id)sender {
 	self.talkButton.enabled = false;
-	[UIView animateWithDuration:0.3 animations:^{
+	[UIView animateWithDuration:0.2 animations:^{
 		self.talkButton.alpha = 0.9;
 		self.talkButton.enabled = false;
 	} completion:^(BOOL finished) {
