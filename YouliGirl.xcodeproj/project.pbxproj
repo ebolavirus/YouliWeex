@@ -35,15 +35,11 @@
 		3D0E9B2F230AE4EC00F935A4 /* 剧本_20最后一天.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1C230AE4EC00F935A4 /* 剧本_20最后一天.txt */; };
 		3D0E9B30230AE4EC00F935A4 /* 剧本_09志愿.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1D230AE4EC00F935A4 /* 剧本_09志愿.txt */; };
 		3D0E9B31230AE4EC00F935A4 /* 花嫁之梦.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1E230AE4EC00F935A4 /* 花嫁之梦.txt */; };
-		3D0E9B32230AE4EC00F935A4 /* 剧本_03过去.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1F230AE4EC00F935A4 /* 剧本_03过去.txt */; };
 		3D0E9B33230AE4EC00F935A4 /* 剧本_06电影.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B20230AE4EC00F935A4 /* 剧本_06电影.txt */; };
-		3D0E9B34230AE4EC00F935A4 /* 剧本_00.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B21230AE4EC00F935A4 /* 剧本_00.txt */; };
 		3D0E9B35230AE4EC00F935A4 /* 剧本_07事故.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B22230AE4EC00F935A4 /* 剧本_07事故.txt */; };
 		3D0E9B36230AE4EC00F935A4 /* 星空的祈祷.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B23230AE4EC00F935A4 /* 星空的祈祷.txt */; };
 		3D0E9B37230AE4EC00F935A4 /* 结局.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B24230AE4EC00F935A4 /* 结局.txt */; };
-		3D0E9B38230AE4EC00F935A4 /* 剧本_01出浴.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B25230AE4EC00F935A4 /* 剧本_01出浴.txt */; };
 		3D0E9B39230AE4EC00F935A4 /* 剧本_04设计.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B26230AE4EC00F935A4 /* 剧本_04设计.txt */; };
-		3D0E9B3A230AE4EC00F935A4 /* 剧本_05用功.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B27230AE4EC00F935A4 /* 剧本_05用功.txt */; };
 		3D0E9B3B230AE4EC00F935A4 /* 接吻大作战.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B28230AE4EC00F935A4 /* 接吻大作战.txt */; };
 		3D0E9B3C230AE4EC00F935A4 /* 状态.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B29230AE4EC00F935A4 /* 状态.txt */; };
 		3D0E9B3D230AE4EC00F935A4 /* 剧本_02征寄.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B2A230AE4EC00F935A4 /* 剧本_02征寄.txt */; };
@@ -202,15 +198,11 @@
 		3D0E9B1C230AE4EC00F935A4 /* 剧本_20最后一天.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_20最后一天.txt"; sourceTree = "<group>"; };
 		3D0E9B1D230AE4EC00F935A4 /* 剧本_09志愿.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_09志愿.txt"; sourceTree = "<group>"; };
 		3D0E9B1E230AE4EC00F935A4 /* 花嫁之梦.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "花嫁之梦.txt"; sourceTree = "<group>"; };
-		3D0E9B1F230AE4EC00F935A4 /* 剧本_03过去.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_03过去.txt"; sourceTree = "<group>"; };
 		3D0E9B20230AE4EC00F935A4 /* 剧本_06电影.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_06电影.txt"; sourceTree = "<group>"; };
-		3D0E9B21230AE4EC00F935A4 /* 剧本_00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_00.txt"; sourceTree = "<group>"; };
 		3D0E9B22230AE4EC00F935A4 /* 剧本_07事故.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_07事故.txt"; sourceTree = "<group>"; };
 		3D0E9B23230AE4EC00F935A4 /* 星空的祈祷.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "星空的祈祷.txt"; sourceTree = "<group>"; };
 		3D0E9B24230AE4EC00F935A4 /* 结局.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "结局.txt"; sourceTree = "<group>"; };
-		3D0E9B25230AE4EC00F935A4 /* 剧本_01出浴.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_01出浴.txt"; sourceTree = "<group>"; };
 		3D0E9B26230AE4EC00F935A4 /* 剧本_04设计.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_04设计.txt"; sourceTree = "<group>"; };
-		3D0E9B27230AE4EC00F935A4 /* 剧本_05用功.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_05用功.txt"; sourceTree = "<group>"; };
 		3D0E9B28230AE4EC00F935A4 /* 接吻大作战.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "接吻大作战.txt"; sourceTree = "<group>"; };
 		3D0E9B29230AE4EC00F935A4 /* 状态.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "状态.txt"; sourceTree = "<group>"; };
 		3D0E9B2A230AE4EC00F935A4 /* 剧本_02征寄.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_02征寄.txt"; sourceTree = "<group>"; };
@@ -406,12 +398,8 @@
 				3D0E9B1E230AE4EC00F935A4 /* 花嫁之梦.txt */,
 				3D0E9B28230AE4EC00F935A4 /* 接吻大作战.txt */,
 				3D0E9B24230AE4EC00F935A4 /* 结局.txt */,
-				3D0E9B21230AE4EC00F935A4 /* 剧本_00.txt */,
-				3D0E9B25230AE4EC00F935A4 /* 剧本_01出浴.txt */,
 				3D0E9B2A230AE4EC00F935A4 /* 剧本_02征寄.txt */,
-				3D0E9B1F230AE4EC00F935A4 /* 剧本_03过去.txt */,
 				3D0E9B26230AE4EC00F935A4 /* 剧本_04设计.txt */,
-				3D0E9B27230AE4EC00F935A4 /* 剧本_05用功.txt */,
 				3D0E9B20230AE4EC00F935A4 /* 剧本_06电影.txt */,
 				3D0E9B22230AE4EC00F935A4 /* 剧本_07事故.txt */,
 				3D0E9B1B230AE4EC00F935A4 /* 剧本_08.5贫血.txt */,
@@ -928,12 +916,10 @@
 				3D4E61C323059C3D00F5D1C3 /* upload.png in Resources */,
 				3D4E61AE23059C3D00F5D1C3 /* enter.caf in Resources */,
 				3D4E61C123059C3D00F5D1C3 /* pagearrow_next.png in Resources */,
-				3D0E9B38230AE4EC00F935A4 /* 剧本_01出浴.txt in Resources */,
 				3D0E9B0C230AE14100F935A4 /* face02016.png in Resources */,
 				3D836697230438D200457999 /* Main.storyboard in Resources */,
 				3D0E9B39230AE4EC00F935A4 /* 剧本_04设计.txt in Resources */,
 				3D4E622A230A9B1200F5D1C3 /* anykeytoexit.png in Resources */,
-				3D0E9B32230AE4EC00F935A4 /* 剧本_03过去.txt in Resources */,
 				3D4E61F22308447800F5D1C3 /* bgm009.mp3 in Resources */,
 				3D0E9B03230AE14100F935A4 /* face02010.png in Resources */,
 				3D4E6235230A9B1200F5D1C3 /* text.png in Resources */,
@@ -958,7 +944,6 @@
 				3D4E61EB2308447800F5D1C3 /* bgm006.mp3 in Resources */,
 				3D4E6258230AE0AF00F5D1C3 /* yuri_epron_b.png in Resources */,
 				3D4E622B230A9B1200F5D1C3 /* saveupdata.png in Resources */,
-				3D0E9B3A230AE4EC00F935A4 /* 剧本_05用功.txt in Resources */,
 				3D0E9B09230AE14100F935A4 /* face02012.png in Resources */,
 				3D0E9B3D230AE4EC00F935A4 /* 剧本_02征寄.txt in Resources */,
 				3D4E61BE23059C3D00F5D1C3 /* icon_coin.png in Resources */,
@@ -977,7 +962,6 @@
 				3D4E61C623059C3D00F5D1C3 /* pagearrow_prev.png in Resources */,
 				3D4E6237230A9B1200F5D1C3 /* speakframe_new.png in Resources */,
 				3D4E6226230A9B1200F5D1C3 /* icon.png in Resources */,
-				3D0E9B34230AE4EC00F935A4 /* 剧本_00.txt in Resources */,
 				3D4E61BF23059C3D00F5D1C3 /* uploadblack.png in Resources */,
 				3D4E61AC23059C3D00F5D1C3 /* theme_coin.mp3 in Resources */,
 				3D4E623C230A9B1200F5D1C3 /* sleep.png in Resources */,

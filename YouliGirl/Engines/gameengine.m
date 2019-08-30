@@ -35,7 +35,7 @@
 {
 	self = [super init];
 	if (self) {
-		self.kGameArray = @[@0,@10,@19,@209];
+		self.kGameArray = @[@0,@10,@19,@39,@69,@70,@159,@209];
 		self.avg0Index = 0;
 		self.avg1Index = 0;
 	}
@@ -119,17 +119,14 @@
 	
 	NSString *title = [[self.storyArray objectAtIndex:0] substringFromIndex:8];
 //	[string componentsSeparatedByString:@"-"]
-	NSArray *choice1 = [[self.storyArray objectAtIndex:1] componentsSeparatedByString:@"-"];
-	NSArray *choice2 = [[self.storyArray objectAtIndex:2] componentsSeparatedByString:@"-"];
 	UIAlertController *vc = [UIAlertController alertControllerWithTitle:@"" message:title preferredStyle:UIAlertControllerStyleAlert];
-	UIAlertAction *action1 = [UIAlertAction actionWithTitle:[choice1 objectAtIndex:0] style:UIAlertActionStyleDefault handler:^(UIAlertAction *action){
-		[self dealWithDialogChoice:[choice1 objectAtIndex:1]];
-	}];
-	UIAlertAction *action2 = [UIAlertAction actionWithTitle:[choice2 objectAtIndex:0] style:UIAlertActionStyleDefault handler:^(UIAlertAction *action){
-		[self dealWithDialogChoice:[choice2 objectAtIndex:1]];
-	}];
-	[vc addAction:action1];
-	[vc addAction:action2];
+	for (int i = 1; i < self.storyArray.count; i++) {
+		NSArray *choice = [[self.storyArray objectAtIndex:i] componentsSeparatedByString:@"-"];
+		UIAlertAction *action = [UIAlertAction actionWithTitle:[choice objectAtIndex:0] style:UIAlertActionStyleDefault handler:^(UIAlertAction *action){
+			[self dealWithDialogChoice:[choice objectAtIndex:1]];
+		}];
+		[vc addAction:action];
+	}
 	[self.mainViewController presentViewController:vc animated:NO completion:nil];
 }
 
