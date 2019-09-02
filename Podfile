@@ -2,7 +2,6 @@
 # platform :ios, '7.0'
 
 target 'YouliGirl' do
-    pod 'AFNetworking'
 		pod 'Colours'
 		pod 'DNSInAppPurchaseManager'
     pod 'FlatUIKit'
@@ -10,8 +9,6 @@ target 'YouliGirl' do
     pod 'LKDBHelper'
     pod 'KGModal'
     pod 'Masonry'
-		pod 'NerdyUI'
-		pod 'ReactiveCocoa', '~> 2.5'
 		pod 'SoundManager'
     pod 'SVProgressHUD'
 end

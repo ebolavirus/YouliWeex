@@ -80,7 +80,7 @@
 		NSString *version = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
 		self.logoLabel = [UILabel new];
 		self.logoLabel.numberOfLines = 0;
-		self.logoLabel.text = [NSString stringWithFormat:@"Version：%@\nhttp://www.qianyanclub.com", version];
+		self.logoLabel.text = [NSString stringWithFormat:@"Version：%@", version];
 		self.logoLabel.textAlignment = NSTextAlignmentLeft;
 		self.logoLabel.textColor = [UIColor blackColor];
 		[self.view addSubview:self.logoLabel];

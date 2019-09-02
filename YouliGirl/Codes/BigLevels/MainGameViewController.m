@@ -113,7 +113,7 @@
 	WS(ws);
 	CGFloat layoutWidth = ws.view.frame.size.width;
 	CGFloat layoutHeight = ws.view.frame.size.height;
-	CGFloat youliWidth = ws.view.frame.size.height/3;
+	CGFloat youliWidth = ws.view.frame.size.height *2/5;
 	[self.timeLabel mas_makeConstraints:^(MASConstraintMaker *make) {
 		make.top.and.left.mas_equalTo(ws.view);
 		make.height.mas_equalTo(layoutWidth/10);
@@ -133,12 +133,12 @@
 	}];
 	[self.bgImageView mas_makeConstraints:^(MASConstraintMaker *make) {
 		make.left.and.width.mas_equalTo(ws.view);
-		make.height.mas_equalTo(youliWidth);
+		make.height.mas_equalTo(ws.view.frame.size.height/2);
 		make.top.mas_equalTo(ws.lifeLabel.mas_bottom);
 	}];
 	[self.bodyImageView mas_makeConstraints:^(MASConstraintMaker *make) {
 		make.width.and.height.mas_equalTo(youliWidth);
-		make.centerX.and.top.mas_equalTo(ws.bgImageView);
+		make.centerX.and.bottom.mas_equalTo(ws.bgImageView);
 	}];
 	// h 42 w 48 x 25 y 38
 	[self.faceImageView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -149,7 +149,7 @@
 	}];
 	[self.talkLabel mas_makeConstraints:^(MASConstraintMaker *make) {
 		make.width.mas_equalTo(ws.view);
-		make.height.mas_equalTo(youliWidth);
+		make.bottom.mas_equalTo(ws.view).with.offset(-layoutHeight/10);
 		make.left.mas_equalTo(ws.view);
 		make.top.mas_equalTo(ws.bodyImageView.mas_bottom);
 	}];

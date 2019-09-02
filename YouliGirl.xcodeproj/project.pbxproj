@@ -35,7 +35,6 @@
 		3D0E9B2F230AE4EC00F935A4 /* 剧本_20最后一天.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1C230AE4EC00F935A4 /* 剧本_20最后一天.txt */; };
 		3D0E9B30230AE4EC00F935A4 /* 剧本_09志愿.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1D230AE4EC00F935A4 /* 剧本_09志愿.txt */; };
 		3D0E9B31230AE4EC00F935A4 /* 花嫁之梦.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1E230AE4EC00F935A4 /* 花嫁之梦.txt */; };
-		3D0E9B33230AE4EC00F935A4 /* 剧本_06电影.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B20230AE4EC00F935A4 /* 剧本_06电影.txt */; };
 		3D0E9B35230AE4EC00F935A4 /* 剧本_07事故.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B22230AE4EC00F935A4 /* 剧本_07事故.txt */; };
 		3D0E9B36230AE4EC00F935A4 /* 星空的祈祷.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B23230AE4EC00F935A4 /* 星空的祈祷.txt */; };
 		3D0E9B37230AE4EC00F935A4 /* 结局.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B24230AE4EC00F935A4 /* 结局.txt */; };
@@ -58,16 +57,13 @@
 		3D4E618D23059C3D00F5D1C3 /* DBImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E611523059C3B00F5D1C3 /* DBImageItem.m */; };
 		3D4E618E23059C3D00F5D1C3 /* DBSaveItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E611623059C3B00F5D1C3 /* DBSaveItem.m */; };
 		3D4E618F23059C3D00F5D1C3 /* DBCacheItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E611923059C3B00F5D1C3 /* DBCacheItem.m */; };
-		3D4E619523059C3D00F5D1C3 /* BigStoreVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E612523059C3B00F5D1C3 /* BigStoreVController.m */; };
 		3D4E619623059C3D00F5D1C3 /* BigLevelsVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E612A23059C3B00F5D1C3 /* BigLevelsVController.m */; };
 		3D4E619923059C3D00F5D1C3 /* MainCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E612E23059C3B00F5D1C3 /* MainCollectionCell.xib */; };
 		3D4E619C23059C3D00F5D1C3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E613423059C3B00F5D1C3 /* Launch Screen.storyboard */; };
-		3D4E619D23059C3D00F5D1C3 /* BigAboutVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E613723059C3B00F5D1C3 /* BigAboutVController.m */; };
 		3D4E61A323059C3D00F5D1C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E614323059C3C00F5D1C3 /* AppDelegate.m */; };
 		3D4E61A423059C3D00F5D1C3 /* SMMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E614823059C3C00F5D1C3 /* SMMNavigationController.m */; };
 		3D4E61A523059C3D00F5D1C3 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E614B23059C3C00F5D1C3 /* UIColor+Hex.m */; };
 		3D4E61A623059C3D00F5D1C3 /* GameSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E614E23059C3C00F5D1C3 /* GameSettingViewController.m */; };
-		3D4E61A723059C3D00F5D1C3 /* tooles.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E615023059C3C00F5D1C3 /* tooles.m */; };
 		3D4E61A823059C3D00F5D1C3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E615223059C3C00F5D1C3 /* Localizable.strings */; };
 		3D4E61A923059C3D00F5D1C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E615423059C3C00F5D1C3 /* InfoPlist.strings */; };
 		3D4E61AA23059C3D00F5D1C3 /* BuyCoin4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E615723059C3C00F5D1C3 /* BuyCoin4.caf */; };
@@ -198,7 +194,6 @@
 		3D0E9B1C230AE4EC00F935A4 /* 剧本_20最后一天.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_20最后一天.txt"; sourceTree = "<group>"; };
 		3D0E9B1D230AE4EC00F935A4 /* 剧本_09志愿.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_09志愿.txt"; sourceTree = "<group>"; };
 		3D0E9B1E230AE4EC00F935A4 /* 花嫁之梦.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "花嫁之梦.txt"; sourceTree = "<group>"; };
-		3D0E9B20230AE4EC00F935A4 /* 剧本_06电影.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_06电影.txt"; sourceTree = "<group>"; };
 		3D0E9B22230AE4EC00F935A4 /* 剧本_07事故.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_07事故.txt"; sourceTree = "<group>"; };
 		3D0E9B23230AE4EC00F935A4 /* 星空的祈祷.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "星空的祈祷.txt"; sourceTree = "<group>"; };
 		3D0E9B24230AE4EC00F935A4 /* 结局.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "结局.txt"; sourceTree = "<group>"; };
@@ -224,24 +219,18 @@
 		3D4E611823059C3B00F5D1C3 /* DBImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBImageItem.h; sourceTree = "<group>"; };
 		3D4E611923059C3B00F5D1C3 /* DBCacheItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBCacheItem.m; sourceTree = "<group>"; };
 		3D4E611A23059C3B00F5D1C3 /* DBSaveItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSaveItem.h; sourceTree = "<group>"; };
-		3D4E612523059C3B00F5D1C3 /* BigStoreVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigStoreVController.m; sourceTree = "<group>"; };
-		3D4E612623059C3B00F5D1C3 /* BigStoreVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigStoreVController.h; sourceTree = "<group>"; };
 		3D4E612A23059C3B00F5D1C3 /* BigLevelsVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigLevelsVController.m; sourceTree = "<group>"; };
 		3D4E612D23059C3B00F5D1C3 /* BigLevelsVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigLevelsVController.h; sourceTree = "<group>"; };
 		3D4E612E23059C3B00F5D1C3 /* MainCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCollectionCell.xib; sourceTree = "<group>"; };
 		3D4E613423059C3B00F5D1C3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		3D4E613623059C3B00F5D1C3 /* BigAboutVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigAboutVController.h; sourceTree = "<group>"; };
-		3D4E613723059C3B00F5D1C3 /* BigAboutVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigAboutVController.m; sourceTree = "<group>"; };
 		3D4E613F23059C3B00F5D1C3 /* DogSlize-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DogSlize-Prefix.pch"; sourceTree = "<group>"; };
 		3D4E614323059C3C00F5D1C3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3D4E614723059C3C00F5D1C3 /* SMMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMNavigationController.h; sourceTree = "<group>"; };
 		3D4E614823059C3C00F5D1C3 /* SMMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMNavigationController.m; sourceTree = "<group>"; };
-		3D4E614923059C3C00F5D1C3 /* tooles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tooles.h; sourceTree = "<group>"; };
 		3D4E614B23059C3C00F5D1C3 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		3D4E614C23059C3C00F5D1C3 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		3D4E614E23059C3C00F5D1C3 /* GameSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSettingViewController.m; sourceTree = "<group>"; };
 		3D4E614F23059C3C00F5D1C3 /* GameSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSettingViewController.h; sourceTree = "<group>"; };
-		3D4E615023059C3C00F5D1C3 /* tooles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tooles.m; sourceTree = "<group>"; };
 		3D4E615323059C3C00F5D1C3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = Localizable.strings; sourceTree = "<group>"; };
 		3D4E615523059C3C00F5D1C3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = InfoPlist.strings; sourceTree = "<group>"; };
 		3D4E615723059C3C00F5D1C3 /* BuyCoin4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuyCoin4.caf; sourceTree = "<group>"; };
@@ -400,7 +389,6 @@
 				3D0E9B24230AE4EC00F935A4 /* 结局.txt */,
 				3D0E9B2A230AE4EC00F935A4 /* 剧本_02征寄.txt */,
 				3D0E9B26230AE4EC00F935A4 /* 剧本_04设计.txt */,
-				3D0E9B20230AE4EC00F935A4 /* 剧本_06电影.txt */,
 				3D0E9B22230AE4EC00F935A4 /* 剧本_07事故.txt */,
 				3D0E9B1B230AE4EC00F935A4 /* 剧本_08.5贫血.txt */,
 				3D0E9B2B230AE4EC00F935A4 /* 剧本_08月经.txt */,
@@ -441,9 +429,7 @@
 		3D4E611323059C3B00F5D1C3 /* Codes */ = {
 			isa = PBXGroup;
 			children = (
-				3D4E613523059C3B00F5D1C3 /* BigAbout */,
 				3D4E612723059C3B00F5D1C3 /* BigLevels */,
-				3D4E612423059C3B00F5D1C3 /* BigStore */,
 				3D4E611423059C3B00F5D1C3 /* DBItems */,
 				3D4E613423059C3B00F5D1C3 /* Launch Screen.storyboard */,
 				3D955D98230ED7D8007FDDF1 /* Stories */,
@@ -464,15 +450,6 @@
 			path = DBItems;
 			sourceTree = "<group>";
 		};
-		3D4E612423059C3B00F5D1C3 /* BigStore */ = {
-			isa = PBXGroup;
-			children = (
-				3D4E612523059C3B00F5D1C3 /* BigStoreVController.m */,
-				3D4E612623059C3B00F5D1C3 /* BigStoreVController.h */,
-			);
-			path = BigStore;
-			sourceTree = "<group>";
-		};
 		3D4E612723059C3B00F5D1C3 /* BigLevels */ = {
 			isa = PBXGroup;
 			children = (
@@ -485,15 +462,6 @@
 				3D69480F230C1680009D6DAC /* YLStartViewController.m */,
 			);
 			path = BigLevels;
-			sourceTree = "<group>";
-		};
-		3D4E613523059C3B00F5D1C3 /* BigAbout */ = {
-			isa = PBXGroup;
-			children = (
-				3D4E613623059C3B00F5D1C3 /* BigAboutVController.h */,
-				3D4E613723059C3B00F5D1C3 /* BigAboutVController.m */,
-			);
-			path = BigAbout;
 			sourceTree = "<group>";
 		};
 		3D4E614423059C3C00F5D1C3 /* Base.lproj */ = {
@@ -511,8 +479,6 @@
 				3D955D9C230FE321007FDDF1 /* gameengine.m */,
 				3D4E614D23059C3C00F5D1C3 /* GameSettingMenu */,
 				3D4E614623059C3C00F5D1C3 /* SMMNavigationController */,
-				3D4E614923059C3C00F5D1C3 /* tooles.h */,
-				3D4E615023059C3C00F5D1C3 /* tooles.m */,
 				3D4E614A23059C3C00F5D1C3 /* uicolor_hex */,
 			);
 			path = Engines;
@@ -895,7 +861,6 @@
 				3D4E619C23059C3D00F5D1C3 /* Launch Screen.storyboard in Resources */,
 				3D4E6251230A9B1200F5D1C3 /* upface.png in Resources */,
 				3D0E9B3F230AE4EC00F935A4 /* 日历.txt in Resources */,
-				3D0E9B33230AE4EC00F935A4 /* 剧本_06电影.txt in Resources */,
 				3D0E9B35230AE4EC00F935A4 /* 剧本_07事故.txt in Resources */,
 				3D0E9B0A230AE14100F935A4 /* face02006.png in Resources */,
 				3D4E61CA23059C3D00F5D1C3 /* coin0.png in Resources */,
@@ -1025,14 +990,11 @@
 				3D694811230C1681009D6DAC /* YLStartViewController.m in Sources */,
 				3D955D9E230FE321007FDDF1 /* gameengine.m in Sources */,
 				3D83669F230438D400457999 /* main.m in Sources */,
-				3D4E619D23059C3D00F5D1C3 /* BigAboutVController.m in Sources */,
 				3D4E61A423059C3D00F5D1C3 /* SMMNavigationController.m in Sources */,
 				3D4E618E23059C3D00F5D1C3 /* DBSaveItem.m in Sources */,
-				3D4E61A723059C3D00F5D1C3 /* tooles.m in Sources */,
 				3D955D97230ED3AA007FDDF1 /* MainGameViewController.m in Sources */,
 				3D4E61A623059C3D00F5D1C3 /* GameSettingViewController.m in Sources */,
 				3D955D9B230EE0CA007FDDF1 /* stories.m in Sources */,
-				3D4E619523059C3D00F5D1C3 /* BigStoreVController.m in Sources */,
 				3D4E61A523059C3D00F5D1C3 /* UIColor+Hex.m in Sources */,
 				3D4E618F23059C3D00F5D1C3 /* DBCacheItem.m in Sources */,
 			);

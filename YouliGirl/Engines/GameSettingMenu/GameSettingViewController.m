@@ -92,9 +92,6 @@
 		countSlider.maximumValue = 10;
 		countSlider.continuous = YES;
 		countSlider.value = APPALL.myCacheItem.countNum;
-		[[countSlider rac_signalForControlEvents:UIControlEventValueChanged] subscribeNext:^(id x) {
-			[self countChanged:nil];
-		}];
 		[self.view addSubview:countSlider];
 		
 		self.countNum = [[UILabel alloc] init];
@@ -112,9 +109,6 @@
 		rotateSwitch.onLabel.font = [UIFont boldFlatFontOfSize:14];
 		rotateSwitch.onLabel.text = mmsloc("configon");
 		rotateSwitch.offLabel.text = mmsloc("configoff");
-		[[rotateSwitch rac_signalForControlEvents:UIControlEventValueChanged] subscribeNext:^(id x) {
-			[self switchChanged:@"rotate"];
-		}];
 		[self.view addSubview:rotateSwitch];
 		
 		self.musicSwitch = [[FUISwitch alloc] init];
@@ -126,9 +120,6 @@
 		musicSwitch.onLabel.font = [UIFont boldFlatFontOfSize:14];
 		musicSwitch.onLabel.text = mmsloc("configon");
 		musicSwitch.offLabel.text = mmsloc("configoff");
-		[[musicSwitch rac_signalForControlEvents:UIControlEventValueChanged] subscribeNext:^(id x) {
-			[self switchChanged:@"music"];
-		}];
 		[self.view addSubview:musicSwitch];
 		
 		self.edgeSwitch = [[FUISwitch alloc] init];
@@ -140,9 +131,6 @@
 		edgeSwitch.onLabel.font = [UIFont boldFlatFontOfSize:14];
 		edgeSwitch.onLabel.text = mmsloc("configon");
 		edgeSwitch.offLabel.text = mmsloc("configoff");
-		[[edgeSwitch rac_signalForControlEvents:UIControlEventValueChanged] subscribeNext:^(id x) {
-			[self switchChanged:@"edge"];
-		}];
 		[self.view addSubview:edgeSwitch];
 		
 		self.tipSwitch = [[FUISwitch alloc] init];
@@ -154,9 +142,9 @@
 		tipSwitch.onLabel.font = [UIFont boldFlatFontOfSize:14];
 		tipSwitch.onLabel.text = mmsloc("configon");
 		tipSwitch.offLabel.text = mmsloc("configoff");
-		[[tipSwitch rac_signalForControlEvents:UIControlEventValueChanged] subscribeNext:^(id x) {
-			[self switchChanged:@"tip"];
-		}];
+//		[[tipSwitch rac_signalForControlEvents:UIControlEventValueChanged] subscribeNext:^(id x) {
+//			[self switchChanged:@"tip"];
+//		}];
 		[self.view addSubview:tipSwitch];
 		
 		self.backButton = [[FUIButton alloc] init];
@@ -164,9 +152,9 @@
 		backButton.shadowColor = MMColorBrown;
 		backButton.shadowHeight = 2;
 		[backButton setTitle:mmsloc("naviback") forState:UIControlStateNormal];
-		[[backButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
-			[self backPressed:nil];
-		}];
+//		[[backButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
+//			[self backPressed:nil];
+//		}];
 		[self.view addSubview:backButton];
 		
 		self.nextButton = [[FUIButton alloc] init];
@@ -174,9 +162,6 @@
 		nextButton.shadowColor = MMColorBrown;
 		nextButton.shadowHeight = 2;
 		[nextButton setTitle:mmsloc("navistart") forState:UIControlStateNormal];
-		[[nextButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
-			[self nextPressed:nil];
-		}];
 		[self.view addSubview:nextButton];
 	}
 	return self;

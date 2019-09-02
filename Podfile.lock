@@ -1,20 +1,4 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
-  - AVOSCloud (11.6.6)
   - Colours (5.13.0):
     - Colours/ObjC (= 5.13.0)
   - Colours/ObjC (5.13.0)
@@ -30,29 +14,10 @@ PODS:
   - LKDBHelper/standard (2.5.1):
     - FMDB
   - Masonry (1.1.0)
-  - NerdyUI (1.2.1):
-    - NerdyUI/Chainable (= 1.2.1)
-    - NerdyUI/Private (= 1.2.1)
-    - NerdyUI/Public (= 1.2.1)
-  - NerdyUI/Chainable (1.2.1):
-    - NerdyUI/Private
-    - NerdyUI/Public
-  - NerdyUI/Private (1.2.1)
-  - NerdyUI/Public (1.2.1):
-    - NerdyUI/Private
-  - ReactiveCocoa (2.5):
-    - ReactiveCocoa/UI (= 2.5)
-  - ReactiveCocoa/Core (2.5):
-    - ReactiveCocoa/no-arc
-  - ReactiveCocoa/no-arc (2.5)
-  - ReactiveCocoa/UI (2.5):
-    - ReactiveCocoa/Core
   - SoundManager (1.4.2)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - AFNetworking
-  - AVOSCloud
   - Colours
   - DNSInAppPurchaseManager
   - FlatUIKit
@@ -60,15 +25,11 @@ DEPENDENCIES:
   - KGModal
   - LKDBHelper
   - Masonry
-  - NerdyUI
-  - ReactiveCocoa (~> 2.5)
   - SoundManager
   - SVProgressHUD
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - AFNetworking
-    - AVOSCloud
     - Colours
     - DNSInAppPurchaseManager
     - FlatUIKit
@@ -77,14 +38,10 @@ SPEC REPOS:
     - KGModal
     - LKDBHelper
     - Masonry
-    - NerdyUI
-    - ReactiveCocoa
     - SoundManager
     - SVProgressHUD
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  AVOSCloud: 72406411971a34cf0f7cef9cf016c0032c51a639
   Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
   DNSInAppPurchaseManager: 24e57d6e653dfe51ecc6c349646c4cb23fc5e3ea
   FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
@@ -93,11 +50,9 @@ SPEC CHECKSUMS:
   KGModal: f408e450d4fc683d5cb06b6bb566b04ac34b7ce7
   LKDBHelper: 9a276ba51f2e16263d46a9517e16cc9b03472664
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  NerdyUI: ae4506046b544a5cdc0873a58c1ece61b29631d0
-  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SoundManager: 99ae328a3ec9b259db774c9851a65feeceba8183
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 9b4d0acce6668aa82e67e26904ed0d19a6574888
+PODFILE CHECKSUM: 447f9ad35578c3ad456ad25a04fe1973ca8b7721
 
 COCOAPODS: 1.7.4

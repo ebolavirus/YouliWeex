@@ -35,7 +35,7 @@
 {
 	self = [super init];
 	if (self) {
-		self.kGameArray = @[@0,@10,@19,@39,@69,@70,@159,@209];
+		self.kGameArray = @[@0,@10,@19,@39,@69,@70,@119,@159,@209];
 		self.avg0Index = 0;
 		self.avg1Index = 0;
 	}
@@ -204,6 +204,15 @@
 		//展示标题
 		case 2: {
 			self.bgImageView.hidden = true;
+			self.bodyImageView.hidden = true;
+			self.faceImageView.hidden = true;
+			self.mainViewController.title = [choice objectAtIndex:3];
+			[self dealWithTalkandBgm:choice];
+			break;
+		}
+		//展示事件
+		case 3: {
+			self.bgImageView.hidden = false;
 			self.bodyImageView.hidden = true;
 			self.faceImageView.hidden = true;
 			self.mainViewController.title = [choice objectAtIndex:3];
