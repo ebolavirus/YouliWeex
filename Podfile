@@ -5,7 +5,6 @@ target 'YouliGirl' do
 		pod 'Colours'
 		pod 'DNSInAppPurchaseManager'
     pod 'FlatUIKit'
-		pod 'FTCoreText'
     pod 'LKDBHelper'
     pod 'KGModal'
     pod 'Masonry'

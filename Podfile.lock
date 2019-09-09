@@ -7,7 +7,6 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
-  - FTCoreText (1.0.1)
   - KGModal (1.2.0)
   - LKDBHelper (2.5.1):
     - LKDBHelper/standard (= 2.5.1)
@@ -21,7 +20,6 @@ DEPENDENCIES:
   - Colours
   - DNSInAppPurchaseManager
   - FlatUIKit
-  - FTCoreText
   - KGModal
   - LKDBHelper
   - Masonry
@@ -34,7 +32,6 @@ SPEC REPOS:
     - DNSInAppPurchaseManager
     - FlatUIKit
     - FMDB
-    - FTCoreText
     - KGModal
     - LKDBHelper
     - Masonry
@@ -46,13 +43,12 @@ SPEC CHECKSUMS:
   DNSInAppPurchaseManager: 24e57d6e653dfe51ecc6c349646c4cb23fc5e3ea
   FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  FTCoreText: 7bc3eb236f5eee4bcd33486d693376c04b08a3d4
   KGModal: f408e450d4fc683d5cb06b6bb566b04ac34b7ce7
   LKDBHelper: 9a276ba51f2e16263d46a9517e16cc9b03472664
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SoundManager: 99ae328a3ec9b259db774c9851a65feeceba8183
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 447f9ad35578c3ad456ad25a04fe1973ca8b7721
+PODFILE CHECKSUM: b2e59dcda486f1e705c285d8c6e0d8941949b5ab
 
 COCOAPODS: 1.7.4

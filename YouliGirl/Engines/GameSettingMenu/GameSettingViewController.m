@@ -95,7 +95,7 @@
 		[self.view addSubview:countSlider];
 		
 		self.countNum = [[UILabel alloc] init];
-		countNum.text = [NSString stringWithFormat:@"%ld*%ld",APPALL.myCacheItem.countNum,APPALL.myCacheItem.countNum];
+		countNum.text = [NSString stringWithFormat:@"%zd*%zd",APPALL.myCacheItem.countNum,APPALL.myCacheItem.countNum];
 		countNum.font = [UIFont flatFontOfSize:16.0f];
 		countNum.textAlignment = NSTextAlignmentRight;
 		[self.view addSubview:countNum];
@@ -273,7 +273,7 @@
 -(void)countChanged:(UISlider*)sender {
 	NSInteger i = (NSInteger)[self.countSlider value];
 	APPALL.myCacheItem.countNum = i;
-	self.countNum.text = [NSString stringWithFormat:@"%ld*%ld",i,i];
+	self.countNum.text = [NSString stringWithFormat:@"%zd*%zd",i,i];
 }
 
 -(void)switchChanged:(NSString*)aTag {

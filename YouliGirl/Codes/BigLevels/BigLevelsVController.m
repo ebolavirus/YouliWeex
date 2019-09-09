@@ -72,11 +72,11 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
 	static NSString *cellIdentifier = @"MainCID";
 	UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
-	UILabel *lab1 = (UILabel *)[cell viewWithTag:1];
-	UIImageView *img2 = (UIImageView *)[cell viewWithTag:2];
+//	UILabel *lab1 = (UILabel *)[cell viewWithTag:1];
+//	UIImageView *img2 = (UIImageView *)[cell viewWithTag:2];
 //	DBImageItem *cacheItem = [APPALL.myImageArray objectAtIndex:indexPath.row];
-	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-	[dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss zzz"];
+//	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+//	[dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss zzz"];
 //	lab1.text = [dateFormatter stringFromDate:cacheItem.imageDate];
 //	img2.image = [UIImage imageWithData:cacheItem.imageData];
 	return cell;

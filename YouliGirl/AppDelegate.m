@@ -102,15 +102,15 @@
 		return;
 	}
 	if(storePayStatus == EStoreNotReached){
-		[self.myIAPDelegate VCIAPFailed:mmsloc("iapLinking")];
+		[self.myIAPDelegate VCIAPFailed:@"正在连接支付系统，请稍后再试。"];
 		return;
 	}
 	if(storePayStatus == EStoreCanNotPay){
-		[self.myIAPDelegate VCIAPFailed:mmsloc("iapGetFailed")];
+		[self.myIAPDelegate VCIAPFailed:@"获取支付详情失败，请检查网络后重启软件。"];
 		return;
 	}
 	if(storePayStatus == EStoreReachFailed){
-		[self.myIAPDelegate VCIAPFailed:mmsloc("iapLinkFailed")];
+		[self.myIAPDelegate VCIAPFailed:@"连接支付系统失败，请检查网络后重启软件。"];
 		return;
 	}
 	if(storePayStatus != EStoreCanPay)
@@ -130,7 +130,7 @@
 		}
 	}
 	if(!findProduct){
-		[self.myIAPDelegate VCIAPFailed:mmsloc("iapNoneFailed")];
+		[self.myIAPDelegate VCIAPFailed:@"未查询到该商品信息，请确保软件为正版。"];
 		return;
 	}
 }
@@ -160,19 +160,19 @@
 
 -(void)purchaseFailed:(NSString *)errorMessage
 {
-	[self.myIAPDelegate VCIAPFailed:[NSString stringWithFormat:@"%@：%@",mmsloc("payfailed"),errorMessage]];
+	[self.myIAPDelegate VCIAPFailed:[NSString stringWithFormat:@"%@：%@",@"支付失败",errorMessage]];
 }
 
 -(void)purchaseCancelled
 {
-	[self.myIAPDelegate VCIAPFailed:mmsloc("qxzf")];
+	[self.myIAPDelegate VCIAPFailed:@"取消支付"];
 }
 
 -(void)purchaseSucceeded:(NSString *)productIdentifier
 {
 	if(!productIdentifier.length)
 	{
-		[self.myIAPDelegate VCIAPFailed:mmsloc("zfsb_zfcscw")];
+		[self.myIAPDelegate VCIAPFailed:@"支付失败，支付参数错误。"];
 		return;
 	}
 	[self.myIAPDelegate VCIAPSucceed:productIdentifier];

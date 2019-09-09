@@ -215,7 +215,6 @@
 			self.bgImageView.hidden = false;
 			self.bodyImageView.hidden = true;
 			self.faceImageView.hidden = true;
-			self.mainViewController.title = [choice objectAtIndex:3];
 			[self dealWithTalkandBgm:choice];
 			break;
 		}

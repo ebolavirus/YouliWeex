@@ -15,7 +15,7 @@
 			// 规则
 			// 普通剧本
 			// 第一个元素：storyb/w-祐莉衣服-背景-初始bgm-0（好感度变化）
-			// 第二个元素开始: 0/1/2(是否展示祐莉，2为标题)-12（祐莉表情）-speaker-text（文本）-bgm（新bgm）
+			// 第二个元素开始: 0/1/2/3(是否展示祐莉，2为标题,3为场景图片)-12（祐莉表情）-speaker-text（文本）-bgm（新bgm）
 			// 最后一个元素：end-index（下一个元素index）
 			// dialog
 			// 第一个元素：dialogb/w-问句
@@ -547,7 +547,7 @@
 			 @"0-lt-我-咦？祐莉，妳在幹嘛？爬到那麼高的地方，很危險的！-lt",
 			 @"1-0-祐莉-啊，達令！沒有啦，我只是想把整理好裝箱的雜物，放到櫃子上頭……-lt",
 			 @"1-lt-我-妳這樣站在椅子上很危險的，快點下來，我幫妳放吧！-lt",
-			 @"1-face02005-好、好吧！-lt",
+			 @"1-face02005-祐莉-好、好吧！-lt",
 			 @"1-lt-0-祐莉小心地慢慢從椅子上爬下來。-lt",
 			 @"1-face02009-祐莉-達令，那就麻煩你了。你也要小心哦！-lt",
 			 @"1-lt-我-知道了，交給我吧！那也麻煩你幫我把椅子扶好哦！-lt",
@@ -560,63 +560,41 @@
 			 @"0-0-祐莉-達令！-lt",
 			 @"0-0-0-…………-lt",
 			 @"0-0-0-…………………………-lt",
+			 @"0-0-0-……令……-lt",
+			 @"0-0-0-……達令……-lt",
+			 @"0-0-0-達令！-lt",
+			 @"0-0-我-唔唔……。-lt",
+			 @"0-0-祐莉-達令！醒醒啊！-lt",
+			 @"0-0-我-唔……好痛……-lt",
+			 @"0-0-祐莉-達令！太好了，你終於醒過來了！-lt",
+			 @"0-0-我-！-lt",
+			 @"end-1",
+			 nil];
+			NSArray *array1story =
+			[NSArray arrayWithObjects:
+			 @"storyb-face01002-hurt-bgm010-10",
+			 @"3-0-0-我醒來時，發現自己躺在地板，頭則是靠在祐莉的大腿上。祐莉一副擔心的表情，一直望著我。-lt",
+			 @"3-0-我-剛剛……發生什麼事了……？-lt",
+			 @"3-0-祐莉-剛剛你從椅子上摔下來以後，就突然昏了過去呢！-lt",
+			 @"3-0-祐莉-達令……對不起！都是我不小心，害你受了傷……-lt",
+			 @"3-0-我-哪裡……有沒有撞到妳？妳沒事吧？-lt",
+			 @"3-0-祐莉-我沒事的！達令真是的，自己都昏了過去，還在擔心我……-lt",
+			 @"3-0-我-因為……妳是我最重要的人啊！-lt",
+			 @"3-0-祐莉-傻瓜……-lt",
+			 @"3-0-我-不過，我滿意外的…以前妳一有什麼事情，都會叫別人幫忙的…現在妳也會自己動手啊！-lt",
+			 @"3-0-祐莉-我、我也不能老是依賴別人啊！這、這樣下去的話…-lt",
+			 @"3-0-我-？-lt",
+			 @"3-0-祐莉-沒、沒什麼啦……-lt",
+			 @"3-0-我-祐莉……像這樣躺在妳懷裡，感覺真溫暖……-lt",
+			 @"3-0-祐莉-達令……-lt",
+			 @"3-0-我-可以……繼續再讓我躺一下嗎？-lt",
+			 @"3-0-祐莉-嗯嗯……是達令的話……就可以的……-lt",
+			 @"3-0-0-我就這樣，任性地躺在祐莉的大腿上，繼續享受這溫柔的時光。-lt",
+			 @"3-0-0-祐莉的好感度提升了！-lt",
 			 @"end-end",
 			 nil];
-			return [NSArray arrayWithObjects:array0story, nil];
+			return [NSArray arrayWithObjects:array0story, array1story, nil];
 		}
-			/*
-			跌倒-黑
-			……令……
-			……達令……
-			達令！
-			我：
-			唔唔……。
-			祐莉：
-			達令！醒醒啊！
-			我：
-			唔……好痛……
-			祐莉：
-			達令！太好了，你終於醒過來了！
-			我：
-			！
-			
-			跌倒-枕膝
-			hurt
-			bgm010
-			我醒來時，發現自己躺在地板，頭則是靠在祐莉的大腿上。祐莉一副擔心的表情，一直望著我。
-			我：
-			剛剛……發生什麼事了……？
-			祐莉：
-			剛剛你從椅子上摔下來以後，就突然昏了過去呢！
-			祐莉：
-			達令……對不起！都是我不小心，害你受了傷……
-			我：
-			哪裡……有沒有撞到妳？妳沒事吧？
-			祐莉：
-			我沒事的！達令真是的，自己都昏了過去，還在擔心我……
-			我：
-			因為……妳是我最重要的人啊！
-			祐莉：
-			傻瓜……
-			我：
-			不過，我滿意外的…以前妳一有什麼事情，都會叫別人幫忙的…現在妳也會自己動手啊！
-			祐莉：
-			我、我也不能老是依賴別人啊！這、這樣下去的話…
-			我：
-			？
-			祐莉：
-			沒、沒什麼啦……
-			我：
-			祐莉……像這樣躺在妳懷裡，感覺真溫暖……
-			祐莉：
-			達令……
-			我：
-			可以……繼續再讓我躺一下嗎？
-			祐莉：
-			嗯嗯……是達令的話……就可以的……
-			我就這樣，任性地躺在祐莉的大腿上，繼續享受這溫柔的時光。
-			祐莉的好感度提升了！
-			*/
 		case 159: {
 			NSArray *array0story =
 			[NSArray arrayWithObjects:
@@ -695,171 +673,6 @@
 		default:
 			return [NSArray array];
 	}
-}
-
-+(UIImage*)getImageByColor:(UIColor*)aColor
-{
-	CGSize as = CGSizeMake(1, 1);
-	UIImage *img = nil;
-	CGRect rect = CGRectMake(0, 0, as.width, as.height);
-	UIGraphicsBeginImageContext(rect.size);
-	CGContextRef context = UIGraphicsGetCurrentContext();
-	CGContextSetFillColorWithColor(context,
-																 aColor.CGColor);
-	CGContextFillRect(context, rect);
-	img = UIGraphicsGetImageFromCurrentImageContext();
-	UIGraphicsEndImageContext();
-	return img;
-}
-
-+ (NSString *)defaultViewControllerWithNibName:(NSString *)nibNameOrNil
-{
-	if (KDeviceHeight==480) {
-		//iphone 3G,4,4s
-		return [NSString stringWithFormat:@"%@_4",nibNameOrNil];
-	}
-	return nibNameOrNil;
-}
-
-+(float)DeviceVersion
-{
-	return [[UIDevice currentDevice].systemVersion doubleValue];
-}
-
-+(UIImage *)grayImage:(UIImage *)sourceImage
-{
-	int bitmapInfo = kCGImageAlphaNone;
-	int width = sourceImage.size.width;
-	int height = sourceImage.size.height;
-	CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceGray();
-	CGContextRef context = CGBitmapContextCreate (nil,
-																								width,
-																								height,
-																								8,      // bits per component
-																								0,
-																								colorSpace,
-																								bitmapInfo);
-	CGColorSpaceRelease(colorSpace);
-	if (context == NULL) {
-		return nil;
-	}
-	CGContextDrawImage(context,
-										 CGRectMake(0, 0, width, height), sourceImage.CGImage);
-	UIImage *grayImage = [UIImage imageWithCGImage:CGBitmapContextCreateImage(context)];
-	CGContextRelease(context);
-	return grayImage;
-}
-
-+(UIImage *)reSizeImage:(UIImage *)image toSize:(CGSize)reSize
-{
-	UIGraphicsBeginImageContext(CGSizeMake(reSize.width, reSize.height));
-	[image drawInRect:CGRectMake(0, 0, reSize.width, reSize.height)];
-	UIImage *reSizeImage = UIGraphicsGetImageFromCurrentImageContext();
-	UIGraphicsEndImageContext();
-	return reSizeImage;
-	
-}
-
-+(UIImage *)cropSquareImage:(UIImage *)image {
-	CGFloat width = image.size.width;
-	CGFloat height = image.size.height;
-	CGFloat edge = MIN(width, height);
-	CGRect rect = CGRectMake((edge-width)/2,(edge-height)/2, width,height);
-	UIGraphicsBeginImageContext(CGSizeMake(edge, edge));
-	[image drawInRect:rect];
-	UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
-	UIGraphicsEndImageContext();
-	return  newImage;
-}
-
-+(UIImage *)rotateImage:(UIImage *)aImage
-{
-	CGImageRef imgRef = aImage.CGImage;
-	CGFloat width = CGImageGetWidth(imgRef);
-	CGFloat height = CGImageGetHeight(imgRef);
-	CGAffineTransform transform = CGAffineTransformIdentity;
-	CGRect bounds = CGRectMake(0, 0, width, height);
-	CGFloat scaleRatio = 1;
-	CGFloat boundHeight;
-	UIImageOrientation orient = aImage.imageOrientation;
-	
-	switch(orient)
-	{
-		case UIImageOrientationUp: //EXIF = 1
-			transform = CGAffineTransformIdentity;
-			break;
-		case UIImageOrientationUpMirrored: //EXIF = 2
-			transform = CGAffineTransformMakeTranslation(width, 0.0);
-			transform = CGAffineTransformScale(transform, -1.0, 1.0);
-			break;
-		case UIImageOrientationDown: //EXIF = 3
-			transform = CGAffineTransformMakeTranslation(width, height);
-			transform = CGAffineTransformRotate(transform, M_PI);
-			break;
-		case UIImageOrientationDownMirrored: //EXIF = 4
-			transform = CGAffineTransformMakeTranslation(0.0, height);
-			transform = CGAffineTransformScale(transform, 1.0, -1.0);
-			break;
-		case UIImageOrientationLeftMirrored: //EXIF = 5
-			boundHeight = bounds.size.height;
-			bounds.size.height = bounds.size.width;
-			bounds.size.width = boundHeight;
-			transform = CGAffineTransformMakeTranslation(height, width);
-			transform = CGAffineTransformScale(transform, -1.0, 1.0);
-			transform = CGAffineTransformRotate(transform, 3.0 * M_PI / 2.0);
-			break;
-		case UIImageOrientationLeft: //EXIF = 6
-			boundHeight = bounds.size.height;
-			bounds.size.height = bounds.size.width;
-			bounds.size.width = boundHeight;
-			transform = CGAffineTransformMakeTranslation(0.0, width);
-			transform = CGAffineTransformRotate(transform, 3.0 * M_PI / 2.0);
-			break;
-		case UIImageOrientationRightMirrored: //EXIF = 7
-			boundHeight = bounds.size.height;
-			bounds.size.height = bounds.size.width;
-			bounds.size.width = boundHeight;
-			transform = CGAffineTransformMakeScale(-1.0, 1.0);
-			transform = CGAffineTransformRotate(transform, M_PI / 2.0);
-			break;
-		case UIImageOrientationRight: //EXIF = 8
-			boundHeight = bounds.size.height;
-			bounds.size.height = bounds.size.width;
-			bounds.size.width = boundHeight;
-			transform = CGAffineTransformMakeTranslation(height, 0.0);
-			transform = CGAffineTransformRotate(transform, M_PI / 2.0);
-			break;
-		default:
-			[NSException raise:NSInternalInconsistencyException format:@"Invalid image orientation"];
-	}
-	UIGraphicsBeginImageContext(bounds.size);
-	CGContextRef context = UIGraphicsGetCurrentContext();
-	if (orient == UIImageOrientationRight || orient == UIImageOrientationLeft) {
-		CGContextScaleCTM(context, -scaleRatio, scaleRatio);
-		CGContextTranslateCTM(context, -height, 0);
-	}
-	else {
-		CGContextScaleCTM(context, scaleRatio, -scaleRatio);
-		CGContextTranslateCTM(context, 0, -height);
-	}
-	CGContextConcatCTM(context, transform);
-	CGContextDrawImage(UIGraphicsGetCurrentContext(), CGRectMake(0, 0, width, height), imgRef);
-	UIImage *imageCopy = UIGraphicsGetImageFromCurrentImageContext();
-	UIGraphicsEndImageContext();
-	return imageCopy;
-}
-
-+(BOOL)isTheStr:(NSString *)aStr hasContainTheSubStr:(NSString *)bStr
-{
-	NSRange range=[aStr rangeOfString:bStr];
-	return range.location != NSNotFound;
-}
-
-+(float)computeFloat:(float)f modulo:(float)m {
-	float result = f - floor((f)/m)*m;
-	if (result>m-0.2) result = 0;
-	if (result<0) result = 0;
-	return result;
 }
 
 @end

@@ -21,18 +21,9 @@
 
 #define SAVEITEM 20
 
-#define DEVTEST 0
-
-#define IMAGE_QUALITY 0.5
-
 #define kDeviceWidth [UIScreen mainScreen].bounds.size.width
 #define KDeviceHeight [UIScreen mainScreen].bounds.size.height
 #define mmsloc(x) NSLocalizedString(@x, nil)
-
-#define levelNum 20
-
-//过一关奖励金币数
-#define kCoinReward 10
 //全局变量
 #define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
 #define APPALL ((AppDelegate*)[[UIApplication sharedApplication] delegate])

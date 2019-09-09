@@ -106,7 +106,6 @@
 
 -(void)viewWillAppear:(BOOL)animated {
 	[super viewWillAppear:animated];
-	NSLog(@"will appear....bbb, %ld", APPALL.gameStartFlag);
 	if (APPALL.gameStartFlag < 0) {
 		return;
 	}
@@ -163,7 +162,6 @@
 
 -(void)viewDidAppear:(BOOL)animated {
 	[super viewDidAppear:animated];
-	NSLog(@"did appear....bbb, %ld", APPALL.gameStartFlag);
 	if (APPALL.gameStartFlag < 0) {
 		return;
 	}
@@ -189,6 +187,11 @@
 		// game over
 		return;
 	}
+	if (APPALL.mySaveItem.day < 10) {
+		[self.timeLabel setText:@"今天:9月?日"];
+	} else {
+		[self.timeLabel setText:[NSString stringWithFormat:@"今天:10月%d日", APPALL.mySaveItem.day/10]];
+	}
 	[APPALL.gameEngine loadScript:APPALL.mySaveItem.day];
 	[APPALL.gameEngine fire];
 }
@@ -203,12 +206,6 @@
 		self.talkButton.enabled = true;
 	}];
 	[APPALL.gameEngine gotoNext];
-}
-
--(void)scrollTimer {
-//	[self.myTimer invalidate];
-//	self.myTimer = nil;
-	self.talkButton.enabled = true;
 }
 
 @end
