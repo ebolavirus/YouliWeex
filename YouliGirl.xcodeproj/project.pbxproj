@@ -33,19 +33,16 @@
 		3D0E9B19230AE14100F935A4 /* face01007.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B02230AE14100F935A4 /* face01007.png */; };
 		3D0E9B2E230AE4EC00F935A4 /* 剧本_08.5贫血.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1B230AE4EC00F935A4 /* 剧本_08.5贫血.txt */; };
 		3D0E9B2F230AE4EC00F935A4 /* 剧本_20最后一天.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1C230AE4EC00F935A4 /* 剧本_20最后一天.txt */; };
-		3D0E9B30230AE4EC00F935A4 /* 剧本_09志愿.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1D230AE4EC00F935A4 /* 剧本_09志愿.txt */; };
-		3D0E9B31230AE4EC00F935A4 /* 花嫁之梦.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B1E230AE4EC00F935A4 /* 花嫁之梦.txt */; };
-		3D0E9B35230AE4EC00F935A4 /* 剧本_07事故.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B22230AE4EC00F935A4 /* 剧本_07事故.txt */; };
 		3D0E9B36230AE4EC00F935A4 /* 星空的祈祷.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B23230AE4EC00F935A4 /* 星空的祈祷.txt */; };
 		3D0E9B37230AE4EC00F935A4 /* 结局.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B24230AE4EC00F935A4 /* 结局.txt */; };
 		3D0E9B39230AE4EC00F935A4 /* 剧本_04设计.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B26230AE4EC00F935A4 /* 剧本_04设计.txt */; };
 		3D0E9B3B230AE4EC00F935A4 /* 接吻大作战.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B28230AE4EC00F935A4 /* 接吻大作战.txt */; };
 		3D0E9B3C230AE4EC00F935A4 /* 状态.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B29230AE4EC00F935A4 /* 状态.txt */; };
 		3D0E9B3D230AE4EC00F935A4 /* 剧本_02征寄.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B2A230AE4EC00F935A4 /* 剧本_02征寄.txt */; };
-		3D0E9B3E230AE4EC00F935A4 /* 剧本_08月经.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B2B230AE4EC00F935A4 /* 剧本_08月经.txt */; };
 		3D0E9B3F230AE4EC00F935A4 /* 日历.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B2C230AE4EC00F935A4 /* 日历.txt */; };
-		3D0E9B40230AE4EC00F935A4 /* 剧本_10电话.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E9B2D230AE4EC00F935A4 /* 剧本_10电话.txt */; };
-		3D4E618D23059C3D00F5D1C3 /* DBImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E611523059C3B00F5D1C3 /* DBImageItem.m */; };
+		3D3129342327E3DC006802CA /* sleep1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3129322327E3DC006802CA /* sleep1.png */; };
+		3D3129352327E3DC006802CA /* sleep2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3129332327E3DC006802CA /* sleep2.png */; };
+		3D312937232A3261006802CA /* kissing1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D312936232A3261006802CA /* kissing1.png */; };
 		3D4E618E23059C3D00F5D1C3 /* DBSaveItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E611623059C3B00F5D1C3 /* DBSaveItem.m */; };
 		3D4E618F23059C3D00F5D1C3 /* DBCacheItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E611923059C3B00F5D1C3 /* DBCacheItem.m */; };
 		3D4E619623059C3D00F5D1C3 /* BigLevelsVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E612A23059C3B00F5D1C3 /* BigLevelsVController.m */; };
@@ -54,13 +51,8 @@
 		3D4E61A323059C3D00F5D1C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E614323059C3C00F5D1C3 /* AppDelegate.m */; };
 		3D4E61A423059C3D00F5D1C3 /* SMMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E614823059C3C00F5D1C3 /* SMMNavigationController.m */; };
 		3D4E61A523059C3D00F5D1C3 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E614B23059C3C00F5D1C3 /* UIColor+Hex.m */; };
-		3D4E61A623059C3D00F5D1C3 /* GameSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E614E23059C3C00F5D1C3 /* GameSettingViewController.m */; };
 		3D4E61C423059C3D00F5D1C3 /* comlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E617423059C3D00F5D1C3 /* comlogo.png */; };
 		3D4E61CC23059C3D00F5D1C3 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E617C23059C3D00F5D1C3 /* loading.png */; };
-		3D4E61E22308447800F5D1C3 /* 2201004.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E61D02308447800F5D1C3 /* 2201004.mp3 */; };
-		3D4E61E32308447800F5D1C3 /* 2201005.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E61D12308447800F5D1C3 /* 2201005.mp3 */; };
-		3D4E61E42308447800F5D1C3 /* 2201002.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E61D22308447800F5D1C3 /* 2201002.mp3 */; };
-		3D4E61E52308447800F5D1C3 /* 2201001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E61D32308447800F5D1C3 /* 2201001.mp3 */; };
 		3D4E61E62308447800F5D1C3 /* 2205001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E61D52308447800F5D1C3 /* 2205001.mp3 */; };
 		3D4E61E72308447800F5D1C3 /* bgm010.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E61D62308447800F5D1C3 /* bgm010.mp3 */; };
 		3D4E61E82308447800F5D1C3 /* bgm004.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E61D72308447800F5D1C3 /* bgm004.mp3 */; };
@@ -140,22 +132,18 @@
 		3D0E9B02230AE14100F935A4 /* face01007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face01007.png; sourceTree = "<group>"; };
 		3D0E9B1B230AE4EC00F935A4 /* 剧本_08.5贫血.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_08.5贫血.txt"; sourceTree = "<group>"; };
 		3D0E9B1C230AE4EC00F935A4 /* 剧本_20最后一天.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_20最后一天.txt"; sourceTree = "<group>"; };
-		3D0E9B1D230AE4EC00F935A4 /* 剧本_09志愿.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_09志愿.txt"; sourceTree = "<group>"; };
-		3D0E9B1E230AE4EC00F935A4 /* 花嫁之梦.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "花嫁之梦.txt"; sourceTree = "<group>"; };
-		3D0E9B22230AE4EC00F935A4 /* 剧本_07事故.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_07事故.txt"; sourceTree = "<group>"; };
 		3D0E9B23230AE4EC00F935A4 /* 星空的祈祷.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "星空的祈祷.txt"; sourceTree = "<group>"; };
 		3D0E9B24230AE4EC00F935A4 /* 结局.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "结局.txt"; sourceTree = "<group>"; };
 		3D0E9B26230AE4EC00F935A4 /* 剧本_04设计.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_04设计.txt"; sourceTree = "<group>"; };
 		3D0E9B28230AE4EC00F935A4 /* 接吻大作战.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "接吻大作战.txt"; sourceTree = "<group>"; };
 		3D0E9B29230AE4EC00F935A4 /* 状态.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "状态.txt"; sourceTree = "<group>"; };
 		3D0E9B2A230AE4EC00F935A4 /* 剧本_02征寄.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_02征寄.txt"; sourceTree = "<group>"; };
-		3D0E9B2B230AE4EC00F935A4 /* 剧本_08月经.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_08月经.txt"; sourceTree = "<group>"; };
 		3D0E9B2C230AE4EC00F935A4 /* 日历.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "日历.txt"; sourceTree = "<group>"; };
-		3D0E9B2D230AE4EC00F935A4 /* 剧本_10电话.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "剧本_10电话.txt"; sourceTree = "<group>"; };
-		3D4E611523059C3B00F5D1C3 /* DBImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBImageItem.m; sourceTree = "<group>"; };
+		3D3129322327E3DC006802CA /* sleep1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleep1.png; sourceTree = "<group>"; };
+		3D3129332327E3DC006802CA /* sleep2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleep2.png; sourceTree = "<group>"; };
+		3D312936232A3261006802CA /* kissing1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kissing1.png; sourceTree = "<group>"; };
 		3D4E611623059C3B00F5D1C3 /* DBSaveItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSaveItem.m; sourceTree = "<group>"; };
 		3D4E611723059C3B00F5D1C3 /* DBCacheItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCacheItem.h; sourceTree = "<group>"; };
-		3D4E611823059C3B00F5D1C3 /* DBImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBImageItem.h; sourceTree = "<group>"; };
 		3D4E611923059C3B00F5D1C3 /* DBCacheItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBCacheItem.m; sourceTree = "<group>"; };
 		3D4E611A23059C3B00F5D1C3 /* DBSaveItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSaveItem.h; sourceTree = "<group>"; };
 		3D4E612A23059C3B00F5D1C3 /* BigLevelsVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigLevelsVController.m; sourceTree = "<group>"; };
@@ -168,15 +156,9 @@
 		3D4E614823059C3C00F5D1C3 /* SMMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMNavigationController.m; sourceTree = "<group>"; };
 		3D4E614B23059C3C00F5D1C3 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		3D4E614C23059C3C00F5D1C3 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
-		3D4E614E23059C3C00F5D1C3 /* GameSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSettingViewController.m; sourceTree = "<group>"; };
-		3D4E614F23059C3C00F5D1C3 /* GameSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSettingViewController.h; sourceTree = "<group>"; };
 		3D4E616723059C3D00F5D1C3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D4E617423059C3D00F5D1C3 /* comlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comlogo.png; sourceTree = "<group>"; };
 		3D4E617C23059C3D00F5D1C3 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
-		3D4E61D02308447800F5D1C3 /* 2201004.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2201004.mp3; sourceTree = "<group>"; };
-		3D4E61D12308447800F5D1C3 /* 2201005.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2201005.mp3; sourceTree = "<group>"; };
-		3D4E61D22308447800F5D1C3 /* 2201002.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2201002.mp3; sourceTree = "<group>"; };
-		3D4E61D32308447800F5D1C3 /* 2201001.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2201001.mp3; sourceTree = "<group>"; };
 		3D4E61D52308447800F5D1C3 /* 2205001.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2205001.mp3; sourceTree = "<group>"; };
 		3D4E61D62308447800F5D1C3 /* bgm010.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm010.mp3; sourceTree = "<group>"; };
 		3D4E61D72308447800F5D1C3 /* bgm004.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm004.mp3; sourceTree = "<group>"; };
@@ -280,16 +262,11 @@
 		3D0E9B1A230AE4EB00F935A4 /* txts */ = {
 			isa = PBXGroup;
 			children = (
-				3D0E9B1E230AE4EC00F935A4 /* 花嫁之梦.txt */,
 				3D0E9B28230AE4EC00F935A4 /* 接吻大作战.txt */,
 				3D0E9B24230AE4EC00F935A4 /* 结局.txt */,
 				3D0E9B2A230AE4EC00F935A4 /* 剧本_02征寄.txt */,
 				3D0E9B26230AE4EC00F935A4 /* 剧本_04设计.txt */,
-				3D0E9B22230AE4EC00F935A4 /* 剧本_07事故.txt */,
 				3D0E9B1B230AE4EC00F935A4 /* 剧本_08.5贫血.txt */,
-				3D0E9B2B230AE4EC00F935A4 /* 剧本_08月经.txt */,
-				3D0E9B1D230AE4EC00F935A4 /* 剧本_09志愿.txt */,
-				3D0E9B2D230AE4EC00F935A4 /* 剧本_10电话.txt */,
 				3D0E9B1C230AE4EC00F935A4 /* 剧本_20最后一天.txt */,
 				3D0E9B2C230AE4EC00F935A4 /* 日历.txt */,
 				3D0E9B23230AE4EC00F935A4 /* 星空的祈祷.txt */,
@@ -301,7 +278,6 @@
 		3D4E610023059C3A00F5D1C3 /* music */ = {
 			isa = PBXGroup;
 			children = (
-				3D4E61CF2308447800F5D1C3 /* bgm */,
 				3D4E61D42308447800F5D1C3 /* sound */,
 			);
 			path = music;
@@ -323,8 +299,6 @@
 			children = (
 				3D4E611723059C3B00F5D1C3 /* DBCacheItem.h */,
 				3D4E611923059C3B00F5D1C3 /* DBCacheItem.m */,
-				3D4E611823059C3B00F5D1C3 /* DBImageItem.h */,
-				3D4E611523059C3B00F5D1C3 /* DBImageItem.m */,
 				3D4E611A23059C3B00F5D1C3 /* DBSaveItem.h */,
 				3D4E611623059C3B00F5D1C3 /* DBSaveItem.m */,
 			);
@@ -358,7 +332,6 @@
 			children = (
 				3D955D9D230FE321007FDDF1 /* gameengine.h */,
 				3D955D9C230FE321007FDDF1 /* gameengine.m */,
-				3D4E614D23059C3C00F5D1C3 /* GameSettingMenu */,
 				3D4E614623059C3C00F5D1C3 /* SMMNavigationController */,
 				3D4E614A23059C3C00F5D1C3 /* uicolor_hex */,
 			);
@@ -383,15 +356,6 @@
 			path = uicolor_hex;
 			sourceTree = "<group>";
 		};
-		3D4E614D23059C3C00F5D1C3 /* GameSettingMenu */ = {
-			isa = PBXGroup;
-			children = (
-				3D4E614E23059C3C00F5D1C3 /* GameSettingViewController.m */,
-				3D4E614F23059C3C00F5D1C3 /* GameSettingViewController.h */,
-			);
-			path = GameSettingMenu;
-			sourceTree = "<group>";
-		};
 		3D4E616823059C3D00F5D1C3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -402,17 +366,6 @@
 				3D4E617C23059C3D00F5D1C3 /* loading.png */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		3D4E61CF2308447800F5D1C3 /* bgm */ = {
-			isa = PBXGroup;
-			children = (
-				3D4E61D32308447800F5D1C3 /* 2201001.mp3 */,
-				3D4E61D22308447800F5D1C3 /* 2201002.mp3 */,
-				3D4E61D02308447800F5D1C3 /* 2201004.mp3 */,
-				3D4E61D12308447800F5D1C3 /* 2201005.mp3 */,
-			);
-			path = bgm;
 			sourceTree = "<group>";
 		};
 		3D4E61D42308447800F5D1C3 /* sound */ = {
@@ -457,6 +410,7 @@
 				3D0C21C5231805D10056654E /* home_first.png */,
 				3D4E6210230A9B1200F5D1C3 /* hurt.png */,
 				3D4E621E230A9B1200F5D1C3 /* kissing.png */,
+				3D312936232A3261006802CA /* kissing1.png */,
 				3D4E620E230A9B1200F5D1C3 /* scene_airport.png */,
 				3D4E621F230A9B1200F5D1C3 /* scene_cinema.png */,
 				3D4E620B230A9B1200F5D1C3 /* scene_cinema1.png */,
@@ -468,6 +422,8 @@
 				3D4E6218230A9B1200F5D1C3 /* scene_work.png */,
 				3D4E6217230A9B1200F5D1C3 /* show_title.png */,
 				3D4E620C230A9B1200F5D1C3 /* sleep.png */,
+				3D3129322327E3DC006802CA /* sleep1.png */,
+				3D3129332327E3DC006802CA /* sleep2.png */,
 				3D4E6223230A9B1200F5D1C3 /* test_home.png */,
 				3D4E6221230A9B1200F5D1C3 /* upface.png */,
 				3D4E621D230A9B1200F5D1C3 /* Wedding.png */,
@@ -606,9 +562,7 @@
 				3D0E9B0D230AE14100F935A4 /* face02017.png in Resources */,
 				3D4E61EE2308447800F5D1C3 /* bgm003.mp3 in Resources */,
 				3D0E9B17230AE14100F935A4 /* face01004.png in Resources */,
-				3D4E61E42308447800F5D1C3 /* 2201002.mp3 in Resources */,
 				3D0E9B07230AE14100F935A4 /* face02007.png in Resources */,
-				3D4E61E22308447800F5D1C3 /* 2201004.mp3 in Resources */,
 				3D0E9B08230AE14100F935A4 /* face02013.png in Resources */,
 				3D4E624F230A9B1200F5D1C3 /* scene_cinema.png in Resources */,
 				3D0E9B3B230AE4EC00F935A4 /* 接吻大作战.txt in Resources */,
@@ -623,12 +577,11 @@
 				3D4E624C230A9B1200F5D1C3 /* act_01a.png in Resources */,
 				3D4E6257230AE0AF00F5D1C3 /* yuri_date_b.png in Resources */,
 				3D0E9B15230AE14100F935A4 /* face01001.png in Resources */,
-				3D0E9B40230AE4EC00F935A4 /* 剧本_10电话.txt in Resources */,
-				3D0E9B3E230AE4EC00F935A4 /* 剧本_08月经.txt in Resources */,
 				3D4E624E230A9B1200F5D1C3 /* kissing.png in Resources */,
 				3D0E9B37230AE4EC00F935A4 /* 结局.txt in Resources */,
 				3D4E6248230A9B1200F5D1C3 /* scene_work.png in Resources */,
 				3D4E61E82308447800F5D1C3 /* bgm004.mp3 in Resources */,
+				3D312937232A3261006802CA /* kissing1.png in Resources */,
 				3D0E9B14230AE14100F935A4 /* face01002.png in Resources */,
 				3D4E61EA2308447800F5D1C3 /* bgm012.mp3 in Resources */,
 				3D4E6238230A9B1200F5D1C3 /* gold.png in Resources */,
@@ -649,15 +602,12 @@
 				3D4E624A230A9B1200F5D1C3 /* scene_sky_b.png in Resources */,
 				3D4E6241230A9B1200F5D1C3 /* scene_hospital.png in Resources */,
 				3D4E61EF2308447800F5D1C3 /* bgm002.mp3 in Resources */,
-				3D0E9B30230AE4EC00F935A4 /* 剧本_09志愿.txt in Resources */,
 				3D4E619C23059C3D00F5D1C3 /* Launch Screen.storyboard in Resources */,
 				3D4E6251230A9B1200F5D1C3 /* upface.png in Resources */,
 				3D0E9B3F230AE4EC00F935A4 /* 日历.txt in Resources */,
-				3D0E9B35230AE4EC00F935A4 /* 剧本_07事故.txt in Resources */,
 				3D0E9B0A230AE14100F935A4 /* face02006.png in Resources */,
 				3D4E61E72308447800F5D1C3 /* bgm010.mp3 in Resources */,
 				3D0E9B0F230AE14100F935A4 /* face020010.png in Resources */,
-				3D4E61E52308447800F5D1C3 /* 2201001.mp3 in Resources */,
 				3D4E6247230A9B1200F5D1C3 /* show_title.png in Resources */,
 				3D4E6245230A9B1200F5D1C3 /* beach.png in Resources */,
 				3D4E6252230A9B1200F5D1C3 /* act_04.png in Resources */,
@@ -670,6 +620,7 @@
 				3D0E9B03230AE14100F935A4 /* face02010.png in Resources */,
 				3D4E6246230A9B1200F5D1C3 /* scene_sky_c.png in Resources */,
 				3D0E9B04230AE14100F935A4 /* face02004.png in Resources */,
+				3D3129352327E3DC006802CA /* sleep2.png in Resources */,
 				3D0E9B12230AE14100F935A4 /* face02008.png in Resources */,
 				3D0E9B2E230AE4EC00F935A4 /* 剧本_08.5贫血.txt in Resources */,
 				3D0E9B10230AE14100F935A4 /* face02015.png in Resources */,
@@ -683,13 +634,12 @@
 				3D0E9B3D230AE4EC00F935A4 /* 剧本_02征寄.txt in Resources */,
 				3D4E623B230A9B1200F5D1C3 /* scene_cinema1.png in Resources */,
 				3D4E6254230A9B1200F5D1C3 /* beach_a.png in Resources */,
+				3D3129342327E3DC006802CA /* sleep1.png in Resources */,
 				3D0E9B16230AE14100F935A4 /* face01005.png in Resources */,
 				3D4E6253230A9B1200F5D1C3 /* test_home.png in Resources */,
 				3D4E6250230A9B1200F5D1C3 /* scene_room.png in Resources */,
 				3D0E9B36230AE4EC00F935A4 /* 星空的祈祷.txt in Resources */,
-				3D4E61E32308447800F5D1C3 /* 2201005.mp3 in Resources */,
 				3D4E61F12308447800F5D1C3 /* bgm015.mp3 in Resources */,
-				3D0E9B31230AE4EC00F935A4 /* 花嫁之梦.txt in Resources */,
 				3D4E623C230A9B1200F5D1C3 /* sleep.png in Resources */,
 				3D4E624D230A9B1200F5D1C3 /* Wedding.png in Resources */,
 			);
@@ -745,7 +695,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D4E619623059C3D00F5D1C3 /* BigLevelsVController.m in Sources */,
-				3D4E618D23059C3D00F5D1C3 /* DBImageItem.m in Sources */,
 				3D4E61A323059C3D00F5D1C3 /* AppDelegate.m in Sources */,
 				3D694811230C1681009D6DAC /* YLStartViewController.m in Sources */,
 				3D955D9E230FE321007FDDF1 /* gameengine.m in Sources */,
@@ -753,7 +702,6 @@
 				3D4E61A423059C3D00F5D1C3 /* SMMNavigationController.m in Sources */,
 				3D4E618E23059C3D00F5D1C3 /* DBSaveItem.m in Sources */,
 				3D955D97230ED3AA007FDDF1 /* MainGameViewController.m in Sources */,
-				3D4E61A623059C3D00F5D1C3 /* GameSettingViewController.m in Sources */,
 				3D955D9B230EE0CA007FDDF1 /* stories.m in Sources */,
 				3D4E61A523059C3D00F5D1C3 /* UIColor+Hex.m in Sources */,
 				3D4E618F23059C3D00F5D1C3 /* DBCacheItem.m in Sources */,
